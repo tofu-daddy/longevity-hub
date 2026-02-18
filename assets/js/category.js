@@ -25,7 +25,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     const explained = filtered.filter((a) => a.hasExplanation).length;
     const latest = filtered[0].publishedDate;
 
-    document.title = `${category.name} | Longevity Hub`;
+    LongevityStatic.applySeo({
+      title: `${category.name} Articles | Longevity Hub`,
+      description: category.description || `Curated longevity research and plain-language summaries for ${category.name}.`,
+      path: `category/${encodeURIComponent(slug)}/`,
+      type: "website"
+    });
 
     root.innerHTML = `
       <section class="bg-gradient-to-br from-clinical-800 to-clinical-900 text-white border-b border-clinical-700">

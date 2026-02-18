@@ -1,5 +1,11 @@
 document.addEventListener("DOMContentLoaded", async () => {
   await LongevityStatic.bootShell();
+  LongevityStatic.applySeo({
+    title: "Browse Articles | Longevity Hub",
+    description: "Browse and filter longevity research summaries by topic and explanation status.",
+    path: "articles/",
+    type: "website"
+  });
 
   const categoryFilters = document.getElementById("category-filters");
   const explanationFilters = document.getElementById("explanation-filters");

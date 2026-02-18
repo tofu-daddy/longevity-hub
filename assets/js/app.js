@@ -13,6 +13,13 @@ function siteUrl(path) {
   return normalizeJoin(getSiteBase(), path);
 }
 
+const SITE_ORIGIN = "https://tofu-daddy.github.io/longevity-hub";
+
+function absoluteUrl(path = "") {
+  const cleaned = String(path || "").replace(/^\/+/, "");
+  return `${SITE_ORIGIN}/${cleaned}`;
+}
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replace(/&/g, "&amp;")
@@ -66,6 +73,65 @@ function sourceTypeLabel(sourceType) {
     guideline: "Guideline"
   };
   return map[sourceType] || "Article";
+}
+
+function upsertMeta({ attr, key, value }) {
+  if (!value) return;
+  let tag = document.head.querySelector(`meta[${attr}="${key}"]`);
+  if (!tag) {
+    tag = document.createElement("meta");
+    tag.setAttribute(attr, key);
+    document.head.appendChild(tag);
+  }
+  tag.setAttribute("content", value);
+}
+
+function upsertLink(rel, href) {
+  let link = document.head.querySelector(`link[rel="${rel}"]`);
+  if (!link) {
+    link = document.createElement("link");
+    link.setAttribute("rel", rel);
+    document.head.appendChild(link);
+  }
+  link.setAttribute("href", href);
+}
+
+function applySeo({
+  title,
+  description,
+  path = "",
+  type = "website",
+  image = "",
+  noindex = false,
+  jsonLd = null
+}) {
+  if (title) document.title = title;
+  const canonical = absoluteUrl(path);
+  const imageUrl = image ? (image.startsWith("http") ? image : absoluteUrl(image)) : absoluteUrl("assets/og-default.svg");
+
+  upsertLink("canonical", canonical);
+  upsertMeta({ attr: "name", key: "description", value: description });
+  upsertMeta({ attr: "name", key: "robots", value: noindex ? "noindex,follow" : "index,follow,max-image-preview:large" });
+  upsertMeta({ attr: "property", key: "og:type", value: type });
+  upsertMeta({ attr: "property", key: "og:title", value: title });
+  upsertMeta({ attr: "property", key: "og:description", value: description });
+  upsertMeta({ attr: "property", key: "og:url", value: canonical });
+  upsertMeta({ attr: "property", key: "og:image", value: imageUrl });
+  upsertMeta({ attr: "property", key: "og:site_name", value: "Longevity Hub" });
+  upsertMeta({ attr: "name", key: "twitter:card", value: "summary_large_image" });
+  upsertMeta({ attr: "name", key: "twitter:title", value: title });
+  upsertMeta({ attr: "name", key: "twitter:description", value: description });
+  upsertMeta({ attr: "name", key: "twitter:image", value: imageUrl });
+
+  const existing = document.getElementById("lh-jsonld");
+  if (existing) existing.remove();
+  if (jsonLd) {
+    const script = document.createElement("script");
+    script.id = "lh-jsonld";
+    script.type = "application/ld+json";
+    script.textContent = JSON.stringify(jsonLd);
+    document.head.appendChild(script);
+  }
 }
 
 function articleCard(article, index = 1) {
@@ -304,5 +370,7 @@ window.LongevityStatic = {
   sourceTypeLabel,
   bootShell,
   siteUrl,
+  absoluteUrl,
+  applySeo,
   escapeHtml
 };

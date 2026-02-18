@@ -1,19 +1,176 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile, rm } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const DATA_PATH = path.join(ROOT, "data", "articles.json");
+const SITE_URL = "https://tofu-daddy.github.io/longevity-hub";
 
-function pageHead({ title, description, basePath, scriptPath, extraScript = "" }) {
+const LEGAL_PAGES = [
+  {
+    slug: "privacy-policy",
+    title: "Privacy Policy",
+    description: "How Longevity Hub collects, uses, and protects personal information.",
+    updated: "February 18, 2026",
+    content: `
+      <p>Longevity Hub values your privacy. This policy explains what data we collect, why we collect it, and the choices available to you.</p>
+      <h2>Information We Collect</h2>
+      <p>We may collect basic analytics data (such as page views, browser type, and approximate location), information you submit directly, and technical logs needed for security and performance.</p>
+      <h2>How We Use Information</h2>
+      <p>We use data to operate and improve the site, understand audience usage, maintain security, respond to requests, and comply with legal obligations.</p>
+      <h2>Sharing</h2>
+      <p>We do not sell personal information. We may share limited data with service providers that support hosting, analytics, or security, subject to contractual safeguards.</p>
+      <h2>Data Retention</h2>
+      <p>We retain information only as long as reasonably needed for the purposes listed in this policy or as required by law.</p>
+      <h2>Your Rights</h2>
+      <p>Depending on your location, you may have rights to access, correct, delete, or restrict use of your data. Contact us to submit a request.</p>
+      <h2>Contact</h2>
+      <p>Questions about privacy can be sent through our contact page.</p>
+    `
+  },
+  {
+    slug: "terms",
+    title: "Terms",
+    description: "Terms and conditions for using Longevity Hub.",
+    updated: "February 18, 2026",
+    content: `
+      <p>By using Longevity Hub, you agree to these Terms.</p>
+      <h2>Educational Use Only</h2>
+      <p>Content is provided for general informational and educational purposes only and is not medical advice, diagnosis, or treatment.</p>
+      <h2>No Professional Relationship</h2>
+      <p>Your use of the site does not create a doctor-patient or other professional relationship.</p>
+      <h2>Accuracy and Availability</h2>
+      <p>We aim for accuracy but do not guarantee completeness, timeliness, or uninterrupted availability of the site.</p>
+      <h2>Third-Party Sources</h2>
+      <p>We link to external sources for reference. We are not responsible for third-party content, updates, or availability.</p>
+      <h2>Limitation of Liability</h2>
+      <p>To the maximum extent permitted by law, Longevity Hub is not liable for indirect, incidental, or consequential damages from site use.</p>
+      <h2>Changes</h2>
+      <p>We may update these Terms periodically. Continued use after updates means you accept the revised Terms.</p>
+    `
+  },
+  {
+    slug: "medical-disclaimer",
+    title: "Medical Disclaimer",
+    description: "Important medical and health-content disclaimer for Longevity Hub.",
+    updated: "February 18, 2026",
+    content: `
+      <p>Longevity Hub provides science communication, not individualized medical advice.</p>
+      <h2>Not Medical Advice</h2>
+      <p>Nothing on this website should be used as a substitute for professional medical advice, diagnosis, or treatment from a qualified clinician.</p>
+      <h2>Emergency Situations</h2>
+      <p>If you believe you are experiencing a medical emergency, call emergency services immediately.</p>
+      <h2>Health Decisions</h2>
+      <p>Do not delay or discontinue medical care based on information from this website. Discuss any intervention, supplement, or protocol with your healthcare professional.</p>
+      <h2>Evidence Changes</h2>
+      <p>Biomedical evidence evolves rapidly. Findings summarized here may be preliminary or later revised.</p>
+    `
+  },
+  {
+    slug: "ai-editorial-policy",
+    title: "AI Editorial Policy",
+    description: "How AI is used in drafting and reviewing content on Longevity Hub.",
+    updated: "February 18, 2026",
+    content: `
+      <p>Longevity Hub uses AI tools to assist with drafting summaries and formatting content.</p>
+      <h2>Human Oversight</h2>
+      <p>AI outputs are reviewed and edited before publication. We prioritize source fidelity, plain-language clarity, and transparent uncertainty.</p>
+      <h2>Source Grounding</h2>
+      <p>Articles should link to primary sources when available. Where evidence is early or mixed, summaries should state this clearly.</p>
+      <h2>Limitations</h2>
+      <p>AI can misinterpret context or overstate confidence. We actively monitor for these failure modes and correct issues when identified.</p>
+      <h2>Corrections</h2>
+      <p>If you notice a factual issue, contact us and include the source URL so we can review and update quickly.</p>
+    `
+  },
+  {
+    slug: "california-privacy-notice",
+    title: "California Privacy Notice",
+    description: "California-specific privacy disclosures and rights.",
+    updated: "February 18, 2026",
+    content: `
+      <p>This California notice supplements our Privacy Policy for California residents.</p>
+      <h2>Categories of Information</h2>
+      <p>We may collect identifiers, internet activity, and other data categories described in our Privacy Policy.</p>
+      <h2>Purposes</h2>
+      <p>Information is used to operate, secure, and improve the website and to provide requested services.</p>
+      <h2>Your Rights</h2>
+      <p>California residents may have rights to know, delete, correct, and limit certain uses of personal information, subject to legal exceptions.</p>
+      <h2>Non-Discrimination</h2>
+      <p>We do not discriminate against users for exercising privacy rights.</p>
+      <h2>Submitting Requests</h2>
+      <p>Use our contact page to submit a verifiable privacy request.</p>
+    `
+  },
+  {
+    slug: "cookie-notice",
+    title: "Cookie Notice",
+    description: "Information about cookies and tracking technologies used by Longevity Hub.",
+    updated: "February 18, 2026",
+    content: `
+      <p>Longevity Hub may use cookies and similar technologies for core site functionality, analytics, and security.</p>
+      <h2>Types of Cookies</h2>
+      <p>Essential cookies support site operation; analytics cookies help us understand usage and improve content quality.</p>
+      <h2>Managing Cookies</h2>
+      <p>You can control cookies in your browser settings. Disabling cookies may affect some site functionality.</p>
+      <h2>Third-Party Technologies</h2>
+      <p>Some analytics or hosting providers may set cookies on our behalf, subject to their own policies.</p>
+    `
+  },
+  {
+    slug: "copyright-and-dmca-notice",
+    title: "Copyright & DMCA Notice",
+    description: "Copyright ownership and DMCA takedown policy for Longevity Hub.",
+    updated: "February 18, 2026",
+    content: `
+      <p>Unless otherwise noted, site content is owned by Longevity Hub and protected by copyright laws.</p>
+      <h2>Permitted Use</h2>
+      <p>You may link to and quote brief excerpts with proper attribution. Reproduction of full content requires permission unless otherwise allowed by law.</p>
+      <h2>DMCA Procedure</h2>
+      <p>If you believe material on this site infringes your copyright, send a DMCA notice with your contact information, the infringing URL, ownership details, and a sworn statement of good faith.</p>
+      <h2>Counter-Notice</h2>
+      <p>If your content was removed in error, you may submit a counter-notice in accordance with applicable law.</p>
+    `
+  }
+];
+
+function esc(value = "") {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/\"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function canonical(pathname = "") {
+  const cleaned = String(pathname).replace(/^\/+/, "");
+  return `${SITE_URL}/${cleaned}`;
+}
+
+function pageHead({ title, description, basePath, scriptPath = "", pagePath, extraScript = "", type = "website", image = "assets/og-default.svg" }) {
   const prefix = basePath === "." ? "" : `${basePath}/`;
+  const canonicalUrl = canonical(pagePath);
+  const imageUrl = image.startsWith("http") ? image : canonical(image);
 
   return `
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${title}</title>
-  <meta name="description" content="${description}">
+  <title>${esc(title)}</title>
+  <meta name="description" content="${esc(description)}">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="${canonicalUrl}">
+  <meta property="og:type" content="${type}">
+  <meta property="og:title" content="${esc(title)}">
+  <meta property="og:description" content="${esc(description)}">
+  <meta property="og:url" content="${canonicalUrl}">
+  <meta property="og:image" content="${imageUrl}">
+  <meta property="og:site_name" content="Longevity Hub">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${esc(title)}">
+  <meta name="twitter:description" content="${esc(description)}">
+  <meta name="twitter:image" content="${imageUrl}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -44,18 +201,22 @@ function pageHead({ title, description, basePath, scriptPath, extraScript = "" }
   <link rel="stylesheet" href="${prefix}assets/css/styles.css">
   <script>window.__BASE_PATH__=${JSON.stringify(basePath)};${extraScript}</script>
   <script defer src="${prefix}assets/js/app.js"></script>
-  <script defer src="${prefix}${scriptPath}"></script>
+  ${scriptPath ? `<script defer src="${prefix}${scriptPath}"></script>` : ""}
 `;
 }
 
-const ARTICLE_TEMPLATE = (slug) => `<!doctype html>
+function articleTemplate(article) {
+  return `<!doctype html>
 <html lang="en">
 <head>${pageHead({
-  title: "Article | Longevity Hub",
-  description: "Detailed longevity article summary with key takeaways.",
+  title: `${article.title} | Longevity Hub`,
+  description: (article.excerpt || article.technicalSummary || "Detailed longevity article summary with key takeaways.").slice(0, 160),
   basePath: "../..",
   scriptPath: "assets/js/article.js",
-  extraScript: `window.__ARTICLE_SLUG__=${JSON.stringify(slug)};`
+  pagePath: `article/${article.slug}/`,
+  extraScript: `window.__ARTICLE_SLUG__=${JSON.stringify(article.slug)};`,
+  type: "article",
+  image: article.image || "assets/og-default.svg"
 })}</head>
 <body class="bg-gray-50 text-gray-900 antialiased single-longevity_article">
   <div id="shell-header"></div>
@@ -66,15 +227,18 @@ const ARTICLE_TEMPLATE = (slug) => `<!doctype html>
 </body>
 </html>
 `;
+}
 
-const CATEGORY_TEMPLATE = (slug) => `<!doctype html>
+function categoryTemplate(category) {
+  return `<!doctype html>
 <html lang="en">
 <head>${pageHead({
-  title: "Category | Longevity Hub",
-  description: "Topic-focused longevity research category page.",
+  title: `${category.name} Articles | Longevity Hub`,
+  description: category.description || `Curated longevity research and plain-language summaries for ${category.name}.`,
   basePath: "../..",
   scriptPath: "assets/js/category.js",
-  extraScript: `window.__CATEGORY_SLUG__=${JSON.stringify(slug)};`
+  pagePath: `category/${category.slug}/`,
+  extraScript: `window.__CATEGORY_SLUG__=${JSON.stringify(category.slug)};`
 })}</head>
 <body class="bg-gray-50 text-gray-900 antialiased">
   <div id="shell-header"></div>
@@ -85,6 +249,51 @@ const CATEGORY_TEMPLATE = (slug) => `<!doctype html>
 </body>
 </html>
 `;
+}
+
+function legalTemplate(page) {
+  return `<!doctype html>
+<html lang="en">
+<head>${pageHead({
+  title: `${page.title} | Longevity Hub`,
+  description: page.description,
+    basePath: "..",
+    pagePath: `${page.slug}/`
+})}</head>
+<body class="bg-gray-50 text-gray-900 antialiased">
+  <div id="shell-header"></div>
+  <main id="primary" class="site-main">
+    <section class="bg-gradient-to-br from-clinical-800 to-clinical-900 text-white border-b border-clinical-700">
+      <div class="max-w-7xl mx-auto px-6 py-14 md:py-16">
+        <p class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide bg-white/10 text-clinical-100 mb-5">Legal</p>
+        <h1 class="text-4xl md:text-5xl font-normal tracking-tight mb-4">${esc(page.title)}</h1>
+        <p class="text-clinical-100 text-base md:text-lg leading-relaxed">${esc(page.description)}</p>
+      </div>
+    </section>
+    <section class="max-w-5xl mx-auto px-6 py-12">
+      <article class="bg-white rounded-xl border border-neutral-200 p-6 md:p-8 prose prose-neutral max-w-none">
+        <p><strong>Last Updated:</strong> ${esc(page.updated)}</p>
+        ${page.content}
+      </article>
+    </section>
+  </main>
+  <div id="shell-footer"></div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      if (window.LongevityStatic && window.LongevityStatic.applySeo) {
+        window.LongevityStatic.applySeo({
+          title: ${JSON.stringify(`${page.title} | Longevity Hub`)},
+          description: ${JSON.stringify(page.description)},
+          path: ${JSON.stringify(`${page.slug}/`)},
+          type: 'website'
+        });
+      }
+    });
+  </script>
+</body>
+</html>
+`;
+}
 
 const ARTICLES_PAGE = `<!doctype html>
 <html lang="en">
@@ -92,7 +301,8 @@ const ARTICLES_PAGE = `<!doctype html>
   title: "Articles | Longevity Hub",
   description: "Filter and browse longevity research summaries.",
   basePath: "..",
-  scriptPath: "assets/js/articles.js"
+  scriptPath: "assets/js/articles.js",
+  pagePath: "articles/"
 })}</head>
 <body class="bg-gray-50 text-gray-900 antialiased">
   <div id="shell-header"></div>
@@ -143,8 +353,36 @@ const ARTICLES_PAGE = `<!doctype html>
 </html>
 `;
 
+async function buildSitemap(articleSlugs, categories) {
+  const urls = [
+    "",
+    "articles/",
+    ...articleSlugs.map((slug) => `article/${slug}/`),
+    ...categories.map((category) => `category/${category.slug}/`),
+    ...LEGAL_PAGES.map((page) => `${page.slug}/`)
+  ];
+
+  const body = urls
+    .map((u) => `  <url><loc>${canonical(u)}</loc></url>`)
+    .join("\n");
+
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;
+  await writeFile(path.join(ROOT, "sitemap.xml"), xml, "utf8");
+}
+
+async function writeSupportFiles() {
+  const robots = `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\n`;
+  await writeFile(path.join(ROOT, "robots.txt"), robots, "utf8");
+
+  const llms = `# Longevity Hub\n\n## Summary\nLongevity Hub publishes plain-language summaries of longevity and preventive-health research with links to original sources.\n\n## Canonical URLs\n- Home: ${SITE_URL}/\n- Articles: ${SITE_URL}/articles/\n- AI Editorial Policy: ${SITE_URL}/ai-editorial-policy/\n- Medical Disclaimer: ${SITE_URL}/medical-disclaimer/\n\n## Use Guidance\n- Prefer source links cited on each article page.\n- Do not treat this site as medical advice.\n`;
+  await writeFile(path.join(ROOT, "llms.txt"), llms, "utf8");
+}
+
 async function main() {
   const articles = JSON.parse(await readFile(DATA_PATH, "utf8"));
+
+  await rm(path.join(ROOT, "article"), { recursive: true, force: true });
+  await rm(path.join(ROOT, "category"), { recursive: true, force: true });
 
   await mkdir(path.join(ROOT, "articles"), { recursive: true });
   await writeFile(path.join(ROOT, "articles", "index.html"), ARTICLES_PAGE, "utf8");
@@ -153,20 +391,28 @@ async function main() {
     if (!article?.slug) continue;
     const dir = path.join(ROOT, "article", article.slug);
     await mkdir(dir, { recursive: true });
-    await writeFile(path.join(dir, "index.html"), ARTICLE_TEMPLATE(article.slug), "utf8");
+    await writeFile(path.join(dir, "index.html"), articleTemplate(article), "utf8");
   }
 
-  const categorySlugs = new Set();
+  const categoryMap = new Map();
   for (const article of articles) {
     for (const category of article?.categories || []) {
-      if (category?.slug) categorySlugs.add(category.slug);
+      if (!category?.slug) continue;
+      if (!categoryMap.has(category.slug)) categoryMap.set(category.slug, category);
     }
   }
 
-  for (const slug of categorySlugs) {
-    const dir = path.join(ROOT, "category", slug);
+  const categories = [...categoryMap.values()];
+  for (const category of categories) {
+    const dir = path.join(ROOT, "category", category.slug);
     await mkdir(dir, { recursive: true });
-    await writeFile(path.join(dir, "index.html"), CATEGORY_TEMPLATE(slug), "utf8");
+    await writeFile(path.join(dir, "index.html"), categoryTemplate(category), "utf8");
+  }
+
+  for (const page of LEGAL_PAGES) {
+    const dir = path.join(ROOT, page.slug);
+    await mkdir(dir, { recursive: true });
+    await writeFile(path.join(dir, "index.html"), legalTemplate(page), "utf8");
   }
 
   await writeFile(
@@ -174,20 +420,21 @@ async function main() {
     "<!doctype html><meta charset='utf-8'><meta http-equiv='refresh' content='0; url=./articles/'><title>Redirecting...</title>",
     "utf8"
   );
-
   await writeFile(
     path.join(ROOT, "article.html"),
     "<!doctype html><meta charset='utf-8'><meta http-equiv='refresh' content='0; url=./articles/'><title>Redirecting...</title>",
     "utf8"
   );
-
   await writeFile(
     path.join(ROOT, "category.html"),
     "<!doctype html><meta charset='utf-8'><meta http-equiv='refresh' content='0; url=./articles/'><title>Redirecting...</title>",
     "utf8"
   );
 
-  console.log(`Generated pretty URLs: ${articles.length} articles, ${categorySlugs.size} categories`);
+  await buildSitemap(articles.map((a) => a.slug), categories);
+  await writeSupportFiles();
+
+  console.log(`Generated site artifacts: ${articles.length} articles, ${categories.length} categories, ${LEGAL_PAGES.length} legal pages`);
 }
 
 main().catch((err) => {

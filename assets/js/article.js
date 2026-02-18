@@ -29,7 +29,30 @@ document.addEventListener("DOMContentLoaded", async () => {
       return;
     }
 
-    document.title = `${article.title} | Longevity Hub`;
+    LongevityStatic.applySeo({
+      title: `${article.title} | Longevity Hub`,
+      description: (article.excerpt || article.technicalSummary || "").slice(0, 160),
+      path: `article/${encodeURIComponent(article.slug)}/`,
+      type: "article",
+      image: article.image || "",
+      jsonLd: {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: article.title,
+        description: article.excerpt || article.technicalSummary || "",
+        datePublished: article.publishedDate,
+        author: {
+          "@type": "Organization",
+          name: "Longevity Hub Editorial Team"
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "Longevity Hub"
+        },
+        mainEntityOfPage: LongevityStatic.absoluteUrl(`article/${encodeURIComponent(article.slug)}/`),
+        isBasedOn: article.sourceUrl || undefined
+      }
+    });
 
     const categories = article.categories || [];
     const breadcrumbCategory = categories[0];

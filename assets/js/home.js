@@ -1,5 +1,18 @@
 document.addEventListener("DOMContentLoaded", async () => {
   await LongevityStatic.bootShell();
+  LongevityStatic.applySeo({
+    title: "Longevity Hub | Research Explained in Plain English",
+    description: "Evidence-based longevity research translated into practical, plain-language takeaways.",
+    path: "",
+    type: "website",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: "Longevity Hub",
+      url: LongevityStatic.absoluteUrl(""),
+      description: "Evidence-based longevity research translated into practical, plain-language takeaways."
+    }
+  });
 
   const featuredRoot = document.getElementById("featured-root");
   const latestRoot = document.getElementById("latest-root");

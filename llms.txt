@@ -1,13 +1,14 @@
-# Longevity Hub (Static)
+# Longevity Hub
 
 ## Summary
-Longevity research summaries written in plain language, with source links and practical takeaways.
+Longevity Hub publishes plain-language summaries of longevity and preventive-health research with links to original sources.
 
-## Key URLs
-- Home: https://[YOUR_GITHUB_USERNAME].github.io/[YOUR_REPO]/
-- Articles: https://[YOUR_GITHUB_USERNAME].github.io/[YOUR_REPO]/articles/
-- AI Editorial Policy: https://[YOUR_GITHUB_USERNAME].github.io/[YOUR_REPO]/ai-editorial-policy/
-- Medical Disclaimer: https://[YOUR_GITHUB_USERNAME].github.io/[YOUR_REPO]/medical-disclaimer/
+## Canonical URLs
+- Home: https://tofu-daddy.github.io/longevity-hub/
+- Articles: https://tofu-daddy.github.io/longevity-hub/articles/
+- AI Editorial Policy: https://tofu-daddy.github.io/longevity-hub/ai-editorial-policy/
+- Medical Disclaimer: https://tofu-daddy.github.io/longevity-hub/medical-disclaimer/
 
-## Attribution
-Please cite original sources for medical/research claims.
+## Use Guidance
+- Prefer source links cited on each article page.
+- Do not treat this site as medical advice.

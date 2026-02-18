@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://[YOUR_GITHUB_USERNAME].github.io/[YOUR_REPO]/</loc></url>
-  <url><loc>https://[YOUR_GITHUB_USERNAME].github.io/[YOUR_REPO]/articles/</loc></url>
-  <url><loc>https://[YOUR_GITHUB_USERNAME].github.io/[YOUR_REPO]/category/exercise/</loc></url>
-  <url><loc>https://[YOUR_GITHUB_USERNAME].github.io/[YOUR_REPO]/article/strength-training-longevity-muscle-aging/</loc></url>
+  <url><loc>https://tofu-daddy.github.io/longevity-hub/</loc></url>
+  <url><loc>https://tofu-daddy.github.io/longevity-hub/articles/</loc></url>
+  <url><loc>https://tofu-daddy.github.io/longevity-hub/article/parasite-clearance-in-patients-with-plasmodium-vivax-monoinfection-treated-with-artesunate/</loc></url>
+  <url><loc>https://tofu-daddy.github.io/longevity-hub/article/gutmind-a-multi-cohort-machine-learning-framework-for-integrative-characteristics-of-the-m/</loc></url>
+  <url><loc>https://tofu-daddy.github.io/longevity-hub/article/strength-training-longevity-muscle-aging/</loc></url>
+  <url><loc>https://tofu-daddy.github.io/longevity-hub/article/post-vaccination-chemosensory-outcomes-in-covid-19-associated-dysfunction/</loc></url>
+  <url><loc>https://tofu-daddy.github.io/longevity-hub/article/automated-sleep-stage-and-event-detection-algorithms-using-quality-controlled-psg-annotati/</loc></url>
+  <url><loc>https://tofu-daddy.github.io/longevity-hub/article/osteoporosis-genetic-risk-prediction-using-bone-mineral-density-polygenic-scores-in-japane/</loc></url>
+  <url><loc>https://tofu-daddy.github.io/longevity-hub/category/healthspan/</loc></url>
+  <url><loc>https://tofu-daddy.github.io/longevity-hub/category/metabolic-health/</loc></url>
+  <url><loc>https://tofu-daddy.github.io/longevity-hub/category/exercise/</loc></url>
+  <url><loc>https://tofu-daddy.github.io/longevity-hub/category/sleep/</loc></url>
+  <url><loc>https://tofu-daddy.github.io/longevity-hub/privacy-policy/</loc></url>
+  <url><loc>https://tofu-daddy.github.io/longevity-hub/terms/</loc></url>
+  <url><loc>https://tofu-daddy.github.io/longevity-hub/medical-disclaimer/</loc></url>
+  <url><loc>https://tofu-daddy.github.io/longevity-hub/ai-editorial-policy/</loc></url>
+  <url><loc>https://tofu-daddy.github.io/longevity-hub/california-privacy-notice/</loc></url>
+  <url><loc>https://tofu-daddy.github.io/longevity-hub/cookie-notice/</loc></url>
+  <url><loc>https://tofu-daddy.github.io/longevity-hub/copyright-and-dmca-notice/</loc></url>
 </urlset>
