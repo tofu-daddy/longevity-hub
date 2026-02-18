@@ -71,14 +71,17 @@
       <h2>Limitations</h2>
       <p>AI can misinterpret context or overstate confidence. We actively monitor for these failure modes and correct issues when identified.</p>
       <h2>Corrections</h2>
-      <p>If you notice a factual issue, contact us and include the source URL so we can review and update quickly.</p>
+      <p>When issues are identified, we review source material and publish corrections as needed.</p>
     
       </article>
     </section>
   </main>
   <div id="shell-footer"></div>
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', async function () {
+      if (window.LongevityStatic && window.LongevityStatic.bootShell) {
+        await window.LongevityStatic.bootShell();
+      }
       if (window.LongevityStatic && window.LongevityStatic.applySeo) {
         window.LongevityStatic.applySeo({
           title: "AI Editorial Policy | Longevity Hub",

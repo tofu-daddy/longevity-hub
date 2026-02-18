@@ -67,7 +67,7 @@
       <h2>Permitted Use</h2>
       <p>You may link to and quote brief excerpts with proper attribution. Reproduction of full content requires permission unless otherwise allowed by law.</p>
       <h2>DMCA Procedure</h2>
-      <p>If you believe material on this site infringes your copyright, send a DMCA notice with your contact information, the infringing URL, ownership details, and a sworn statement of good faith.</p>
+      <p>If you believe material on this site infringes your copyright, send a DMCA notice with the infringing URL, ownership details, and a sworn statement of good faith.</p>
       <h2>Counter-Notice</h2>
       <p>If your content was removed in error, you may submit a counter-notice in accordance with applicable law.</p>
     
@@ -76,7 +76,10 @@
   </main>
   <div id="shell-footer"></div>
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', async function () {
+      if (window.LongevityStatic && window.LongevityStatic.bootShell) {
+        await window.LongevityStatic.bootShell();
+      }
       if (window.LongevityStatic && window.LongevityStatic.applySeo) {
         window.LongevityStatic.applySeo({
           title: "Copyright & DMCA Notice | Longevity Hub",

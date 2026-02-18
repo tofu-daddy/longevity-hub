@@ -76,7 +76,10 @@
   </main>
   <div id="shell-footer"></div>
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', async function () {
+      if (window.LongevityStatic && window.LongevityStatic.bootShell) {
+        await window.LongevityStatic.bootShell();
+      }
       if (window.LongevityStatic && window.LongevityStatic.applySeo) {
         window.LongevityStatic.applySeo({
           title: "Cookie Notice | Longevity Hub",

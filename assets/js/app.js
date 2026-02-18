@@ -253,7 +253,7 @@ function shellFooter() {
   return `
     <footer id="colophon" class="site-footer border-t border-gray-200 mt-20 bg-white">
       <div class="max-w-7xl mx-auto px-6 py-12">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-8">
           <div>
             <a href="${siteUrl("")}" class="flex items-center gap-2 mb-4">
               <div class="w-8 h-8 bg-gradient-to-br from-clinical-500 to-lab-500 rounded-lg flex items-center justify-center">
@@ -268,20 +268,9 @@ function shellFooter() {
           </div>
 
           <div>
-            <h4 class="font-semibold mb-3">Resources</h4>
-            <ul class="space-y-2 text-sm text-gray-600">
-              <li><a href="${siteUrl("how-it-works/")}" class="hover:text-clinical-600 transition-colors">How It Works</a></li>
-              <li><a href="${siteUrl("articles/?has_explanation=yes")}" class="hover:text-clinical-600 transition-colors">Explained vs Technical</a></li>
-              <li><a href="${siteUrl("rss.xml")}" class="hover:text-clinical-600 transition-colors">RSS Feeds</a></li>
-            </ul>
-          </div>
-
-          <div>
             <h4 class="font-semibold mb-3">Company</h4>
             <ul class="space-y-2 text-sm text-gray-600">
               <li><a href="${siteUrl("about/")}" class="hover:text-clinical-600 transition-colors">About</a></li>
-              <li><a href="${siteUrl("contact/")}" class="hover:text-clinical-600 transition-colors">Contact</a></li>
-              <li><a href="${siteUrl("partners/")}" class="hover:text-clinical-600 transition-colors">Partners</a></li>
             </ul>
           </div>
 

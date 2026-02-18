@@ -73,14 +73,17 @@
       <h2>Non-Discrimination</h2>
       <p>We do not discriminate against users for exercising privacy rights.</p>
       <h2>Submitting Requests</h2>
-      <p>Use our contact page to submit a verifiable privacy request.</p>
+      <p>Verifiable privacy requests may be submitted through available site channels.</p>
     
       </article>
     </section>
   </main>
   <div id="shell-footer"></div>
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', async function () {
+      if (window.LongevityStatic && window.LongevityStatic.bootShell) {
+        await window.LongevityStatic.bootShell();
+      }
       if (window.LongevityStatic && window.LongevityStatic.applySeo) {
         window.LongevityStatic.applySeo({
           title: "California Privacy Notice | Longevity Hub",

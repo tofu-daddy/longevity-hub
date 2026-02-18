@@ -5,6 +5,7 @@ Longevity Hub publishes plain-language summaries of longevity and preventive-hea
 
 ## Canonical URLs
 - Home: https://tofu-daddy.github.io/longevity-hub/
+- About: https://tofu-daddy.github.io/longevity-hub/about/
 - Articles: https://tofu-daddy.github.io/longevity-hub/articles/
 - AI Editorial Policy: https://tofu-daddy.github.io/longevity-hub/ai-editorial-policy/
 - Medical Disclaimer: https://tofu-daddy.github.io/longevity-hub/medical-disclaimer/
