@@ -37,6 +37,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       btn.addEventListener("click", () => {
         currentCategory = btn.dataset.cat;
         currentPage = 1;
+        LongevityStatic.trackEvent("filter_articles", {
+          category: currentCategory
+        });
         run();
       });
     });
@@ -87,6 +90,18 @@ document.addEventListener("DOMContentLoaded", async () => {
       setTimeout(() => loading.classList.add("hidden"), 120);
     }
   }
+
+  grid.addEventListener("click", (event) => {
+    const link = event.target.closest('a[href*="/article/"]');
+    if (!link) return;
+    const match = link.getAttribute("href")?.match(/\/article\/([^/]+)\//);
+    if (!match) return;
+    LongevityStatic.trackEvent("select_article_card", {
+      article_slug: decodeURIComponent(match[1]),
+      page_context: "articles_archive",
+      category_filter: currentCategory
+    });
+  });
 
   try {
     allArticles = await LongevityStatic.getArticles();

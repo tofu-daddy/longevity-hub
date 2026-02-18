@@ -55,6 +55,20 @@ document.addEventListener("DOMContentLoaded", async () => {
     `;
 
     latestRoot.innerHTML = latest.map((article, index) => LongevityStatic.articleCard(article, index + 1)).join("");
+
+    const trackHomeClick = (event, section) => {
+      const link = event.target.closest('a[href*="/article/"]');
+      if (!link) return;
+      const match = link.getAttribute("href")?.match(/\/article\/([^/]+)\//);
+      if (!match) return;
+      LongevityStatic.trackEvent("select_article_card", {
+        article_slug: decodeURIComponent(match[1]),
+        page_context: section
+      });
+    };
+
+    featuredRoot.addEventListener("click", (event) => trackHomeClick(event, "home_featured"));
+    latestRoot.addEventListener("click", (event) => trackHomeClick(event, "home_latest"));
   } catch (err) {
     featuredRoot.innerHTML = '<p class="text-sm text-gray-500">Unable to load featured content.</p>';
     latestRoot.innerHTML = '<p class="text-sm text-gray-500">Unable to load articles.</p>';

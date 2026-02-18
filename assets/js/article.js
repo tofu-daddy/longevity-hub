@@ -72,6 +72,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     const sourceUrl = article.sourceUrl || "#";
     const sourceName = article.sourceName || "Source";
     const sourceType = LongevityStatic.sourceTypeLabel(article.sourceType);
+    LongevityStatic.trackEvent("view_article", {
+      article_slug: article.slug,
+      source_name: sourceName,
+      source_type: article.sourceType || "unknown"
+    });
 
     root.innerHTML = `
       <article>
@@ -176,7 +181,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                   </dl>
 
                   <div class="mt-6 pt-6 border-t border-neutral-200">
-                    <a href="${sourceUrl}" target="_blank" rel="noopener" class="inline-flex items-center justify-center w-full px-4 py-3 rounded-lg bg-clinical-600 text-white font-medium hover:bg-clinical-700 transition-colors">
+                    <a id="source-link" href="${sourceUrl}" target="_blank" rel="noopener" class="inline-flex items-center justify-center w-full px-4 py-3 rounded-lg bg-clinical-600 text-white font-medium hover:bg-clinical-700 transition-colors">
                       <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
                       </svg>
@@ -190,6 +195,18 @@ document.addEventListener("DOMContentLoaded", async () => {
         </div>
       </article>
     `;
+
+    const sourceLink = document.getElementById("source-link");
+    if (sourceLink) {
+      sourceLink.addEventListener("click", () => {
+        LongevityStatic.trackEvent("click_source_link", {
+          article_slug: article.slug,
+          source_name: sourceName,
+          source_type: article.sourceType || "unknown",
+          destination: sourceUrl
+        });
+      });
+    }
   } catch (err) {
     root.innerHTML = '<div class="max-w-7xl mx-auto px-6 py-10 text-sm text-gray-600">Unable to load article.</div>';
   }

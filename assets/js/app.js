@@ -20,13 +20,27 @@ function absoluteUrl(path = "") {
   return `${SITE_ORIGIN}/${cleaned}`;
 }
 
+function decodeHtmlEntities(value) {
+  const input = String(value ?? "");
+  if (typeof document === "undefined") return input;
+  const parser = document.createElement("textarea");
+  parser.innerHTML = input;
+  return parser.value;
+}
+
 function escapeHtml(value) {
-  return String(value ?? "")
+  return decodeHtmlEntities(value)
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/\"/g, "&quot;")
     .replace(/'/g, "&#39;");
+}
+
+function trackEvent(eventName, params = {}) {
+  if (typeof window === "undefined") return;
+  if (typeof window.gtag !== "function") return;
+  window.gtag("event", eventName, params);
 }
 
 async function getArticles() {
@@ -351,5 +365,7 @@ window.LongevityStatic = {
   siteUrl,
   absoluteUrl,
   applySeo,
-  escapeHtml
+  escapeHtml,
+  decodeHtmlEntities,
+  trackEvent
 };
