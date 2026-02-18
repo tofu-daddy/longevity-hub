@@ -252,31 +252,31 @@ function shellHeader(topics = []) {
 function shellFooter() {
   return `
     <footer id="colophon" class="site-footer border-t border-gray-200 mt-20 bg-white">
-      <div class="max-w-7xl mx-auto px-6 py-12">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-8">
-          <div>
-            <a href="${siteUrl("")}" class="flex items-center gap-2 mb-4">
+      <div class="max-w-7xl mx-auto px-6 py-14">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-8 mb-10">
+          <div class="md:col-span-6">
+            <a href="${siteUrl("")}" class="flex items-center gap-2 mb-5">
               <div class="w-8 h-8 bg-gradient-to-br from-clinical-500 to-lab-500 rounded-lg flex items-center justify-center">
                 <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.5 12.75C4.5 9.022 7.522 6 11.25 6c1.808 0 3.448.711 4.66 1.87A6.726 6.726 0 0120.25 6c2.9 0 5.25 2.35 5.25 5.25 0 5.262-6.484 9.508-9.252 11.105a1.5 1.5 0 01-1.496 0C10.984 20.758 4.5 16.512 4.5 12.75z" transform="translate(-3 -3)"></path>
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h2l1.5-2.5L13 14l1.5-2H17"></path>
                 </svg>
               </div>
-              <span class="font-semibold">Longevity Hub</span>
+              <span class="font-semibold tracking-tight">Longevity Hub</span>
             </a>
-            <p class="text-sm text-gray-600">Complex longevity research, explained in plain English.</p>
+            <p class="text-sm text-gray-600 max-w-md leading-relaxed">Complex longevity research, explained in plain English.</p>
           </div>
 
-          <div>
-            <h4 class="font-semibold mb-3">Company</h4>
+          <div class="md:col-span-2">
+            <h4 class="text-xs font-semibold uppercase tracking-wide text-gray-500 mb-3">Company</h4>
             <ul class="space-y-2 text-sm text-gray-600">
               <li><a href="${siteUrl("about/")}" class="hover:text-clinical-600 transition-colors">About</a></li>
             </ul>
           </div>
 
-          <div>
-            <h4 class="font-semibold mb-3">Legal</h4>
-            <ul class="space-y-2 text-sm text-gray-600">
+          <div class="md:col-span-4">
+            <h4 class="text-xs font-semibold uppercase tracking-wide text-gray-500 mb-3">Legal</h4>
+            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2 text-sm text-gray-600">
               <li><a href="${siteUrl("privacy-policy/")}" class="hover:text-clinical-600 transition-colors">Privacy Policy</a></li>
               <li><a href="${siteUrl("terms/")}" class="hover:text-clinical-600 transition-colors">Terms</a></li>
               <li><a href="${siteUrl("medical-disclaimer/")}" class="hover:text-clinical-600 transition-colors">Medical Disclaimer</a></li>
@@ -288,9 +288,9 @@ function shellFooter() {
           </div>
         </div>
 
-        <div class="pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div class="pt-6 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center gap-3">
           <p class="text-sm text-gray-500">&copy; ${new Date().getFullYear()} Longevity Hub. All rights reserved.</p>
-          <div class="flex items-center gap-6">
+          <div class="flex items-center gap-5">
             <a href="https://twitter.com/" target="_blank" rel="noopener" class="text-sm text-gray-500 hover:text-clinical-600 transition-colors">Twitter</a>
             <a href="https://linkedin.com/" target="_blank" rel="noopener" class="text-sm text-gray-500 hover:text-clinical-600 transition-colors">LinkedIn</a>
             <a href="${siteUrl("rss.xml")}" class="text-sm text-gray-500 hover:text-clinical-600 transition-colors">RSS</a>
