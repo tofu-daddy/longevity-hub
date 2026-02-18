@@ -5,35 +5,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Longevity Hub | Research Explained</title>
   <meta name="description" content="Longevity research explained in plain language with practical takeaways.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clinical: {
+              50: '#f0f9ff', 100: '#e0f2fe', 200: '#bae6fd', 300: '#7dd3fc', 400: '#38bdf8',
+              500: '#0ea5e9', 600: '#0284c7', 700: '#0369a1', 800: '#075985', 900: '#0c4a6e'
+            },
+            lab: {
+              50: '#f0fdf4', 100: '#dcfce7', 200: '#bbf7d0', 300: '#86efac', 400: '#4ade80',
+              500: '#22c55e', 600: '#16a34a', 700: '#15803d', 800: '#166534', 900: '#14532d'
+            }
+          },
+          fontFamily: {
+            sans: ['IBM Plex Sans', 'system-ui', 'sans-serif'],
+            mono: ['IBM Plex Mono', 'monospace']
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="assets/css/theme.css">
   <link rel="stylesheet" href="assets/css/styles.css">
   <script>window.__BASE_PATH__=".";</script>
   <script defer src="assets/js/app.js"></script>
   <script defer src="assets/js/home.js"></script>
 </head>
-<body>
+<body class="bg-gray-50 text-gray-900 antialiased">
   <div id="shell-header"></div>
 
-  <main>
-    <section class="hero">
-      <div class="container hero-inner">
-        <span class="eyebrow">Complex Research, Clear Explanations</span>
-        <h1>Longevity research, explained in plain language.</h1>
-        <p>A static GitHub Pages edition of Longevity Hub with featured stories, filtered browsing, and detailed summaries designed for both humans and AI readers.</p>
-      </div>
-    </section>
+  <main id="primary" class="site-main">
+    <section class="border-b border-gray-200 gradient-bg">
+      <div class="max-w-7xl mx-auto px-6 py-16 md:py-20">
+        <div class="max-w-3xl fade-in-up">
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 bg-white border border-clinical-200 text-clinical-700 text-xs font-mono rounded-full mb-6 shadow-sm">
+            <span class="w-2 h-2 bg-lab-500 rounded-full pulse-dot"></span>
+            <span class="font-semibold uppercase tracking-wide">Complex Research, Simple Explanations</span>
+          </div>
 
-    <section class="section">
-      <div class="container" id="featured-root"></div>
-    </section>
+          <h1 class="text-5xl md:text-6xl tracking-tight mb-6 leading-tight">
+            Longevity research,<br>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-clinical-600 to-lab-600">explained in plain English.</span>
+          </h1>
 
-    <section class="section" style="padding-top:0;">
-      <div class="container">
-        <div class="section-title-row">
-          <h2 class="section-title">Latest Articles</h2>
-          <a class="btn" href="articles/">Browse All Articles</a>
+          <p class="text-xl text-gray-600 leading-relaxed mb-8">
+            Stop struggling with medical jargon. Get expert-curated longevity research translated into simple, actionable insights you can actually understand and apply.
+          </p>
         </div>
-        <div class="card-grid" id="latest-root"></div>
       </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 py-12">
+      <div id="featured-root"></div>
+
+      <div class="flex items-center justify-between mb-6">
+        <h3 class="text-2xl font-semibold text-neutral-900">Latest Articles</h3>
+        <a href="articles/" class="text-sm font-semibold text-clinical-600 hover:text-clinical-700">Browse All Articles</a>
+      </div>
+
+      <div id="latest-root" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
     </section>
   </main>
 

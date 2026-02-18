@@ -1,0 +1,465 @@
+/**
+ * Longevity Hub Theme - Custom Styles
+ *
+ * Styles matching the design reference.
+ *
+ * @package Longevity_Hub
+ * @since 1.0.0
+ */
+
+/* ============================================
+   Base Typography
+   ============================================ */
+
+* {
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-mono {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Headline Font - Instrument Serif */
+h1, h2, h3, h4,
+h1 *, h2 *, h3 *, h4 *,
+.font-headline {
+    font-family: 'Instrument Serif', Georgia, serif;
+}
+
+/* Revert Article Card headlines and their children to Sans-Serif */
+.article-card h1, .article-card h1 *,
+.article-card h2, .article-card h2 *,
+.article-card h3, .article-card h3 *,
+.article-card h4, .article-card h4 *,
+/* Also use Sans-Serif for H2 on single pages and aside sidebars as requested */
+.single-longevity_article h2, .single-longevity_article h2 *,
+aside h2, aside h2 *,
+aside h3, aside h3 * {
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+/* ============================================
+   Article Cards
+   ============================================ */
+
+.article-card {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid #e5e7eb;
+}
+
+.article-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 32px -10px rgba(14, 165, 233, 0.15);
+    border-color: #0ea5e9;
+}
+
+/* ============================================
+   Filter Buttons
+   ============================================ */
+
+.filter-btn {
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.filter-btn.active {
+    background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
+    color: white;
+    border-color: transparent;
+}
+
+.filter-btn:not(.active):hover {
+    border-color: #7dd3fc;
+}
+
+/* ============================================
+   Navigation Links
+   ============================================ */
+
+.nav-link {
+    position: relative;
+    transition: color 0.2s ease;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #0ea5e9, #22c55e);
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Navigation menu list styles */
+.main-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navigation li {
+    position: relative;
+}
+
+/* ============================================
+   Animations
+   ============================================ */
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-up {
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+/* Stagger delays for cards */
+.stagger-1 { animation-delay: 0.1s; opacity: 0; }
+.stagger-2 { animation-delay: 0.2s; opacity: 0; }
+.stagger-3 { animation-delay: 0.3s; opacity: 0; }
+.stagger-4 { animation-delay: 0.4s; opacity: 0; }
+.stagger-5 { animation-delay: 0.5s; opacity: 0; }
+.stagger-6 { animation-delay: 0.6s; opacity: 0; }
+
+/* Pulse animation for badge dot */
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.pulse-dot {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Spin animation for loading */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+
+/* ============================================
+   Badge Styles
+   ============================================ */
+
+.explanation-badge {
+    background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);
+    border: 1px solid #86efac;
+    color: #166534;
+}
+
+.technical-badge {
+    background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
+    border: 1px solid #7dd3fc;
+    color: #075985;
+}
+
+/* ============================================
+   Toggle / Collapsible Content
+   ============================================ */
+
+.toggle-btn {
+    cursor: pointer;
+    user-select: none;
+}
+
+.explanation-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.explanation-content.expanded {
+    max-height: 1000px;
+}
+
+.toggle-icon.rotated {
+    transform: rotate(180deg);
+}
+
+/* ============================================
+   Gradient Background
+   ============================================ */
+
+.gradient-bg {
+    background: linear-gradient(135deg, #f0f9ff 0%, #f0fdf4 100%);
+}
+
+/* ============================================
+   Scrollbar Hiding
+   ============================================ */
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* ============================================
+   Footer Styles
+   ============================================ */
+
+.site-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* ============================================
+   Prose Content Styles
+   ============================================ */
+
+.prose {
+    color: #404040;
+    line-height: 1.75;
+}
+
+.prose h2 {
+    color: #171717;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.prose h3 {
+    color: #171717;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.prose p {
+    margin-bottom: 1.25rem;
+}
+
+.prose a {
+    color: #0284c7;
+    text-decoration: underline;
+}
+
+.prose a:hover {
+    color: #0369a1;
+}
+
+.prose ul,
+.prose ol {
+    margin-bottom: 1.25rem;
+    padding-left: 1.5rem;
+}
+
+.prose li {
+    margin-bottom: 0.5rem;
+}
+
+.prose blockquote {
+    border-left: 4px solid #22c55e;
+    padding-left: 1rem;
+    font-style: italic;
+    color: #525252;
+    margin: 1.5rem 0;
+}
+
+.prose img {
+    border-radius: 0.5rem;
+    margin: 1.5rem 0;
+}
+
+.prose code {
+    background: #f5f5f5;
+    padding: 0.125rem 0.25rem;
+    border-radius: 0.25rem;
+    font-size: 0.875em;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.prose pre {
+    background: #262626;
+    color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+}
+
+.prose pre code {
+    background: transparent;
+    padding: 0;
+}
+
+/* ============================================
+   Screen Reader Text
+   ============================================ */
+
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    clip-path: none;
+    color: #21759b;
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 700;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+}
+
+/* ============================================
+   Responsive Adjustments
+   ============================================ */
+
+@media (max-width: 768px) {
+    /* Hero adjustments */
+    .text-5xl {
+        font-size: 2.5rem;
+    }
+
+    /* Filter bar scroll on mobile */
+    .filter-btn {
+        flex-shrink: 0;
+    }
+
+    /* Value props stack */
+    .grid-cols-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    /* Even smaller screens */
+    .text-5xl {
+        font-size: 2rem;
+    }
+
+    .md\\:text-6xl {
+        font-size: 2rem;
+    }
+}
+
+/* Hero H1 Size Adjustment */
+@media (min-width: 768px) {
+    .text-5xl.md\:text-6xl {
+        font-size: 5rem !important;
+    }
+}
+
+/* ============================================
+   Print Styles
+   ============================================ */
+
+@media print {
+    .site-header,
+    .site-footer,
+    .filter-btn,
+    .toggle-btn,
+    #pagination {
+        display: none !important;
+    }
+
+    .article-card {
+        break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid #e5e5e5;
+        opacity: 1 !important;
+    }
+
+    .fade-in-up {
+        animation: none;
+        opacity: 1;
+    }
+}
+
+/* ============================================
+   Accessibility
+   ============================================ */
+
+:focus-visible {
+    outline: 2px solid #0ea5e9;
+    outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    .fade-in-up {
+        animation: none;
+        opacity: 1;
+    }
+
+    .stagger-1,
+    .stagger-2,
+    .stagger-3,
+    .stagger-4,
+    .stagger-5,
+    .stagger-6 {
+        opacity: 1;
+    }
+}
+
+/* ============================================
+   Custom Logo Styling
+   ============================================ */
+
+.custom-logo-link {
+    display: flex;
+    align-items: center;
+}
+
+.custom-logo {
+    max-height: 40px;
+    width: auto;
+}
