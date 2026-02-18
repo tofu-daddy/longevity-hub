@@ -1,5 +1,57 @@
 [
   {
+    "externalId": "pubmed:41662857",
+    "slug": "parasite-clearance-in-patients-with-plasmodium-vivax-monoinfection-treated-with-artesunate",
+    "title": "Parasite clearance in patients with Plasmodium vivax monoinfection treated with artesunate in Cambodia: an observational secondary analysis of trial data.",
+    "excerpt": "Artemisinin-based combination therapies are the frontline drugs for the treatment of malaria infections, but, for Plasmodium falciparum, the efficacy of artemisinin is threatened by the spread of resistance. Plasmodium v",
+    "technicalSummary": "Artemisinin-based combination therapies are the frontline drugs for the treatment of malaria infections, but, for Plasmodium falciparum, the efficacy of artemisinin is threatened by the spread of resistance. Plasmodium vivax is the second most common cause of human malaria, but there is little information on its susceptibility to artemisinin due to the lack of an in-vitro culture system. This study aims to characterise the response of P vivax to artesunate using clinical, genomic, and transcriptomic data from infected individuals in Cambodia.\n\nWe analysed 161 P vivax infections from 87 patients (six female and 81 male; median age 20 years [IQR 17-26]) enrolled between Nov 10, 2021, and Nov 1",
+    "laymansExplanation": "This study explores parasite clearance in patients with plasmodium vivax monoinfection treated with artesunate in cambodia: an observational secondary analysis of trial data.. The core message is that this evidence may be useful for long-term health decisions, but it should be interpreted with context and discussed with qualified professionals.",
+    "keyTakeaways": [
+      "Review original source context before acting.",
+      "Treat early evidence as directional, not definitive.",
+      "Pair findings with core lifestyle fundamentals."
+    ],
+    "hasExplanation": true,
+    "sourceName": "Lancet Microbe",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41662857/",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "observational",
+    "publishedDate": "2027-01-11",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "pubmed:41696869",
+    "slug": "gutmind-a-multi-cohort-machine-learning-framework-for-integrative-characteristics-of-the-m",
+    "title": "GutMIND: A multi-cohort machine learning framework for integrative characteristics of the microbiota-gut-brain axis in neuropsychiatric disorders.",
+    "excerpt": "Emerging evidence underscores bidirectional communication along the microbiota-gut-brain axis in neuropsychiatric disorders. However, the field lacks dedicated metagenomic resources with standardized phenotyping for thes",
+    "technicalSummary": "Emerging evidence underscores bidirectional communication along the microbiota-gut-brain axis in neuropsychiatric disorders. However, the field lacks dedicated metagenomic resources with standardized phenotyping for these conditions. Existing single-cohort studies face inherent limitations due to restricted sample sizes, confounding heterogeneity, and methodological fragmentation, compromising reproducibility and mechanistic insights. To overcome these challenges, we constructed the Gut Microbiome in Multinational Integrated Neuropsychiatric Disorders (GutMIND) database, a comprehensive resource integrating shotgun metagenomic data with harmonized metadata. Adhering to a standardized preproc",
+    "laymansExplanation": "This study explores gutmind: a multi-cohort machine learning framework for integrative characteristics of the microbiota-gut-brain axis in neuropsychiatric disorders.. The core message is that this evidence may be useful for long-term health decisions, but it should be interpreted with context and discussed with qualified professionals.",
+    "keyTakeaways": [
+      "Review original source context before acting.",
+      "Treat early evidence as directional, not definitive.",
+      "Pair findings with core lifestyle fundamentals."
+    ],
+    "hasExplanation": true,
+    "sourceName": "Gut Microbes",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41696869/",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-12-31",
+    "categories": [
+      {
+        "slug": "metabolic-health",
+        "name": "Metabolic Health",
+        "description": "Insulin, glucose, lipid, and body-composition driven research."
+      }
+    ]
+  },
+  {
     "externalId": "pubmed:1000001",
     "slug": "strength-training-longevity-muscle-aging",
     "title": "Strength Training and Healthy Aging: Why Muscle Matters More Than You Think",
@@ -20,8 +72,16 @@
     "publishedDate": "2026-01-30",
     "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=1200&q=80",
     "categories": [
-      { "slug": "exercise", "name": "Exercise", "description": "Movement, training, and performance-related longevity insights." },
-      { "slug": "healthspan", "name": "Healthspan", "description": "Strategies that improve quality years, not only lifespan." }
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
+      },
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
     ]
   },
   {
@@ -44,8 +104,125 @@
     "publishedDate": "2026-01-20",
     "image": "https://images.unsplash.com/photo-1455642305367-68834a84f0e8?auto=format&fit=crop&w=1200&q=80",
     "categories": [
-      { "slug": "sleep", "name": "Sleep", "description": "Sleep quality, rhythms, and recovery-focused findings." },
-      { "slug": "healthspan", "name": "Healthspan", "description": "Strategies that improve quality years, not only lifespan." }
+      {
+        "slug": "sleep",
+        "name": "Sleep",
+        "description": "Sleep quality, rhythms, and recovery-focused findings."
+      },
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.05.28.25328470",
+    "slug": "post-vaccination-chemosensory-outcomes-in-covid-19-associated-dysfunction",
+    "title": "Post-vaccination chemosensory outcomes in COVID-19-associated dysfunction",
+    "excerpt": "Olfactory and taste dysfunction are common symptoms of COVID-19 and post-acute COVID-19 syndrome, yet the effects of COVID-19 vaccines on chemosensory perception remain incompletely understood. This global, multilingual,",
+    "technicalSummary": "Olfactory and taste dysfunction are common symptoms of COVID-19 and post-acute COVID-19 syndrome, yet the effects of COVID-19 vaccines on chemosensory perception remain incompletely understood. This global, multilingual, online survey assessed post-vaccination changes in chemosensory function among individuals with and without COVID-19-related chemosensory impairment. Between May 2022 and August 2023, 2,955 responses were collected via convenience sampling, of which 1,352 were included in the analyses. Participants reported vaccination status, side effects, and chemosensory function before and after each vaccine dose. Pfizer-BioNTech accounted for 46.2% of doses, followed by Sputnik V (16.3%",
+    "laymansExplanation": "This study explores post-vaccination chemosensory outcomes in covid-19-associated dysfunction. The core message is that this evidence may be useful for long-term health decisions, but it should be interpreted with context and discussed with qualified professionals.",
+    "keyTakeaways": [
+      "Review original source context before acting.",
+      "Treat early evidence as directional, not definitive.",
+      "Pair findings with core lifestyle fundamentals."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.05.28.25328470",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-01-19",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.64898/2025.12.15.25342334",
+    "slug": "automated-sleep-stage-and-event-detection-algorithms-using-quality-controlled-psg-annotati",
+    "title": "Automated Sleep Stage and Event Detection Algorithms Using Quality-Controlled PSG Annotations",
+    "excerpt": "Study ObjectivesTo develop machine-learning models for sleep stage classification, arousal detection, and respiratory event detection from overnight polysomnography, and to evaluate their performance relative to expert s",
+    "technicalSummary": "Study ObjectivesTo develop machine-learning models for sleep stage classification, arousal detection, and respiratory event detection from overnight polysomnography, and to evaluate their performance relative to expert scorers.\n\nMethodsOvernight polysomnography recordings were obtained from healthy participants and participants referred for suspected sleep-disordered breathing. Four certified scorers completed calibration sessions and generated reference annotations for sleep stages, arousals, and respiratory events. A subset of recordings was independently annotated by all scorers to support consensus analyses, enabling direct comparison between model outputs and human inter-scorer agreemen",
+    "laymansExplanation": "This study explores automated sleep stage and event detection algorithms using quality-controlled psg annotations. The core message is that this evidence may be useful for long-term health decisions, but it should be interpreted with context and discussed with qualified professionals.",
+    "keyTakeaways": [
+      "Review original source context before acting.",
+      "Treat early evidence as directional, not definitive.",
+      "Pair findings with core lifestyle fundamentals."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.64898/2025.12.15.25342334",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-01-19",
+    "categories": [
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
+      },
+      {
+        "slug": "sleep",
+        "name": "Sleep",
+        "description": "Sleep quality, rhythms, and recovery-focused findings."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.64898/2026.01.02.25342989",
+    "slug": "osteoporosis-genetic-risk-prediction-using-bone-mineral-density-polygenic-scores-in-japane",
+    "title": "Osteoporosis Genetic Risk Prediction Using Bone Mineral Density Polygenic Scores in Japanese: TMM CommCohort Study",
+    "excerpt": "Osteoporosis and fractures are major health concerns. We developed and validated a polygenic score (PGS) for osteoporosis in a Japanese population using heel quantitative ultrasound-derived T-scores. Genome-wide associat",
+    "technicalSummary": "Osteoporosis and fractures are major health concerns. We developed and validated a polygenic score (PGS) for osteoporosis in a Japanese population using heel quantitative ultrasound-derived T-scores. Genome-wide association study data from 12,371 participants in the Tohoku Medical Megabank Community-Based Cohort identified genome-wide significant loci, including MBL2, TMEM135, and WNT16. PGS models were constructed and evaluated using independent datasets for model selection (n = 1,419) and validation (n = 8,711). Adding the PGS to age and sex yielded modest improvements in discrimination but supported genetic risk stratification. Compared with the intermediate group, the lowest PGS quintile",
+    "laymansExplanation": "This study explores osteoporosis genetic risk prediction using bone mineral density polygenic scores in japanese: tmm commcohort study. The core message is that this evidence may be useful for long-term health decisions, but it should be interpreted with context and discussed with qualified professionals.",
+    "keyTakeaways": [
+      "Review original source context before acting.",
+      "Treat early evidence as directional, not definitive.",
+      "Pair findings with core lifestyle fundamentals."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.64898/2026.01.02.25342989",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-01-19",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.64898/2026.01.05.26343424",
+    "slug": "implementation-and-first-results-of-the-czech-nationwide-prostate-cancer-screening-pilot-p",
+    "title": "Implementation and first results of the Czech nationwide prostate cancer screening pilot programme",
+    "excerpt": "BackgroundIn 2022, the European Union recommended piloting organised prostate cancer screening. Subsequently, the Czech Republic launched a nationwide pilot programme fully reimbursed by public health insurance in Januar",
+    "technicalSummary": "BackgroundIn 2022, the European Union recommended piloting organised prostate cancer screening. Subsequently, the Czech Republic launched a nationwide pilot programme fully reimbursed by public health insurance in January 2024 to reduce the high incidence of late-stage prostate cancer and the widespread unorganised prostate-specific antigen (PSA) testing.\n\nObjectiveTo describe the strategy, methodology, and first results of the Czech nationwide prostate cancer screening pilot programme.\n\nMethodsWe analysed data from the first 12 months of the programme, which targets men aged 50-69 years without a previous prostate cancer diagnosis. General practitioners and urologists offer men an initial P",
+    "laymansExplanation": "This study explores implementation and first results of the czech nationwide prostate cancer screening pilot programme. The core message is that this evidence may be useful for long-term health decisions, but it should be interpreted with context and discussed with qualified professionals.",
+    "keyTakeaways": [
+      "Review original source context before acting.",
+      "Treat early evidence as directional, not definitive.",
+      "Pair findings with core lifestyle fundamentals."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.64898/2026.01.05.26343424",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-01-19",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
     ]
   },
   {
@@ -68,8 +245,16 @@
     "publishedDate": "2025-12-18",
     "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1200&q=80",
     "categories": [
-      { "slug": "exercise", "name": "Exercise", "description": "Movement, training, and performance-related longevity insights." },
-      { "slug": "metabolic-health", "name": "Metabolic Health", "description": "Insulin, glucose, lipid, and body-composition driven research." }
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
+      },
+      {
+        "slug": "metabolic-health",
+        "name": "Metabolic Health",
+        "description": "Insulin, glucose, lipid, and body-composition driven research."
+      }
     ]
   },
   {
@@ -91,7 +276,11 @@
     "evidenceQuality": "rct",
     "publishedDate": "2025-11-09",
     "categories": [
-      { "slug": "nutrition", "name": "Nutrition", "description": "Dietary patterns and nutrition interventions for longevity." }
+      {
+        "slug": "nutrition",
+        "name": "Nutrition",
+        "description": "Dietary patterns and nutrition interventions for longevity."
+      }
     ]
   },
   {
@@ -113,8 +302,16 @@
     "evidenceQuality": "review",
     "publishedDate": "2025-10-22",
     "categories": [
-      { "slug": "nad", "name": "NAD+", "description": "NAD pathway and cellular-energy focused longevity research." },
-      { "slug": "cellular-health", "name": "Cellular Health", "description": "Cell-level mechanisms influencing aging and resilience." }
+      {
+        "slug": "nad",
+        "name": "NAD+",
+        "description": "NAD pathway and cellular-energy focused longevity research."
+      },
+      {
+        "slug": "cellular-health",
+        "name": "Cellular Health",
+        "description": "Cell-level mechanisms influencing aging and resilience."
+      }
     ]
   },
   {
@@ -136,8 +333,16 @@
     "evidenceQuality": "observational",
     "publishedDate": "2025-09-12",
     "categories": [
-      { "slug": "nutrition", "name": "Nutrition", "description": "Dietary patterns and nutrition interventions for longevity." },
-      { "slug": "metabolic-health", "name": "Metabolic Health", "description": "Insulin, glucose, lipid, and body-composition driven research." }
+      {
+        "slug": "nutrition",
+        "name": "Nutrition",
+        "description": "Dietary patterns and nutrition interventions for longevity."
+      },
+      {
+        "slug": "metabolic-health",
+        "name": "Metabolic Health",
+        "description": "Insulin, glucose, lipid, and body-composition driven research."
+      }
     ]
   }
 ]
