@@ -5,12 +5,12 @@
     "title": "Parasite clearance in patients with Plasmodium vivax monoinfection treated with artesunate in Cambodia: an observational secondary analysis of trial data.",
     "excerpt": "Artemisinin-based combination therapies are the frontline drugs for the treatment of malaria infections, but, for Plasmodium falciparum, the efficacy of artemisinin is threatened by the spread of resistance. Plasmodium v",
     "technicalSummary": "Artemisinin-based combination therapies are the frontline drugs for the treatment of malaria infections, but, for Plasmodium falciparum, the efficacy of artemisinin is threatened by the spread of resistance. Plasmodium vivax is the second most common cause of human malaria, but there is little information on its susceptibility to artemisinin due to the lack of an in-vitro culture system. This study aims to characterise the response of P vivax to artesunate using clinical, genomic, and transcriptomic data from infected individuals in Cambodia.\n\nWe analysed 161 P vivax infections from 87 patients (six female and 81 male; median age 20 years [IQR 17-26]) enrolled between Nov 10, 2021, and Nov 1",
-    "laymansExplanation": "Parasite clearance in patients with Plasmodium vivax monoinfection treated with artesunate in Cambodia: an observational secondary analysis of trial data. from Lancet Microbe points to a useful signal for infection risk and prevention.\n\nFor real life, read this as artemisinin-based combination therapies are the frontline drugs for the treatment of malaria infections, but, for Plasmodium falciparum, the efficacy of artemisinin is threatened by the spread of resistance. Plasmodium v\n\nHow to use this now: Keep vaccination status and prevention habits up to date, especially during high-risk periods. Clinical-trial records are best used to track what is being tested and what results are likely coming next.",
+    "laymansExplanation": "Trial tracker: Parasite clearance in patients with Plasmodium vivax monoinfection treated with artesunate in Cambodia: an observational secondary analysis of trial data..\n\nWhat is being tested: Artemisinin-based combination therapies are the frontline drugs for the treatment of malaria infections, but, for Plasmodium falciparum, the efficacy of artemisinin is threatened by the spread of resistance. Plasmodium v.\n\nHow this helps now: Treat exercise, blood-pressure control, and social/cognitive activity as your non-negotiable baseline. Use this to follow the pipeline and design details; treatment conclusions come after results are posted.",
     "keyTakeaways": [
-      "Core theme: infection risk and prevention.",
-      "The effect is only as useful as the study design; methodology determines whether this generalizes.",
-      "Keep vaccination status and prevention habits up to date, especially during high-risk periods.",
-      "Clinical-trial records are best used to track what is being tested and what results are likely coming next."
+      "This entry is about upcoming evidence in brain health and cognitive resilience, not a finished verdict.",
+      "Check inclusion criteria and endpoints to judge whether eventual results may apply to your context.",
+      "Treat exercise, blood-pressure control, and social/cognitive activity as your non-negotiable baseline.",
+      "Set a reminder to revisit when results or publications are released."
     ],
     "hasExplanation": true,
     "sourceName": "Lancet Microbe",
@@ -32,12 +32,12 @@
     "title": "Anti-inflammatory effects of nicotinamide mononucleotide (NMN) in human skeletal muscle after BFR-exercise.",
     "excerpt": "&#x3b2;-Nicotinamide mononucleotide (NMN) inhibits acute inflammation in injured animal tissues.\n\nWe examined whether NMN supplementation attenuates inflammation induced by blood flow restriction-resistance exercise (BFR",
     "technicalSummary": "&#x3b2;-Nicotinamide mononucleotide (NMN) inhibits acute inflammation in injured animal tissues.\n\nWe examined whether NMN supplementation attenuates inflammation induced by blood flow restriction-resistance exercise (BFR-exercise) in human skeletal muscle.\n\nEleven untrained men (22.8&#x2009;&#xb1;&#x2009;1.5&#x2009;y) completed a randomized, placebo-controlled, counterbalanced crossover trial, receiving either Placebo or NMN (1200&#x2009;mg/d) for 7&#x2009;d, with a 3-week washout between conditions. Multiple muscle biopsies were obtained before and after BFR-exercise.\n\nBFR-exercise-induced significant muscle necrosis at 0&#x2009;h, which resolved within 24&#x2009;h in both conditions. NMN s",
-    "laymansExplanation": "Quick take: this piece on Anti-inflammatory effects of nicotinamide mononucleotide (NMN) in human skeletal muscle after BFR-exercise. from J Int Soc Sports Nutr has practical implications for strength and movement.\n\nIn everyday terms, this suggests -Nicotinamide mononucleotide (NMN) inhibits acute inflammation in injured animal tissues. We examined whether NMN supplementation attenuates inflammation induced by blood flow restriction-resistance exercise (BFR\n\nAction you can take this week: Put 2-3 resistance sessions on your weekly calendar and track progressive overload. Good signal here, and it becomes actionable when it aligns with broader evidence and your own metrics.",
+    "laymansExplanation": "Study focus: Anti-inflammatory effects of nicotinamide mononucleotide (NMN) in human skeletal muscle after BFR-exercise..\n\nWhat the paper suggests: -Nicotinamide mononucleotide (NMN) inhibits acute inflammation in injured animal tissues. We examined whether NMN supplementation attenuates inflammation induced by blood flow restriction-resistance exercise (BFR-exercise) in human skeletal muscle. Eleven untrained men (22.8 1.5 y) completed a rando.\n\nReal-world use: Schedule two resistance sessions this week and track load or reps so progress is visible. Treat this as one solid input, then look for consistency across related studies.",
     "keyTakeaways": [
-      "Core theme: strength and movement.",
-      "The effect is only as useful as the study design; methodology determines whether this generalizes.",
-      "Put 2-3 resistance sessions on your weekly calendar and track progressive overload.",
-      "Good signal here, and it becomes actionable when it aligns with broader evidence and your own metrics."
+      "Main domain: strength and mobility.",
+      "Study design quality determines how confidently this result should influence decisions.",
+      "Schedule two resistance sessions this week and track load or reps so progress is visible.",
+      "Use your own tracked metrics to see whether this evidence changes outcomes that matter to you."
     ],
     "hasExplanation": true,
     "sourceName": "J Int Soc Sports Nutr",
@@ -64,12 +64,12 @@
     "title": "GutMIND: A multi-cohort machine learning framework for integrative characteristics of the microbiota-gut-brain axis in neuropsychiatric disorders.",
     "excerpt": "Emerging evidence underscores bidirectional communication along the microbiota-gut-brain axis in neuropsychiatric disorders. However, the field lacks dedicated metagenomic resources with standardized phenotyping for thes",
     "technicalSummary": "Emerging evidence underscores bidirectional communication along the microbiota-gut-brain axis in neuropsychiatric disorders. However, the field lacks dedicated metagenomic resources with standardized phenotyping for these conditions. Existing single-cohort studies face inherent limitations due to restricted sample sizes, confounding heterogeneity, and methodological fragmentation, compromising reproducibility and mechanistic insights. To overcome these challenges, we constructed the Gut Microbiome in Multinational Integrated Neuropsychiatric Disorders (GutMIND) database, a comprehensive resource integrating shotgun metagenomic data with harmonized metadata. Adhering to a standardized preproc",
-    "laymansExplanation": "GutMIND: A multi-cohort machine learning framework for integrative characteristics of the microbiota-gut-brain axis in neuropsychiatric disorders. from Gut Microbes points to a useful signal for brain health.\n\nFor real life, read this as emerging evidence underscores bidirectional communication along the microbiota-gut-brain axis in neuropsychiatric disorders. However, the field lacks dedicated metagenomic resources with standardized phenotyping for thes\n\nHow to use this now: Prioritize exercise, blood-pressure control, and cognitive engagement as your baseline plan. Good signal here, and it becomes actionable when it aligns with broader evidence and your own metrics.",
+    "laymansExplanation": "Study focus: GutMIND: A multi-cohort machine learning framework for integrative characteristics of the microbiota-gut-brain axis in neuropsychiatric disorders..\n\nWhat the paper suggests: Emerging evidence underscores bidirectional communication along the microbiota-gut-brain axis in neuropsychiatric disorders. However, the field lacks dedicated metagenomic resources with standardized phenotyping for these conditions. Existing single-cohort studies face inherent limitations due to re.\n\nReal-world use: Treat exercise, blood-pressure control, and social/cognitive activity as your non-negotiable baseline. Treat this as one solid input, then look for consistency across related studies.",
     "keyTakeaways": [
-      "Core theme: brain health.",
-      "The effect is only as useful as the study design; methodology determines whether this generalizes.",
-      "Prioritize exercise, blood-pressure control, and cognitive engagement as your baseline plan.",
-      "Good signal here, and it becomes actionable when it aligns with broader evidence and your own metrics."
+      "Main domain: brain health and cognitive resilience.",
+      "Study design quality determines how confidently this result should influence decisions.",
+      "Treat exercise, blood-pressure control, and social/cognitive activity as your non-negotiable baseline.",
+      "Use your own tracked metrics to see whether this evidence changes outcomes that matter to you."
     ],
     "hasExplanation": true,
     "sourceName": "Gut Microbes",
@@ -91,12 +91,12 @@
     "title": "Global commitment on display as countries negotiate key annex to the Pandemic Agreement",
     "excerpt": "Member States of the World Health Organization (WHO) concluded a weeklong round of negotiations on draft annex for Pathogen Access and Benefit Sharing (PABS) – a key component of the WHO Pandemic Agreement. The fifth mee",
     "technicalSummary": "Member States of the World Health Organization (WHO) concluded a weeklong round of negotiations on draft annex for Pathogen Access and Benefit Sharing (PABS) – a key component of the WHO Pandemic Agreement. The fifth meeting of the Intergovernmental Working Group on the WHO Pandemic Agreement (IGWG) – set up by the World Health Assembly (WHA) last year to negotiate the PABS annex – wrapped up over the weekend after productive discussions from 9–14 February 2026.",
-    "laymansExplanation": "Why this matters: Global commitment on display as countries negotiate key annex to the Pandemic Agreement from WHO News gives you a clearer read on infection risk and prevention.\n\nWhat stands out here is Member States of the World Health Organization (WHO) concluded a weeklong round of negotiations on draft annex for Pathogen Access and Benefit Sharing (PABS) – a key component of the WHO Pandemic Agreement. The fifth mee\n\nWhat to do with this: Keep vaccination status and prevention habits up to date, especially during high-risk periods. Consider this an alert, not the final word; pair it with stronger evidence before acting aggressively.",
+    "laymansExplanation": "News brief: Global commitment on display as countries negotiate key annex to the Pandemic Agreement.\n\nWhy this is relevant: it influences infection prevention, where consistent habits and policy both matter. Key context: Member States of the World Health Organization (WHO) concluded a weeklong round of negotiations on draft annex for Pathogen Access and Benefit Sharing (PABS) – a key component of the WHO Pandemic Agreement. The fifth mee.\n\nWhat to do with it: Review vaccination status and practical prevention habits before peak exposure periods.",
     "keyTakeaways": [
-      "Main lens: infection risk and prevention.",
-      "Check who was studied, how long follow-up lasted, and whether outcomes were clinically meaningful.",
-      "Keep vaccination status and prevention habits up to date, especially during high-risk periods.",
-      "Consider this an alert, not the final word; pair it with stronger evidence before acting aggressively."
+      "This is a public-health update, so the main value is timely awareness rather than a personal diagnosis.",
+      "Most useful lens: infection prevention.",
+      "Review vaccination status and practical prevention habits before peak exposure periods.",
+      "Watch follow-up reports to see whether initial claims translate into measurable outcomes."
     ],
     "hasExplanation": true,
     "sourceName": "WHO News",
@@ -118,12 +118,12 @@
     "title": "Statement on the planned hepatitis B birth dose vaccine trial in Guinea-Bissau",
     "excerpt": "WHO statement on a planned hepatitis B birth dose vaccine trial in Guinea-Bissau.",
     "technicalSummary": "WHO statement on a planned hepatitis B birth dose vaccine trial in Guinea-Bissau.",
-    "laymansExplanation": "Statement on the planned hepatitis B birth dose vaccine trial in Guinea-Bissau from WHO News points to a useful signal for infection risk and prevention.\n\nFor real life, read this as wHO statement on a planned hepatitis B birth dose vaccine trial in Guinea-Bissau.\n\nHow to use this now: Keep vaccination status and prevention habits up to date, especially during high-risk periods. Consider this an alert, not the final word; pair it with stronger evidence before acting aggressively.",
+    "laymansExplanation": "News brief: Statement on the planned hepatitis B birth dose vaccine trial in Guinea-Bissau.\n\nWhy this is relevant: it influences infection prevention, where consistent habits and policy both matter. Key context: WHO statement on a planned hepatitis B birth dose vaccine trial in Guinea-Bissau.\n\nWhat to do with it: Review vaccination status and practical prevention habits before peak exposure periods.",
     "keyTakeaways": [
-      "Main lens: infection risk and prevention.",
-      "Check who was studied, how long follow-up lasted, and whether outcomes were clinically meaningful.",
-      "Keep vaccination status and prevention habits up to date, especially during high-risk periods.",
-      "Consider this an alert, not the final word; pair it with stronger evidence before acting aggressively."
+      "This is a public-health update, so the main value is timely awareness rather than a personal diagnosis.",
+      "Most useful lens: infection prevention.",
+      "Review vaccination status and practical prevention habits before peak exposure periods.",
+      "Watch follow-up reports to see whether initial claims translate into measurable outcomes."
     ],
     "hasExplanation": true,
     "sourceName": "WHO News",
@@ -145,12 +145,12 @@
     "title": "One in two people facing cataract blindness need access to life-changing surgery",
     "excerpt": "The World Health Organization (WHO) is urging countries to accelerate efforts to ensure that millions of people living with cataract can access simple, sight‑restoring surgery – one of the most effective and affordable i",
     "technicalSummary": "The World Health Organization (WHO) is urging countries to accelerate efforts to ensure that millions of people living with cataract can access simple, sight‑restoring surgery – one of the most effective and affordable interventions to prevent avoidable blindness.",
-    "laymansExplanation": "One in two people facing cataract blindness need access to life-changing surgery from WHO News points to a useful signal for long-term health outcomes.\n\nFor real life, read this as the World Health Organization (WHO) is urging countries to accelerate efforts to ensure that millions of people living with cataract can access simple, sight‑restoring surgery – one of the most effective and affordable i\n\nHow to use this now: Use this insight to tighten one high-impact habit this week, then reassess in 30 days. Consider this an alert, not the final word; pair it with stronger evidence before acting aggressively.",
+    "laymansExplanation": "News brief: One in two people facing cataract blindness need access to life-changing surgery.\n\nWhy this is relevant: it influences healthy longevity planning, where consistent habits and policy both matter. Key context: The World Health Organization (WHO) is urging countries to accelerate efforts to ensure that millions of people living with cataract can access simple, sight‑restoring surgery – one of the most effective and affordable i.\n\nWhat to do with it: Choose one high-impact habit to tighten this week and review results after 30 days.",
     "keyTakeaways": [
-      "Main lens: long-term health outcomes.",
-      "Check who was studied, how long follow-up lasted, and whether outcomes were clinically meaningful.",
-      "Use this insight to tighten one high-impact habit this week, then reassess in 30 days.",
-      "Consider this an alert, not the final word; pair it with stronger evidence before acting aggressively."
+      "This is a public-health update, so the main value is timely awareness rather than a personal diagnosis.",
+      "Most useful lens: healthy longevity planning.",
+      "Choose one high-impact habit to tighten this week and review results after 30 days.",
+      "Watch follow-up reports to see whether initial claims translate into measurable outcomes."
     ],
     "hasExplanation": true,
     "sourceName": "WHO News",
@@ -172,12 +172,12 @@
     "title": "NIH halts arm of clinical trial evaluating a potential stroke treatment",
     "excerpt": "NIH halts arm of clinical trial evaluating a potential stroke treatment February 10, 2026 — Study found low-dose rivaroxaban to be unsafe and ineffective compared to standard of care.",
     "technicalSummary": "NIH halts arm of clinical trial evaluating a potential stroke treatment February 10, 2026 — Study found low-dose rivaroxaban to be unsafe and ineffective compared to standard of care.",
-    "laymansExplanation": "Bottom line: NIH halts arm of clinical trial evaluating a potential stroke treatment from NIH News is most relevant to long-term health outcomes.\n\nThe practical signal is simple: NIH halts arm of clinical trial evaluating a potential stroke treatment February 10, 2026 — Study found low-dose rivaroxaban to be unsafe and ineffective compared to standard of care.\n\nPractical next step: Use this insight to tighten one high-impact habit this week, then reassess in 30 days. Consider this an alert, not the final word; pair it with stronger evidence before acting aggressively.",
+    "laymansExplanation": "News brief: NIH halts arm of clinical trial evaluating a potential stroke treatment.\n\nWhy this is relevant: it influences cardiovascular health, where consistent habits and policy both matter. Key context: NIH halts arm of clinical trial evaluating a potential stroke treatment February 10, 2026 — Study found low-dose rivaroxaban to be unsafe and ineffective compared to standard of care.\n\nWhat to do with it: Prioritize blood pressure control, cardiorespiratory fitness, and tobacco avoidance as immediate levers.",
     "keyTakeaways": [
-      "Main lens: long-term health outcomes.",
-      "Check who was studied, how long follow-up lasted, and whether outcomes were clinically meaningful.",
-      "Use this insight to tighten one high-impact habit this week, then reassess in 30 days.",
-      "Consider this an alert, not the final word; pair it with stronger evidence before acting aggressively."
+      "This is a public-health update, so the main value is timely awareness rather than a personal diagnosis.",
+      "Most useful lens: cardiovascular health.",
+      "Prioritize blood pressure control, cardiorespiratory fitness, and tobacco avoidance as immediate levers.",
+      "Watch follow-up reports to see whether initial claims translate into measurable outcomes."
     ],
     "hasExplanation": true,
     "sourceName": "NIH News",
@@ -199,12 +199,12 @@
     "title": "Cognitive speed training over weeks may delay the diagnosis of dementia over decades",
     "excerpt": "Cognitive speed training over weeks may delay the diagnosis of dementia over decades February 10, 2026 — NIH-funded effort finds positive outcomes with strategies that engaged mostly unconscious, rather than conscious, t",
     "technicalSummary": "Cognitive speed training over weeks may delay the diagnosis of dementia over decades February 10, 2026 — NIH-funded effort finds positive outcomes with strategies that engaged mostly unconscious, rather than conscious, thinking.",
-    "laymansExplanation": "Quick take: this piece on Cognitive speed training over weeks may delay the diagnosis of dementia over decades from NIH News has practical implications for strength and movement.\n\nIn everyday terms, this suggests cognitive speed training over weeks may delay the diagnosis of dementia over decades February 10, 2026 — NIH-funded effort finds positive outcomes with strategies that engaged mostly unconscious, rather than conscious, t\n\nAction you can take this week: Put 2-3 resistance sessions on your weekly calendar and track progressive overload. Use this as a high-level signal, then verify details in primary data before making major health changes.",
+    "laymansExplanation": "What changed: Cognitive speed training over weeks may delay the diagnosis of dementia over decades.\n\nWhy this matters: the update affects strength and mobility, an area that drives long-term healthspan. Key context: Cognitive speed training over weeks may delay the diagnosis of dementia over decades February 10, 2026 — NIH-funded effort finds positive outcomes with strategies that engaged mostly unconscious, rather than conscious, t.\n\nHow to use this: Schedule two resistance sessions this week and track load or reps so progress is visible.",
     "keyTakeaways": [
-      "Core theme: strength and movement.",
-      "The effect is only as useful as the study design; methodology determines whether this generalizes.",
-      "Put 2-3 resistance sessions on your weekly calendar and track progressive overload.",
-      "Use this as a high-level signal, then verify details in primary data before making major health changes."
+      "This is a public-health update, so the main value is timely awareness rather than a personal diagnosis.",
+      "Most useful lens: strength and mobility.",
+      "Schedule two resistance sessions this week and track load or reps so progress is visible.",
+      "Watch follow-up reports to see whether initial claims translate into measurable outcomes."
     ],
     "hasExplanation": true,
     "sourceName": "NIH News",
@@ -226,12 +226,12 @@
     "title": "NIH scientists develop &quot;digital twin&quot; of eye cells to understand and treat age-related macular degeneration",
     "excerpt": "NIH scientists develop &quot;digital twin&quot; of eye cells to understand and treat age-related macular degeneration February 10, 2026 — Breakthrough modeling technology reveals how cells lose their organization in lead",
     "technicalSummary": "NIH scientists develop &quot;digital twin&quot; of eye cells to understand and treat age-related macular degeneration February 10, 2026 — Breakthrough modeling technology reveals how cells lose their organization in leading cause of vision loss.",
-    "laymansExplanation": "Why this matters: NIH scientists develop &quot;digital twin&quot; of eye cells to understand and treat age-related macular degeneration from NIH News gives you a clearer read on long-term health outcomes.\n\nWhat stands out here is NIH scientists develop digital twin of eye cells to understand and treat age-related macular degeneration February 10, 2026 — Breakthrough modeling technology reveals how cells lose their organization in lead\n\nWhat to do with this: Use this insight to tighten one high-impact habit this week, then reassess in 30 days. Use this as a high-level signal, then verify details in primary data before making major health changes.",
+    "laymansExplanation": "What changed: NIH scientists develop &quot;digital twin&quot; of eye cells to understand and treat age-related macular degeneration.\n\nWhy this matters: the update affects healthy longevity planning, an area that drives long-term healthspan. Key context: NIH scientists develop digital twin of eye cells to understand and treat age-related macular degeneration February 10, 2026 — Breakthrough modeling technology reveals how cells lose their organization in lead.\n\nHow to use this: Choose one high-impact habit to tighten this week and review results after 30 days.",
     "keyTakeaways": [
-      "Core theme: long-term health outcomes.",
-      "The effect is only as useful as the study design; methodology determines whether this generalizes.",
-      "Use this insight to tighten one high-impact habit this week, then reassess in 30 days.",
-      "Use this as a high-level signal, then verify details in primary data before making major health changes."
+      "This is a public-health update, so the main value is timely awareness rather than a personal diagnosis.",
+      "Most useful lens: healthy longevity planning.",
+      "Choose one high-impact habit to tighten this week and review results after 30 days.",
+      "Watch follow-up reports to see whether initial claims translate into measurable outcomes."
     ],
     "hasExplanation": true,
     "sourceName": "NIH News",
@@ -253,12 +253,12 @@
     "title": "Over four million girls still at risk of female genital mutilation: UN leaders call for sustained commitment and investment to end FGM",
     "excerpt": "&lt;h3&gt;Joint statement by the UNFPA Executive Director, UNICEF Executive Director, UN High Commissioner for Human Rights, UN Women Executive Director, WHO Director-General, and UNESCO Director-General on the Internati",
     "technicalSummary": "&lt;h3&gt;Joint statement by the UNFPA Executive Director, UNICEF Executive Director, UN High Commissioner for Human Rights, UN Women Executive Director, WHO Director-General, and UNESCO Director-General on the International Day of Zero Tolerance for Female Genital Mutilation&lt;/h3&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;In 2026 alone, an estimated 4.5&amp;nbsp;million girls &amp;ndash; many under the age of five &amp;ndash; are at risk of undergoing female genital mutilation (FGM). Currently, more than 230&amp;nbsp;million girls and women are living with its lifelong consequences.&lt;/p&gt;&lt;p&gt;Today, on the International Day of Zero Tolerance for Female Genital Mutilation, we reaffir",
-    "laymansExplanation": "Over four million girls still at risk of female genital mutilation: UN leaders call for sustained commitment and investment to end FGM from WHO News points to a useful signal for long-term health outcomes.\n\nFor real life, read this as h3 Joint statement by the UNFPA Executive Director, UNICEF Executive Director, UN High Commissioner for Human Rights, UN Women Executive Director, WHO Director-General, and UNESCO Director-General on the Internati\n\nHow to use this now: Use this insight to tighten one high-impact habit this week, then reassess in 30 days. Use this as a high-level signal, then verify details in primary data before making major health changes.",
+    "laymansExplanation": "What changed: Over four million girls still at risk of female genital mutilation: UN leaders call for sustained commitment and investment to end FGM.\n\nWhy this matters: the update affects healthy longevity planning, an area that drives long-term healthspan. Key context: h3 Joint statement by the UNFPA Executive Director, UNICEF Executive Director, UN High Commissioner for Human Rights, UN Women Executive Director, WHO Director-General, and UNESCO Director-General on the Internati.\n\nHow to use this: Choose one high-impact habit to tighten this week and review results after 30 days.",
     "keyTakeaways": [
-      "Core theme: long-term health outcomes.",
-      "The effect is only as useful as the study design; methodology determines whether this generalizes.",
-      "Use this insight to tighten one high-impact habit this week, then reassess in 30 days.",
-      "Use this as a high-level signal, then verify details in primary data before making major health changes."
+      "This is a public-health update, so the main value is timely awareness rather than a personal diagnosis.",
+      "Most useful lens: healthy longevity planning.",
+      "Choose one high-impact habit to tighten this week and review results after 30 days.",
+      "Watch follow-up reports to see whether initial claims translate into measurable outcomes."
     ],
     "hasExplanation": true,
     "sourceName": "WHO News",
@@ -285,12 +285,12 @@
     "title": "Preventive cholera vaccination resumes as global supply reaches critical milestone",
     "excerpt": "First preventive campaign in over three years launches in Mozambique, with others planned in Bangladesh and the Democratic Republic of the Congo",
     "technicalSummary": "First preventive campaign in over three years launches in Mozambique, with others planned in Bangladesh and the Democratic Republic of the Congo",
-    "laymansExplanation": "Preventive cholera vaccination resumes as global supply reaches critical milestone from WHO News points to a useful signal for infection risk and prevention.\n\nFor real life, read this as first preventive campaign in over three years launches in Mozambique, with others planned in Bangladesh and the Democratic Republic of the Congo\n\nHow to use this now: Keep vaccination status and prevention habits up to date, especially during high-risk periods. Use this as a high-level signal, then verify details in primary data before making major health changes.",
+    "laymansExplanation": "What changed: Preventive cholera vaccination resumes as global supply reaches critical milestone.\n\nWhy this matters: the update affects infection prevention, an area that drives long-term healthspan. Key context: First preventive campaign in over three years launches in Mozambique, with others planned in Bangladesh and the Democratic Republic of the Congo.\n\nHow to use this: Review vaccination status and practical prevention habits before peak exposure periods.",
     "keyTakeaways": [
-      "Core theme: infection risk and prevention.",
-      "The effect is only as useful as the study design; methodology determines whether this generalizes.",
-      "Keep vaccination status and prevention habits up to date, especially during high-risk periods.",
-      "Use this as a high-level signal, then verify details in primary data before making major health changes."
+      "This is a public-health update, so the main value is timely awareness rather than a personal diagnosis.",
+      "Most useful lens: infection prevention.",
+      "Review vaccination status and practical prevention habits before peak exposure periods.",
+      "Watch follow-up reports to see whether initial claims translate into measurable outcomes."
     ],
     "hasExplanation": true,
     "sourceName": "WHO News",
@@ -312,12 +312,12 @@
     "title": "NIH opens East Palestine Health Research Office to study train disaster",
     "excerpt": "NIH opens East Palestine Health Research Office to study train disaster February 4, 2026 — Three years ago, a train derailment spilled hazardous chemicals into the Ohio community.",
     "technicalSummary": "NIH opens East Palestine Health Research Office to study train disaster February 4, 2026 — Three years ago, a train derailment spilled hazardous chemicals into the Ohio community.",
-    "laymansExplanation": "Bottom line: NIH opens East Palestine Health Research Office to study train disaster from NIH News is most relevant to long-term health outcomes.\n\nThe practical signal is simple: NIH opens East Palestine Health Research Office to study train disaster February 4, 2026 — Three years ago, a train derailment spilled hazardous chemicals into the Ohio community.\n\nPractical next step: Use this insight to tighten one high-impact habit this week, then reassess in 30 days. Use this as a high-level signal, then verify details in primary data before making major health changes.",
+    "laymansExplanation": "What changed: NIH opens East Palestine Health Research Office to study train disaster.\n\nWhy this matters: the update affects environmental risk reduction, an area that drives long-term healthspan. Key context: NIH opens East Palestine Health Research Office to study train disaster February 4, 2026 — Three years ago, a train derailment spilled hazardous chemicals into the Ohio community.\n\nHow to use this: Audit indoor/workplace exposures and remove avoidable pollution sources where possible.",
     "keyTakeaways": [
-      "Core theme: long-term health outcomes.",
-      "The effect is only as useful as the study design; methodology determines whether this generalizes.",
-      "Use this insight to tighten one high-impact habit this week, then reassess in 30 days.",
-      "Use this as a high-level signal, then verify details in primary data before making major health changes."
+      "This is a public-health update, so the main value is timely awareness rather than a personal diagnosis.",
+      "Most useful lens: environmental risk reduction.",
+      "Audit indoor/workplace exposures and remove avoidable pollution sources where possible.",
+      "Watch follow-up reports to see whether initial claims translate into measurable outcomes."
     ],
     "hasExplanation": true,
     "sourceName": "NIH News",
@@ -339,12 +339,12 @@
     "title": "Four in ten cancer cases could be prevented globally",
     "excerpt": "Up to four in ten cancer cases worldwide could be prevented, according to a new global analysis from the World Health Organization (WHO) and its International Agency for Research on Cancer (IARC). The study examines 30 p",
     "technicalSummary": "Up to four in ten cancer cases worldwide could be prevented, according to a new global analysis from the World Health Organization (WHO) and its International Agency for Research on Cancer (IARC). The study examines 30 preventable causes, including tobacco, alcohol, high body mass index, physical inactivity, air pollution, ultraviolet radiation – and for the first time – nine cancer-causing infections.",
-    "laymansExplanation": "Bottom line: Four in ten cancer cases could be prevented globally from WHO News is most relevant to cancer prevention and early detection.\n\nThe practical signal is simple: Up to four in ten cancer cases worldwide could be prevented, according to a new global analysis from the World Health Organization (WHO) and its International Agency for Research on Cancer (IARC). The study examines 30 p\n\nPractical next step: Use this as a cue to stay current on age-appropriate screening and risk-factor reduction. Use this as a high-level signal, then verify details in primary data before making major health changes.",
+    "laymansExplanation": "What changed: Four in ten cancer cases could be prevented globally.\n\nWhy this matters: the update affects cancer prevention or early detection, an area that drives long-term healthspan. Key context: Up to four in ten cancer cases worldwide could be prevented, according to a new global analysis from the World Health Organization (WHO) and its International Agency for Research on Cancer (IARC). The study examines 30 p.\n\nHow to use this: Use this as a reminder to stay current on screening and reduce major modifiable risks.",
     "keyTakeaways": [
-      "Core theme: cancer prevention and early detection.",
-      "The effect is only as useful as the study design; methodology determines whether this generalizes.",
-      "Use this as a cue to stay current on age-appropriate screening and risk-factor reduction.",
-      "Use this as a high-level signal, then verify details in primary data before making major health changes."
+      "This is a public-health update, so the main value is timely awareness rather than a personal diagnosis.",
+      "Most useful lens: cancer prevention or early detection.",
+      "Use this as a reminder to stay current on screening and reduce major modifiable risks.",
+      "Watch follow-up reports to see whether initial claims translate into measurable outcomes."
     ],
     "hasExplanation": true,
     "sourceName": "WHO News",
@@ -366,12 +366,12 @@
     "title": "Researchers identify new blood markers that may detect early pancreatic cancer",
     "excerpt": "Researchers identify new blood markers that may detect early pancreatic cancer January 30, 2026 — NIH-funded, four-marker panel could one day help catch one of deadliest cancers at more treatable stages.",
     "technicalSummary": "Researchers identify new blood markers that may detect early pancreatic cancer January 30, 2026 — NIH-funded, four-marker panel could one day help catch one of deadliest cancers at more treatable stages.",
-    "laymansExplanation": "Researchers identify new blood markers that may detect early pancreatic cancer from NIH News points to a useful signal for cancer prevention and early detection.\n\nFor real life, read this as researchers identify new blood markers that may detect early pancreatic cancer January 30, 2026 — NIH-funded, four-marker panel could one day help catch one of deadliest cancers at more treatable stages.\n\nHow to use this now: Use this as a cue to stay current on age-appropriate screening and risk-factor reduction. Consider this an alert, not the final word; pair it with stronger evidence before acting aggressively.",
+    "laymansExplanation": "News brief: Researchers identify new blood markers that may detect early pancreatic cancer.\n\nWhy this is relevant: it influences cancer prevention or early detection, where consistent habits and policy both matter. Key context: Researchers identify new blood markers that may detect early pancreatic cancer January 30, 2026 — NIH-funded, four-marker panel could one day help catch one of deadliest cancers at more treatable stages.\n\nWhat to do with it: Use this as a reminder to stay current on screening and reduce major modifiable risks.",
     "keyTakeaways": [
-      "Main lens: cancer prevention and early detection.",
-      "Check who was studied, how long follow-up lasted, and whether outcomes were clinically meaningful.",
-      "Use this as a cue to stay current on age-appropriate screening and risk-factor reduction.",
-      "Consider this an alert, not the final word; pair it with stronger evidence before acting aggressively."
+      "This is a public-health update, so the main value is timely awareness rather than a personal diagnosis.",
+      "Most useful lens: cancer prevention or early detection.",
+      "Use this as a reminder to stay current on screening and reduce major modifiable risks.",
+      "Watch follow-up reports to see whether initial claims translate into measurable outcomes."
     ],
     "hasExplanation": true,
     "sourceName": "NIH News",
@@ -393,12 +393,12 @@
     "title": "Strength Training and Healthy Aging: Why Muscle Matters More Than You Think",
     "excerpt": "A review of aging research shows that preserving muscle mass is strongly linked to metabolic health and long-term independence.",
     "technicalSummary": "Across longitudinal cohorts and intervention trials, maintaining lean mass and strength is associated with lower frailty risk, improved insulin sensitivity, and reduced all-cause mortality markers in older adults.",
-    "laymansExplanation": "Quick take: this piece on Strength Training and Healthy Aging: Why Muscle Matters More Than You Think from PubMed has practical implications for strength and movement.\n\nIn everyday terms, this suggests a review of aging research shows that preserving muscle mass is strongly linked to metabolic health and long-term independence.\n\nAction you can take this week: Put 2-3 resistance sessions on your weekly calendar and track progressive overload. Good signal here, and it becomes actionable when it aligns with broader evidence and your own metrics.",
+    "laymansExplanation": "Study focus: Strength Training and Healthy Aging: Why Muscle Matters More Than You Think.\n\nWhat the paper suggests: Across longitudinal cohorts and intervention trials, maintaining lean mass and strength is associated with lower frailty risk, improved insulin sensitivity, and reduced all-cause mortality markers in older adults.\n\nReal-world use: Schedule two resistance sessions this week and track load or reps so progress is visible. Treat this as one solid input, then look for consistency across related studies.",
     "keyTakeaways": [
-      "Core theme: strength and movement.",
-      "The effect is only as useful as the study design; methodology determines whether this generalizes.",
-      "Put 2-3 resistance sessions on your weekly calendar and track progressive overload.",
-      "Good signal here, and it becomes actionable when it aligns with broader evidence and your own metrics."
+      "Main domain: strength and mobility.",
+      "Study design quality determines how confidently this result should influence decisions.",
+      "Schedule two resistance sessions this week and track load or reps so progress is visible.",
+      "Use your own tracked metrics to see whether this evidence changes outcomes that matter to you."
     ],
     "hasExplanation": true,
     "sourceName": "PubMed",
@@ -426,12 +426,12 @@
     "title": "NIH-funded study clearly ties risk of dementia to severe CTE",
     "excerpt": "NIH-funded study clearly ties risk of dementia to severe CTE January 27, 2026 — Study provides clearest evidence to date to link severe CTE to dementia risk.",
     "technicalSummary": "NIH-funded study clearly ties risk of dementia to severe CTE January 27, 2026 — Study provides clearest evidence to date to link severe CTE to dementia risk.",
-    "laymansExplanation": "Quick take: this piece on NIH-funded study clearly ties risk of dementia to severe CTE from NIH News has practical implications for brain health.\n\nIn everyday terms, this suggests nIH-funded study clearly ties risk of dementia to severe CTE January 27, 2026 — Study provides clearest evidence to date to link severe CTE to dementia risk.\n\nAction you can take this week: Prioritize exercise, blood-pressure control, and cognitive engagement as your baseline plan. Use this as a high-level signal, then verify details in primary data before making major health changes.",
+    "laymansExplanation": "What changed: NIH-funded study clearly ties risk of dementia to severe CTE.\n\nWhy this matters: the update affects brain health and cognitive resilience, an area that drives long-term healthspan. Key context: NIH-funded study clearly ties risk of dementia to severe CTE January 27, 2026 — Study provides clearest evidence to date to link severe CTE to dementia risk.\n\nHow to use this: Treat exercise, blood-pressure control, and social/cognitive activity as your non-negotiable baseline.",
     "keyTakeaways": [
-      "Core theme: brain health.",
-      "The effect is only as useful as the study design; methodology determines whether this generalizes.",
-      "Prioritize exercise, blood-pressure control, and cognitive engagement as your baseline plan.",
-      "Use this as a high-level signal, then verify details in primary data before making major health changes."
+      "This is a public-health update, so the main value is timely awareness rather than a personal diagnosis.",
+      "Most useful lens: brain health and cognitive resilience.",
+      "Treat exercise, blood-pressure control, and social/cognitive activity as your non-negotiable baseline.",
+      "Watch follow-up reports to see whether initial claims translate into measurable outcomes."
     ],
     "hasExplanation": true,
     "sourceName": "NIH News",
@@ -453,12 +453,12 @@
     "title": "NIH Proposes Embryonic Stem Cell Research Shift to Put Patients First",
     "excerpt": "NIH Proposes Embryonic Stem Cell Research Shift to Put Patients First January 23, 2026 — Agency seeks public comment on the robustness of emerging biotechnologies to reduce or potentially replace remaining research relia",
     "technicalSummary": "NIH Proposes Embryonic Stem Cell Research Shift to Put Patients First January 23, 2026 — Agency seeks public comment on the robustness of emerging biotechnologies to reduce or potentially replace remaining research reliance on human embryonic stem cells.",
-    "laymansExplanation": "Bottom line: NIH Proposes Embryonic Stem Cell Research Shift to Put Patients First from NIH News is most relevant to long-term health outcomes.\n\nThe practical signal is simple: NIH Proposes Embryonic Stem Cell Research Shift to Put Patients First January 23, 2026 — Agency seeks public comment on the robustness of emerging biotechnologies to reduce or potentially replace remaining research relia\n\nPractical next step: Use this insight to tighten one high-impact habit this week, then reassess in 30 days. News coverage is useful for awareness, but major personal decisions still need deeper evidence and clinician context.",
+    "laymansExplanation": "Today's update: NIH Proposes Embryonic Stem Cell Research Shift to Put Patients First.\n\nWhy it matters for longevity: this connects to healthy longevity planning, which compounds over years, not days. Key context: NIH Proposes Embryonic Stem Cell Research Shift to Put Patients First January 23, 2026 — Agency seeks public comment on the robustness of emerging biotechnologies to reduce or potentially replace remaining research relia.\n\nPractical move: Choose one high-impact habit to tighten this week and review results after 30 days.",
     "keyTakeaways": [
-      "Primary focus: long-term health outcomes.",
-      "Before applying the result, look at sample size, controls, and whether effects were large enough to matter.",
-      "Use this insight to tighten one high-impact habit this week, then reassess in 30 days.",
-      "News coverage is useful for awareness, but major personal decisions still need deeper evidence and clinician context."
+      "This is a public-health update, so the main value is timely awareness rather than a personal diagnosis.",
+      "Most useful lens: healthy longevity planning.",
+      "Choose one high-impact habit to tighten this week and review results after 30 days.",
+      "Watch follow-up reports to see whether initial claims translate into measurable outcomes."
     ],
     "hasExplanation": true,
     "sourceName": "NIH News",
@@ -480,12 +480,12 @@
     "title": "NIH Announces Major Policy Shift to End Use of Human Fetal Tissue in NIH-Supported Research",
     "excerpt": "NIH Announces Major Policy Shift to End Use of Human Fetal Tissue in NIH-Supported Research January 22, 2026 — Agency to focus on next-generation, validated research models.",
     "technicalSummary": "NIH Announces Major Policy Shift to End Use of Human Fetal Tissue in NIH-Supported Research January 22, 2026 — Agency to focus on next-generation, validated research models.",
-    "laymansExplanation": "NIH Announces Major Policy Shift to End Use of Human Fetal Tissue in NIH-Supported Research from NIH News points to a useful signal for long-term health outcomes.\n\nFor real life, read this as nIH Announces Major Policy Shift to End Use of Human Fetal Tissue in NIH-Supported Research January 22, 2026 — Agency to focus on next-generation, validated research models.\n\nHow to use this now: Use this insight to tighten one high-impact habit this week, then reassess in 30 days. Use this as a high-level signal, then verify details in primary data before making major health changes.",
+    "laymansExplanation": "What changed: NIH Announces Major Policy Shift to End Use of Human Fetal Tissue in NIH-Supported Research.\n\nWhy this matters: the update affects healthy longevity planning, an area that drives long-term healthspan. Key context: NIH Announces Major Policy Shift to End Use of Human Fetal Tissue in NIH-Supported Research January 22, 2026 — Agency to focus on next-generation, validated research models.\n\nHow to use this: Choose one high-impact habit to tighten this week and review results after 30 days.",
     "keyTakeaways": [
-      "Core theme: long-term health outcomes.",
-      "The effect is only as useful as the study design; methodology determines whether this generalizes.",
-      "Use this insight to tighten one high-impact habit this week, then reassess in 30 days.",
-      "Use this as a high-level signal, then verify details in primary data before making major health changes."
+      "This is a public-health update, so the main value is timely awareness rather than a personal diagnosis.",
+      "Most useful lens: healthy longevity planning.",
+      "Choose one high-impact habit to tighten this week and review results after 30 days.",
+      "Watch follow-up reports to see whether initial claims translate into measurable outcomes."
     ],
     "hasExplanation": true,
     "sourceName": "NIH News",
@@ -507,12 +507,12 @@
     "title": "Implementation and first results of the Czech nationwide prostate cancer screening pilot programme",
     "excerpt": "BackgroundIn 2022, the European Union recommended piloting organised prostate cancer screening. Subsequently, the Czech Republic launched a nationwide pilot programme fully reimbursed by public health insurance in Januar",
     "technicalSummary": "BackgroundIn 2022, the European Union recommended piloting organised prostate cancer screening. Subsequently, the Czech Republic launched a nationwide pilot programme fully reimbursed by public health insurance in January 2024 to reduce the high incidence of late-stage prostate cancer and the widespread unorganised prostate-specific antigen (PSA) testing.\n\nObjectiveTo describe the strategy, methodology, and first results of the Czech nationwide prostate cancer screening pilot programme.\n\nMethodsWe analysed data from the first 12 months of the programme, which targets men aged 50-69 years without a previous prostate cancer diagnosis. General practitioners and urologists offer men an initial P",
-    "laymansExplanation": "Bottom line: Implementation and first results of the Czech nationwide prostate cancer screening pilot programme from medRxiv is most relevant to cancer prevention and early detection.\n\nThe practical signal is simple: BackgroundIn 2022, the European Union recommended piloting organised prostate cancer screening. Subsequently, the Czech Republic launched a nationwide pilot programme fully reimbursed by public health insurance in Januar\n\nPractical next step: Use this as a cue to stay current on age-appropriate screening and risk-factor reduction. Good signal here, and it becomes actionable when it aligns with broader evidence and your own metrics.",
+    "laymansExplanation": "Study focus: Implementation and first results of the Czech nationwide prostate cancer screening pilot programme.\n\nWhat the paper suggests: BackgroundIn 2022, the European Union recommended piloting organised prostate cancer screening. Subsequently, the Czech Republic launched a nationwide pilot programme fully reimbursed by public health insurance in January 2024 to reduce the high incidence of late-stage prostate cancer and the widesp.\n\nReal-world use: Use this as a reminder to stay current on screening and reduce major modifiable risks. Because this is a preprint, treat it as promising but provisional until peer-reviewed confirmation arrives.",
     "keyTakeaways": [
-      "Core theme: cancer prevention and early detection.",
-      "The effect is only as useful as the study design; methodology determines whether this generalizes.",
-      "Use this as a cue to stay current on age-appropriate screening and risk-factor reduction.",
-      "Good signal here, and it becomes actionable when it aligns with broader evidence and your own metrics."
+      "Main domain: cancer prevention or early detection.",
+      "Preprints can be useful early signals, but confidence should rise only with review and replication.",
+      "Use this as a reminder to stay current on screening and reduce major modifiable risks.",
+      "Use your own tracked metrics to see whether this evidence changes outcomes that matter to you."
     ],
     "hasExplanation": true,
     "sourceName": "medRxiv",
@@ -534,12 +534,12 @@
     "title": "LLM-based Multi-Agent Collaboration for Abstract Screening towards Automated Systematic Reviews",
     "excerpt": "ObjectiveSystematic reviews (SRs) are essential for evidence-based practice but remain labor-intensive, especially during abstract screening. This study evaluates whether multiple large language model (multi-LLM) collabo",
     "technicalSummary": "ObjectiveSystematic reviews (SRs) are essential for evidence-based practice but remain labor-intensive, especially during abstract screening. This study evaluates whether multiple large language model (multi-LLM) collaboration can improve the efficiency and reduce costs for abstract screening.\n\nMethodsAbstract screening was framed as a question-answering (QA) task using cost-effective LLMs. Three multi-LLM collaboration strategies were evaluated, including majority voting by averaging opinions of peers, multi-agent debate (MAD) for answer refinement, and LLM-based adjudication against answers of individual QA baselines. These strategies were evaluated on 28 SRs of the CLEF eHealth 2019 Techn",
-    "laymansExplanation": "LLM-based Multi-Agent Collaboration for Abstract Screening towards Automated Systematic Reviews from medRxiv points to a useful signal for long-term health outcomes.\n\nFor real life, read this as objectiveSystematic reviews (SRs) are essential for evidence-based practice but remain labor-intensive, especially during abstract screening. This study evaluates whether multiple large language model (multi-LLM) collabo\n\nHow to use this now: Use this insight to tighten one high-impact habit this week, then reassess in 30 days. Good signal here, and it becomes actionable when it aligns with broader evidence and your own metrics.",
+    "laymansExplanation": "Study focus: LLM-based Multi-Agent Collaboration for Abstract Screening towards Automated Systematic Reviews.\n\nWhat the paper suggests: ObjectiveSystematic reviews (SRs) are essential for evidence-based practice but remain labor-intensive, especially during abstract screening. This study evaluates whether multiple large language model (multi-LLM) collaboration can improve the efficiency and reduce costs for abstract screening. Metho.\n\nReal-world use: Choose one high-impact habit to tighten this week and review results after 30 days. Because this is a preprint, treat it as promising but provisional until peer-reviewed confirmation arrives.",
     "keyTakeaways": [
-      "Core theme: long-term health outcomes.",
-      "The effect is only as useful as the study design; methodology determines whether this generalizes.",
-      "Use this insight to tighten one high-impact habit this week, then reassess in 30 days.",
-      "Good signal here, and it becomes actionable when it aligns with broader evidence and your own metrics."
+      "Main domain: healthy longevity planning.",
+      "Preprints can be useful early signals, but confidence should rise only with review and replication.",
+      "Choose one high-impact habit to tighten this week and review results after 30 days.",
+      "Use your own tracked metrics to see whether this evidence changes outcomes that matter to you."
     ],
     "hasExplanation": true,
     "sourceName": "medRxiv",
@@ -566,12 +566,12 @@
     "title": "Per-allele disease and complex trait effect sizes are predominantly African MAF-dependent in European populations",
     "excerpt": "Understanding genetic architectures of disease is fundamental to partitioning heritability, polygenic risk prediction, and statistical fine-mapping. Genetic architectures of disease in European populations have been show",
     "technicalSummary": "Understanding genetic architectures of disease is fundamental to partitioning heritability, polygenic risk prediction, and statistical fine-mapping. Genetic architectures of disease in European populations have been shown to depend on European minor allele frequency (MAF): SNPs with lower MAF have larger per-allele effects, due to the action of negative selection. However, we hypothesized that African MAF (defined using African-ancestry segments in African Americans), which is not distorted by the out-of-Africa bottleneck, might better predict per-allele effect sizes of common genetic variation in European populations; we note that common variants explaining most disease heritability are typ",
-    "laymansExplanation": "Bottom line: Per-allele disease and complex trait effect sizes are predominantly African MAF-dependent in European populations from medRxiv is most relevant to genetic risk.\n\nThe practical signal is simple: Understanding genetic architectures of disease is fundamental to partitioning heritability, polygenic risk prediction, and statistical fine-mapping. Genetic architectures of disease in European populations have been show\n\nPractical next step: Treat genetics as risk context, not destiny, and focus on modifiable daily behaviors. The strongest move is to treat this as one important data point and stack it with replication over time.",
+    "laymansExplanation": "Evidence snapshot: Per-allele disease and complex trait effect sizes are predominantly African MAF-dependent in European populations.\n\nWhat the paper suggests: Understanding genetic architectures of disease is fundamental to partitioning heritability, polygenic risk prediction, and statistical fine-mapping. Genetic architectures of disease in European populations have been shown to depend on European minor allele frequency (MAF): SNPs with lower MAF have l.\n\nReal-world use: Use genetic information for context, then prioritize behaviors that still move risk in your favor. Because this is a preprint, treat it as promising but provisional until peer-reviewed confirmation arrives.",
     "keyTakeaways": [
-      "Main lens: genetic risk.",
-      "Check who was studied, how long follow-up lasted, and whether outcomes were clinically meaningful.",
-      "Treat genetics as risk context, not destiny, and focus on modifiable daily behaviors.",
-      "The strongest move is to treat this as one important data point and stack it with replication over time."
+      "Main domain: genetic risk insight.",
+      "Preprints can be useful early signals, but confidence should rise only with review and replication.",
+      "Use genetic information for context, then prioritize behaviors that still move risk in your favor.",
+      "Use your own tracked metrics to see whether this evidence changes outcomes that matter to you."
     ],
     "hasExplanation": true,
     "sourceName": "medRxiv",
@@ -593,12 +593,12 @@
     "title": "Genetic Nurture in Intergenerational Transmission of Substance Use",
     "excerpt": "Substance use runs in families. Beyond genetic transmission, parental genetics can indirectly influence offspring substance use through the rearing environment, known as \"genetic nurture\". This study utilized transmitted",
     "technicalSummary": "Substance use runs in families. Beyond genetic transmission, parental genetics can indirectly influence offspring substance use through the rearing environment, known as \"genetic nurture\". This study utilized transmitted and non-transmitted polygenic scores to investigate genetic nurture on tobacco, alcohol, and cannabis use in up to 15,863 adults with at least one genotyped parent from Lifelines, a population-based cohort study. Genetic nurture significantly influenced cigarettes per day (CPD, {beta}=.037, pFDR=.020) and pack-years ({beta}=.028, pFDR =.035), accounting for 22-26% of direct genetic transmission effects. Longitudinal analysis revealed that genetic nurture on current CPD persi",
-    "laymansExplanation": "Quick take: this piece on Genetic Nurture in Intergenerational Transmission of Substance Use from medRxiv has practical implications for genetic risk.\n\nIn everyday terms, this suggests substance use runs in families. Beyond genetic transmission, parental genetics can indirectly influence offspring substance use through the rearing environment, known as \"genetic nurture\". This study utilized transmitted\n\nAction you can take this week: Treat genetics as risk context, not destiny, and focus on modifiable daily behaviors. Good signal here, and it becomes actionable when it aligns with broader evidence and your own metrics.",
+    "laymansExplanation": "Study focus: Genetic Nurture in Intergenerational Transmission of Substance Use.\n\nWhat the paper suggests: Substance use runs in families. Beyond genetic transmission, parental genetics can indirectly influence offspring substance use through the rearing environment, known as \"genetic nurture\". This study utilized transmitted and non-transmitted polygenic scores to investigate genetic nurture on tobacco,.\n\nReal-world use: Use genetic information for context, then prioritize behaviors that still move risk in your favor. Because this is a preprint, treat it as promising but provisional until peer-reviewed confirmation arrives.",
     "keyTakeaways": [
-      "Core theme: genetic risk.",
-      "The effect is only as useful as the study design; methodology determines whether this generalizes.",
-      "Treat genetics as risk context, not destiny, and focus on modifiable daily behaviors.",
-      "Good signal here, and it becomes actionable when it aligns with broader evidence and your own metrics."
+      "Main domain: genetic risk insight.",
+      "Preprints can be useful early signals, but confidence should rise only with review and replication.",
+      "Use genetic information for context, then prioritize behaviors that still move risk in your favor.",
+      "Use your own tracked metrics to see whether this evidence changes outcomes that matter to you."
     ],
     "hasExplanation": true,
     "sourceName": "medRxiv",
@@ -620,12 +620,12 @@
     "title": "Workplace Pollution and Risk of Incident Coronary Artery Disease",
     "excerpt": "ImportanceGenetic factors only explain [~]50% of an individuals lifetime CAD risk. Workplace pollution exposure likely represents a significant, under-recognized, and modifiable contributor. Clarifying its independent ef",
     "technicalSummary": "ImportanceGenetic factors only explain [~]50% of an individuals lifetime CAD risk. Workplace pollution exposure likely represents a significant, under-recognized, and modifiable contributor. Clarifying its independent effect - distinct from residential air pollution - could inform targeted prevention, clinical risk assessment, and policy strategies.\n\nObjectiveTo quantify the independent association between workplace pollution exposure and incident CAD, rigorously adjusting for canonical risk factors, genetic risk, socioeconomic deprivation index, and residential air pollution.\n\nDesign, Setting, and ParticipantsA prospective cohort analysis of 103,599 adults in the UK Biobank with complete ba",
-    "laymansExplanation": "Quick take: this piece on Workplace Pollution and Risk of Incident Coronary Artery Disease from medRxiv has practical implications for genetic risk.\n\nIn everyday terms, this suggests importanceGenetic factors only explain [~]50% of an individuals lifetime CAD risk. Workplace pollution exposure likely represents a significant, under-recognized, and modifiable contributor. Clarifying its independent ef\n\nAction you can take this week: Treat genetics as risk context, not destiny, and focus on modifiable daily behaviors. The strongest move is to treat this as one important data point and stack it with replication over time.",
+    "laymansExplanation": "Evidence snapshot: Workplace Pollution and Risk of Incident Coronary Artery Disease.\n\nWhat the paper suggests: ImportanceGenetic factors only explain [~]50% of an individuals lifetime CAD risk. Workplace pollution exposure likely represents a significant, under-recognized, and modifiable contributor. Clarifying its independent effect - distinct from residential air pollution - could inform targeted preventio.\n\nReal-world use: Prioritize blood pressure control, cardiorespiratory fitness, and tobacco avoidance as immediate levers. Because this is a preprint, treat it as promising but provisional until peer-reviewed confirmation arrives.",
     "keyTakeaways": [
-      "Main lens: genetic risk.",
-      "Check who was studied, how long follow-up lasted, and whether outcomes were clinically meaningful.",
-      "Treat genetics as risk context, not destiny, and focus on modifiable daily behaviors.",
-      "The strongest move is to treat this as one important data point and stack it with replication over time."
+      "Main domain: cardiovascular health.",
+      "Preprints can be useful early signals, but confidence should rise only with review and replication.",
+      "Prioritize blood pressure control, cardiorespiratory fitness, and tobacco avoidance as immediate levers.",
+      "Use your own tracked metrics to see whether this evidence changes outcomes that matter to you."
     ],
     "hasExplanation": true,
     "sourceName": "medRxiv",
@@ -652,12 +652,12 @@
     "title": "Post-vaccination chemosensory outcomes in COVID-19-associated dysfunction",
     "excerpt": "Olfactory and taste dysfunction are common symptoms of COVID-19 and post-acute COVID-19 syndrome, yet the effects of COVID-19 vaccines on chemosensory perception remain incompletely understood. This global, multilingual,",
     "technicalSummary": "Olfactory and taste dysfunction are common symptoms of COVID-19 and post-acute COVID-19 syndrome, yet the effects of COVID-19 vaccines on chemosensory perception remain incompletely understood. This global, multilingual, online survey assessed post-vaccination changes in chemosensory function among individuals with and without COVID-19-related chemosensory impairment. Between May 2022 and August 2023, 2,955 responses were collected via convenience sampling, of which 1,352 were included in the analyses. Participants reported vaccination status, side effects, and chemosensory function before and after each vaccine dose. Pfizer-BioNTech accounted for 46.2% of doses, followed by Sputnik V (16.3%",
-    "laymansExplanation": "Quick take: this piece on Post-vaccination chemosensory outcomes in COVID-19-associated dysfunction from medRxiv has practical implications for infection risk and prevention.\n\nIn everyday terms, this suggests olfactory and taste dysfunction are common symptoms of COVID-19 and post-acute COVID-19 syndrome, yet the effects of COVID-19 vaccines on chemosensory perception remain incompletely understood. This global, multilingual,\n\nAction you can take this week: Keep vaccination status and prevention habits up to date, especially during high-risk periods. The strongest move is to treat this as one important data point and stack it with replication over time.",
+    "laymansExplanation": "Evidence snapshot: Post-vaccination chemosensory outcomes in COVID-19-associated dysfunction.\n\nWhat the paper suggests: Olfactory and taste dysfunction are common symptoms of COVID-19 and post-acute COVID-19 syndrome, yet the effects of COVID-19 vaccines on chemosensory perception remain incompletely understood. This global, multilingual, online survey assessed post-vaccination changes in chemosensory function among .\n\nReal-world use: Treat exercise, blood-pressure control, and social/cognitive activity as your non-negotiable baseline. Because this is a preprint, treat it as promising but provisional until peer-reviewed confirmation arrives.",
     "keyTakeaways": [
-      "Main lens: infection risk and prevention.",
-      "Check who was studied, how long follow-up lasted, and whether outcomes were clinically meaningful.",
-      "Keep vaccination status and prevention habits up to date, especially during high-risk periods.",
-      "The strongest move is to treat this as one important data point and stack it with replication over time."
+      "Main domain: brain health and cognitive resilience.",
+      "Preprints can be useful early signals, but confidence should rise only with review and replication.",
+      "Treat exercise, blood-pressure control, and social/cognitive activity as your non-negotiable baseline.",
+      "Use your own tracked metrics to see whether this evidence changes outcomes that matter to you."
     ],
     "hasExplanation": true,
     "sourceName": "medRxiv",
@@ -679,12 +679,12 @@
     "title": "Automated Sleep Stage and Event Detection Algorithms Using Quality-Controlled PSG Annotations",
     "excerpt": "Study ObjectivesTo develop machine-learning models for sleep stage classification, arousal detection, and respiratory event detection from overnight polysomnography, and to evaluate their performance relative to expert s",
     "technicalSummary": "Study ObjectivesTo develop machine-learning models for sleep stage classification, arousal detection, and respiratory event detection from overnight polysomnography, and to evaluate their performance relative to expert scorers.\n\nMethodsOvernight polysomnography recordings were obtained from healthy participants and participants referred for suspected sleep-disordered breathing. Four certified scorers completed calibration sessions and generated reference annotations for sleep stages, arousals, and respiratory events. A subset of recordings was independently annotated by all scorers to support consensus analyses, enabling direct comparison between model outputs and human inter-scorer agreemen",
-    "laymansExplanation": "Quick take: this piece on Automated Sleep Stage and Event Detection Algorithms Using Quality-Controlled PSG Annotations from medRxiv has practical implications for sleep quality.\n\nIn everyday terms, this suggests study ObjectivesTo develop machine-learning models for sleep stage classification, arousal detection, and respiratory event detection from overnight polysomnography, and to evaluate their performance relative to expert s\n\nAction you can take this week: Set a fixed wake time for 14 days and optimize bedroom light/noise before adding supplements. Good signal here, and it becomes actionable when it aligns with broader evidence and your own metrics.",
+    "laymansExplanation": "Study focus: Automated Sleep Stage and Event Detection Algorithms Using Quality-Controlled PSG Annotations.\n\nWhat the paper suggests: Study ObjectivesTo develop machine-learning models for sleep stage classification, arousal detection, and respiratory event detection from overnight polysomnography, and to evaluate their performance relative to expert scorers. MethodsOvernight polysomnography recordings were obtained from healthy p.\n\nReal-world use: Lock in a consistent wake time first, then adjust light, caffeine timing, and bedtime routine. Because this is a preprint, treat it as promising but provisional until peer-reviewed confirmation arrives.",
     "keyTakeaways": [
-      "Core theme: sleep quality.",
-      "The effect is only as useful as the study design; methodology determines whether this generalizes.",
-      "Set a fixed wake time for 14 days and optimize bedroom light/noise before adding supplements.",
-      "Good signal here, and it becomes actionable when it aligns with broader evidence and your own metrics."
+      "Main domain: sleep quality and recovery.",
+      "Preprints can be useful early signals, but confidence should rise only with review and replication.",
+      "Lock in a consistent wake time first, then adjust light, caffeine timing, and bedtime routine.",
+      "Use your own tracked metrics to see whether this evidence changes outcomes that matter to you."
     ],
     "hasExplanation": true,
     "sourceName": "medRxiv",
@@ -711,12 +711,12 @@
     "title": "Osteoporosis Genetic Risk Prediction Using Bone Mineral Density Polygenic Scores in Japanese: TMM CommCohort Study",
     "excerpt": "Osteoporosis and fractures are major health concerns. We developed and validated a polygenic score (PGS) for osteoporosis in a Japanese population using heel quantitative ultrasound-derived T-scores. Genome-wide associat",
     "technicalSummary": "Osteoporosis and fractures are major health concerns. We developed and validated a polygenic score (PGS) for osteoporosis in a Japanese population using heel quantitative ultrasound-derived T-scores. Genome-wide association study data from 12,371 participants in the Tohoku Medical Megabank Community-Based Cohort identified genome-wide significant loci, including MBL2, TMEM135, and WNT16. PGS models were constructed and evaluated using independent datasets for model selection (n = 1,419) and validation (n = 8,711). Adding the PGS to age and sex yielded modest improvements in discrimination but supported genetic risk stratification. Compared with the intermediate group, the lowest PGS quintile",
-    "laymansExplanation": "Bottom line: Osteoporosis Genetic Risk Prediction Using Bone Mineral Density Polygenic Scores in Japanese: TMM CommCohort Study from medRxiv is most relevant to genetic risk.\n\nThe practical signal is simple: Osteoporosis and fractures are major health concerns. We developed and validated a polygenic score (PGS) for osteoporosis in a Japanese population using heel quantitative ultrasound-derived T-scores. Genome-wide associat\n\nPractical next step: Treat genetics as risk context, not destiny, and focus on modifiable daily behaviors. This finding is useful, but confidence rises when similar results show up across multiple studies.",
+    "laymansExplanation": "Research read: Osteoporosis Genetic Risk Prediction Using Bone Mineral Density Polygenic Scores in Japanese: TMM CommCohort Study.\n\nWhat the paper suggests: Osteoporosis and fractures are major health concerns. We developed and validated a polygenic score (PGS) for osteoporosis in a Japanese population using heel quantitative ultrasound-derived T-scores. Genome-wide association study data from 12,371 participants in the Tohoku Medical Megabank Community.\n\nReal-world use: Treat exercise, blood-pressure control, and social/cognitive activity as your non-negotiable baseline. Because this is a preprint, treat it as promising but provisional until peer-reviewed confirmation arrives.",
     "keyTakeaways": [
-      "Primary focus: genetic risk.",
-      "Before applying the result, look at sample size, controls, and whether effects were large enough to matter.",
-      "Treat genetics as risk context, not destiny, and focus on modifiable daily behaviors.",
-      "This finding is useful, but confidence rises when similar results show up across multiple studies."
+      "Main domain: brain health and cognitive resilience.",
+      "Preprints can be useful early signals, but confidence should rise only with review and replication.",
+      "Treat exercise, blood-pressure control, and social/cognitive activity as your non-negotiable baseline.",
+      "Use your own tracked metrics to see whether this evidence changes outcomes that matter to you."
     ],
     "hasExplanation": true,
     "sourceName": "medRxiv",
@@ -738,12 +738,12 @@
     "title": "A fresh energy supply may shield nerves from diabetic or chemo-induced neuropathy",
     "excerpt": "A fresh energy supply may shield nerves from diabetic or chemo-induced neuropathy January 7, 2026 — Researchers demonstrate that transferring healthy mitochondria from support glial cells to nerve cells could reduce nerv",
     "technicalSummary": "A fresh energy supply may shield nerves from diabetic or chemo-induced neuropathy January 7, 2026 — Researchers demonstrate that transferring healthy mitochondria from support glial cells to nerve cells could reduce nerve pain and degeneration.",
-    "laymansExplanation": "Bottom line: A fresh energy supply may shield nerves from diabetic or chemo-induced neuropathy from NIH News is most relevant to brain health.\n\nThe practical signal is simple: A fresh energy supply may shield nerves from diabetic or chemo-induced neuropathy January 7, 2026 — Researchers demonstrate that transferring healthy mitochondria from support glial cells to nerve cells could reduce nerv\n\nPractical next step: Prioritize exercise, blood-pressure control, and cognitive engagement as your baseline plan. News coverage is useful for awareness, but major personal decisions still need deeper evidence and clinician context.",
+    "laymansExplanation": "Today's update: A fresh energy supply may shield nerves from diabetic or chemo-induced neuropathy.\n\nWhy it matters for longevity: this connects to brain health and cognitive resilience, which compounds over years, not days. Key context: A fresh energy supply may shield nerves from diabetic or chemo-induced neuropathy January 7, 2026 — Researchers demonstrate that transferring healthy mitochondria from support glial cells to nerve cells could reduce nerv.\n\nPractical move: Treat exercise, blood-pressure control, and social/cognitive activity as your non-negotiable baseline.",
     "keyTakeaways": [
-      "Primary focus: brain health.",
-      "Before applying the result, look at sample size, controls, and whether effects were large enough to matter.",
-      "Prioritize exercise, blood-pressure control, and cognitive engagement as your baseline plan.",
-      "News coverage is useful for awareness, but major personal decisions still need deeper evidence and clinician context."
+      "This is a public-health update, so the main value is timely awareness rather than a personal diagnosis.",
+      "Most useful lens: brain health and cognitive resilience.",
+      "Treat exercise, blood-pressure control, and social/cognitive activity as your non-negotiable baseline.",
+      "Watch follow-up reports to see whether initial claims translate into measurable outcomes."
     ],
     "hasExplanation": true,
     "sourceName": "NIH News",
@@ -765,12 +765,12 @@
     "title": "Researchers achieve the first minimally invasive coronary artery bypass",
     "excerpt": "Researchers achieve the first minimally invasive coronary artery bypass January 6, 2026 — For high-risk patients, the method could offer a safer alternative to open-heart surgery.",
     "technicalSummary": "Researchers achieve the first minimally invasive coronary artery bypass January 6, 2026 — For high-risk patients, the method could offer a safer alternative to open-heart surgery.",
-    "laymansExplanation": "Researchers achieve the first minimally invasive coronary artery bypass from NIH News points to a useful signal for long-term health outcomes.\n\nFor real life, read this as researchers achieve the first minimally invasive coronary artery bypass January 6, 2026 — For high-risk patients, the method could offer a safer alternative to open-heart surgery.\n\nHow to use this now: Use this insight to tighten one high-impact habit this week, then reassess in 30 days. Consider this an alert, not the final word; pair it with stronger evidence before acting aggressively.",
+    "laymansExplanation": "News brief: Researchers achieve the first minimally invasive coronary artery bypass.\n\nWhy this is relevant: it influences cardiovascular health, where consistent habits and policy both matter. Key context: Researchers achieve the first minimally invasive coronary artery bypass January 6, 2026 — For high-risk patients, the method could offer a safer alternative to open-heart surgery.\n\nWhat to do with it: Prioritize blood pressure control, cardiorespiratory fitness, and tobacco avoidance as immediate levers.",
     "keyTakeaways": [
-      "Main lens: long-term health outcomes.",
-      "Check who was studied, how long follow-up lasted, and whether outcomes were clinically meaningful.",
-      "Use this insight to tighten one high-impact habit this week, then reassess in 30 days.",
-      "Consider this an alert, not the final word; pair it with stronger evidence before acting aggressively."
+      "This is a public-health update, so the main value is timely awareness rather than a personal diagnosis.",
+      "Most useful lens: cardiovascular health.",
+      "Prioritize blood pressure control, cardiorespiratory fitness, and tobacco avoidance as immediate levers.",
+      "Watch follow-up reports to see whether initial claims translate into measurable outcomes."
     ],
     "hasExplanation": true,
     "sourceName": "NIH News",
@@ -792,12 +792,12 @@
     "title": "A Study Using Surveys to Learn More About Treatment With Steroidal Mineralocorticoid Receptor Antagonists, How They Are Used, What Side Effects They Have, and How Satisfied People Who Receive Them Are in the US",
     "excerpt": "This is an observational study in which patients with chronic kidney diseases (CKD), type 2 diabetes (T2D) or heart failure (HF) who are current or past users of sMRA therapies are studied. sMRA stands for steroidal mine",
     "technicalSummary": "This is an observational study in which patients with chronic kidney diseases (CKD), type 2 diabetes (T2D) or heart failure (HF) who are current or past users of sMRA therapies are studied. sMRA stands for steroidal mineralocorticoid receptor antagonists.\n\nCKD is a long-term, progressive decrease in the kidneys' ability to work properly.\n\nType 2 diabetes is a condition in which the body does not make enough of a hormone called insulin or does not use insulin well resulting in high blood sugar levels.\n\nHF is a condition in which the heart does not pump blood as well as it should.\n\nThe renin-angiotensin-aldosterone system (RAAS) is a hormone system that works with the kidneys to control blood ",
-    "laymansExplanation": "Quick take: this piece on A Study Using Surveys to Learn More About Treatment With Steroidal Mineralocorticoid Receptor Antagonists, How They Are Used, What Side Effects They Have, and How Satisfied People Who Receive Them Are in the US from ClinicalTrials.gov has practical implications for metabolic health.\n\nIn everyday terms, this suggests this is an observational study in which patients with chronic kidney diseases (CKD), type 2 diabetes (T2D) or heart failure (HF) who are current or past users of sMRA therapies are studied. sMRA stands for steroidal mine\n\nAction you can take this week: Track waist, fasting glucose, and weekly activity so decisions are tied to measurable trends. Clinical-trial records are best used to track what is being tested and what results are likely coming next.",
+    "laymansExplanation": "Trial tracker: A Study Using Surveys to Learn More About Treatment With Steroidal Mineralocorticoid Receptor Antagonists, How They Are Used, What Side Effects They Have, and How Satisfied People Who Receive Them Are in the US.\n\nWhat is being tested: This is an observational study in which patients with chronic kidney diseases (CKD), type 2 diabetes (T2D) or heart failure (HF) who are current or past users of sMRA therapies are studied. sMRA stands for steroidal mine.\n\nHow this helps now: Track waist, fasting glucose, and activity together so you can see trendlines rather than one-off numbers. Use this to follow the pipeline and design details; treatment conclusions come after results are posted.",
     "keyTakeaways": [
-      "Core theme: metabolic health.",
-      "The effect is only as useful as the study design; methodology determines whether this generalizes.",
-      "Track waist, fasting glucose, and weekly activity so decisions are tied to measurable trends.",
-      "Clinical-trial records are best used to track what is being tested and what results are likely coming next."
+      "This entry is about upcoming evidence in metabolic control, not a finished verdict.",
+      "Check inclusion criteria and endpoints to judge whether eventual results may apply to your context.",
+      "Track waist, fasting glucose, and activity together so you can see trendlines rather than one-off numbers.",
+      "Set a reminder to revisit when results or publications are released."
     ],
     "hasExplanation": true,
     "sourceName": "ClinicalTrials.gov",
@@ -819,12 +819,12 @@
     "title": "The AUDACITY Study (AllUrion Device in Adults With Clinical ObesITY)",
     "excerpt": "The objective for this clinical study is to provide FDA with clinical evidence regarding the effectiveness and safety of the AGBS + moderate intensity lifestyle modification therapy program, indwell time of the AGBS insi",
     "technicalSummary": "The objective for this clinical study is to provide FDA with clinical evidence regarding the effectiveness and safety of the AGBS + moderate intensity lifestyle modification therapy program, indwell time of the AGBS inside the stomach, and outcomes at 48 weeks.",
-    "laymansExplanation": "Quick take: this piece on The AUDACITY Study (AllUrion Device in Adults With Clinical ObesITY) from ClinicalTrials.gov has practical implications for metabolic health.\n\nIn everyday terms, this suggests the objective for this clinical study is to provide FDA with clinical evidence regarding the effectiveness and safety of the AGBS + moderate intensity lifestyle modification therapy program, indwell time of the AGBS insi\n\nAction you can take this week: Track waist, fasting glucose, and weekly activity so decisions are tied to measurable trends. Because this is a trial listing, treat it as a roadmap of upcoming evidence rather than a finished conclusion.",
+    "laymansExplanation": "Clinical trial watch: The AUDACITY Study (AllUrion Device in Adults With Clinical ObesITY).\n\nWhat is being tested: The objective for this clinical study is to provide FDA with clinical evidence regarding the effectiveness and safety of the AGBS + moderate intensity lifestyle modification therapy program, indwell time of the AGBS insi.\n\nHow this helps now: Track waist, fasting glucose, and activity together so you can see trendlines rather than one-off numbers. This is strongest as an indicator of what may soon have stronger evidence.",
     "keyTakeaways": [
-      "Main lens: metabolic health.",
-      "Check who was studied, how long follow-up lasted, and whether outcomes were clinically meaningful.",
-      "Track waist, fasting glucose, and weekly activity so decisions are tied to measurable trends.",
-      "Because this is a trial listing, treat it as a roadmap of upcoming evidence rather than a finished conclusion."
+      "This entry is about upcoming evidence in metabolic control, not a finished verdict.",
+      "Check inclusion criteria and endpoints to judge whether eventual results may apply to your context.",
+      "Track waist, fasting glucose, and activity together so you can see trendlines rather than one-off numbers.",
+      "Set a reminder to revisit when results or publications are released."
     ],
     "hasExplanation": true,
     "sourceName": "ClinicalTrials.gov",
@@ -846,12 +846,12 @@
     "title": "The Important Project of Obese Pregnant Women",
     "excerpt": "Obesity is a globally growing public health problem. In 1993, about 25% of women in Sweden were overweight (BMI over 25) or obese (BMI over 30) on the first visit to maternal health care. Twenty years later, in 2013, the",
     "technicalSummary": "Obesity is a globally growing public health problem. In 1993, about 25% of women in Sweden were overweight (BMI over 25) or obese (BMI over 30) on the first visit to maternal health care. Twenty years later, in 2013, the corresponding proportion was 38%. Being fat increases the risk of several severe complications during pregnancy and childbirth, such as miscarriage, premature birth, congenital disabilities, intrauterine fetal death, thromboembolism, gestational diabetes, pregnancy-induced hypertension.\n\nPurpose of the project: To assess whether the introduction of new guidelines for overweight pregnant women (BMI\\>35) affects the outcome of pregnancy and childbirth, such as the frequency of",
-    "laymansExplanation": "Bottom line: The Important Project of Obese Pregnant Women from ClinicalTrials.gov is most relevant to metabolic health.\n\nThe practical signal is simple: Obesity is a globally growing public health problem. In 1993, about 25% of women in Sweden were overweight (BMI over 25) or obese (BMI over 30) on the first visit to maternal health care. Twenty years later, in 2013, the\n\nPractical next step: Track waist, fasting glucose, and weekly activity so decisions are tied to measurable trends. Clinical-trial records are best used to track what is being tested and what results are likely coming next.",
+    "laymansExplanation": "Trial tracker: The Important Project of Obese Pregnant Women.\n\nWhat is being tested: Obesity is a globally growing public health problem. In 1993, about 25% of women in Sweden were overweight (BMI over 25) or obese (BMI over 30) on the first visit to maternal health care. Twenty years later, in 2013, the.\n\nHow this helps now: Track waist, fasting glucose, and activity together so you can see trendlines rather than one-off numbers. Use this to follow the pipeline and design details; treatment conclusions come after results are posted.",
     "keyTakeaways": [
-      "Core theme: metabolic health.",
-      "The effect is only as useful as the study design; methodology determines whether this generalizes.",
-      "Track waist, fasting glucose, and weekly activity so decisions are tied to measurable trends.",
-      "Clinical-trial records are best used to track what is being tested and what results are likely coming next."
+      "This entry is about upcoming evidence in metabolic control, not a finished verdict.",
+      "Check inclusion criteria and endpoints to judge whether eventual results may apply to your context.",
+      "Track waist, fasting glucose, and activity together so you can see trendlines rather than one-off numbers.",
+      "Set a reminder to revisit when results or publications are released."
     ],
     "hasExplanation": true,
     "sourceName": "ClinicalTrials.gov",
@@ -873,12 +873,12 @@
     "title": "Sampling of Human Microbiota in Order to Test, on a Mouse Model, Individualized Intervention Strategies During Aging",
     "excerpt": "Human microbial flora transfer studies in rodent models have clearly identified that age-associated microbiota dysbiosis can play a decisive role with respect to pathologies or complications linked to aging: increased in",
     "technicalSummary": "Human microbial flora transfer studies in rodent models have clearly identified that age-associated microbiota dysbiosis can play a decisive role with respect to pathologies or complications linked to aging: increased intestinal permeability, in place of systemic inflammation, dysfunction of immune cells and insulin resistance.\n\nThis trial therefore aims to validate the process of ex vivo transfer to the rat of human microbiota selected from three categories of male individuals: young adults, healthy older adults and frail older adults, with the evaluation of the bacterial population of stool by analysis of the 16S rRNA gene.",
-    "laymansExplanation": "Why this matters: Sampling of Human Microbiota in Order to Test, on a Mouse Model, Individualized Intervention Strategies During Aging from ClinicalTrials.gov gives you a clearer read on gut health.\n\nWhat stands out here is Human microbial flora transfer studies in rodent models have clearly identified that age-associated microbiota dysbiosis can play a decisive role with respect to pathologies or complications linked to aging: increased in\n\nWhat to do with this: Anchor your routine with fiber diversity and consistent sleep before chasing niche interventions. Clinical-trial records are best used to track what is being tested and what results are likely coming next.",
+    "laymansExplanation": "Trial tracker: Sampling of Human Microbiota in Order to Test, on a Mouse Model, Individualized Intervention Strategies During Aging.\n\nWhat is being tested: Human microbial flora transfer studies in rodent models have clearly identified that age-associated microbiota dysbiosis can play a decisive role with respect to pathologies or complications linked to aging: increased in.\n\nHow this helps now: Treat exercise, blood-pressure control, and social/cognitive activity as your non-negotiable baseline. Use this to follow the pipeline and design details; treatment conclusions come after results are posted.",
     "keyTakeaways": [
-      "Core theme: gut health.",
-      "The effect is only as useful as the study design; methodology determines whether this generalizes.",
-      "Anchor your routine with fiber diversity and consistent sleep before chasing niche interventions.",
-      "Clinical-trial records are best used to track what is being tested and what results are likely coming next."
+      "This entry is about upcoming evidence in brain health and cognitive resilience, not a finished verdict.",
+      "Check inclusion criteria and endpoints to judge whether eventual results may apply to your context.",
+      "Treat exercise, blood-pressure control, and social/cognitive activity as your non-negotiable baseline.",
+      "Set a reminder to revisit when results or publications are released."
     ],
     "hasExplanation": true,
     "sourceName": "ClinicalTrials.gov",
@@ -905,12 +905,12 @@
     "title": "A Research Study to Compare Two Different Forms of Once-weekly Semaglutide in Two Different Injection Pens",
     "excerpt": "The study will look at how 2 different semaglutide versions reach and stay in the blood after injection. The study aims to show similar levels of semaglutide in the blood when using the different semaglutide versions. Pa",
     "technicalSummary": "The study will look at how 2 different semaglutide versions reach and stay in the blood after injection. The study aims to show similar levels of semaglutide in the blood when using the different semaglutide versions. Participants will get 1 of the 2 versions of semaglutide - which version is decided by chance. One version is the one that doctors already can prescribe and the other is the new version. Participants will get the medicine as an injection under the skin of the belly with a pen-injector. The type of pen-injector is different for the 2 versions of semaglutide. Participants will receive 7 once-weekly injections in total. The study will last for about 80-106 days. Participants will ",
-    "laymansExplanation": "A Research Study to Compare Two Different Forms of Once-weekly Semaglutide in Two Different Injection Pens from ClinicalTrials.gov points to a useful signal for metabolic health.\n\nFor real life, read this as the study will look at how 2 different semaglutide versions reach and stay in the blood after injection. The study aims to show similar levels of semaglutide in the blood when using the different semaglutide versions. Pa\n\nHow to use this now: Track waist, fasting glucose, and weekly activity so decisions are tied to measurable trends. This is strongest as a signal of where the field is heading; keep expectations tied to final outcomes.",
+    "laymansExplanation": "Pipeline update: A Research Study to Compare Two Different Forms of Once-weekly Semaglutide in Two Different Injection Pens.\n\nWhat is being tested: The study will look at how 2 different semaglutide versions reach and stay in the blood after injection. The study aims to show similar levels of semaglutide in the blood when using the different semaglutide versions. Pa.\n\nHow this helps now: Track waist, fasting glucose, and activity together so you can see trendlines rather than one-off numbers. Trial registrations are best for understanding direction, timeline, and eligibility, not final efficacy.",
     "keyTakeaways": [
-      "Primary focus: metabolic health.",
-      "Before applying the result, look at sample size, controls, and whether effects were large enough to matter.",
-      "Track waist, fasting glucose, and weekly activity so decisions are tied to measurable trends.",
-      "This is strongest as a signal of where the field is heading; keep expectations tied to final outcomes."
+      "This entry is about upcoming evidence in metabolic control, not a finished verdict.",
+      "Check inclusion criteria and endpoints to judge whether eventual results may apply to your context.",
+      "Track waist, fasting glucose, and activity together so you can see trendlines rather than one-off numbers.",
+      "Set a reminder to revisit when results or publications are released."
     ],
     "hasExplanation": true,
     "sourceName": "ClinicalTrials.gov",
@@ -932,12 +932,12 @@
     "title": "Prevalence of Dental Caries Among a Group of Egyptian Children Using CAST Index",
     "excerpt": "The aim of this study is to assess the prevalence of dental caries using CAST index among a group of Egyptian children in primary dentition stage.\n\nEgyptian children aging from three to six years old attending the Outpat",
     "technicalSummary": "The aim of this study is to assess the prevalence of dental caries using CAST index among a group of Egyptian children in primary dentition stage.\n\nEgyptian children aging from three to six years old attending the Outpatients' Clinic of both of Pediatric Dentistry Department, Faculty of Dentistry, Misr University for Science and Technology and the Pediatric Dentistry and Dental Public Health Department, Faculty of Dentistry, Cairo University will be examined using Caries Assessment Spectrum and Treatment",
-    "laymansExplanation": "Quick take: this piece on Prevalence of Dental Caries Among a Group of Egyptian Children Using CAST Index from ClinicalTrials.gov has practical implications for long-term health outcomes.\n\nIn everyday terms, this suggests the aim of this study is to assess the prevalence of dental caries using CAST index among a group of Egyptian children in primary dentition stage. Egyptian children aging from three to six years old attending the Outpat\n\nAction you can take this week: Use this insight to tighten one high-impact habit this week, then reassess in 30 days. Because this is a trial listing, treat it as a roadmap of upcoming evidence rather than a finished conclusion.",
+    "laymansExplanation": "Clinical trial watch: Prevalence of Dental Caries Among a Group of Egyptian Children Using CAST Index.\n\nWhat is being tested: The aim of this study is to assess the prevalence of dental caries using CAST index among a group of Egyptian children in primary dentition stage. Egyptian children aging from three to six years old attending the Outpat.\n\nHow this helps now: Choose one high-impact habit to tighten this week and review results after 30 days. This is strongest as an indicator of what may soon have stronger evidence.",
     "keyTakeaways": [
-      "Main lens: long-term health outcomes.",
-      "Check who was studied, how long follow-up lasted, and whether outcomes were clinically meaningful.",
-      "Use this insight to tighten one high-impact habit this week, then reassess in 30 days.",
-      "Because this is a trial listing, treat it as a roadmap of upcoming evidence rather than a finished conclusion."
+      "This entry is about upcoming evidence in healthy longevity planning, not a finished verdict.",
+      "Check inclusion criteria and endpoints to judge whether eventual results may apply to your context.",
+      "Choose one high-impact habit to tighten this week and review results after 30 days.",
+      "Set a reminder to revisit when results or publications are released."
     ],
     "hasExplanation": true,
     "sourceName": "ClinicalTrials.gov",
@@ -959,12 +959,12 @@
     "title": "A Study of PRX004 in Subjects With Amyloid Transthyretin (ATTR) Amyloidosis",
     "excerpt": "A Phase 1, open-label study of intravenous (IV) PRX004 as a single agent in subjects with hereditary amyloid transthyretin (hATTR) amyloidosis. The study will consist of 3 phases and will enroll up to a total of 36 subje",
     "technicalSummary": "A Phase 1, open-label study of intravenous (IV) PRX004 as a single agent in subjects with hereditary amyloid transthyretin (hATTR) amyloidosis. The study will consist of 3 phases and will enroll up to a total of 36 subjects. A 3+3 dose escalation component to determine the safety, tolerability, PK, PD, and MTD. An expansion component in anticipated PRX004 RP2D cohorts selected from the Dose Escalation Phase. An extended dosing component for eligible subjects from the Dose Escalation or Expansion phases.",
-    "laymansExplanation": "Quick take: this piece on A Study of PRX004 in Subjects With Amyloid Transthyretin (ATTR) Amyloidosis from ClinicalTrials.gov has practical implications for long-term health outcomes.\n\nIn everyday terms, this suggests a Phase 1, open-label study of intravenous (IV) PRX004 as a single agent in subjects with hereditary amyloid transthyretin (hATTR) amyloidosis. The study will consist of 3 phases and will enroll up to a total of 36 subje\n\nAction you can take this week: Use this insight to tighten one high-impact habit this week, then reassess in 30 days. Clinical-trial records are best used to track what is being tested and what results are likely coming next.",
+    "laymansExplanation": "Trial tracker: A Study of PRX004 in Subjects With Amyloid Transthyretin (ATTR) Amyloidosis.\n\nWhat is being tested: A Phase 1, open-label study of intravenous (IV) PRX004 as a single agent in subjects with hereditary amyloid transthyretin (hATTR) amyloidosis. The study will consist of 3 phases and will enroll up to a total of 36 subje.\n\nHow this helps now: Treat exercise, blood-pressure control, and social/cognitive activity as your non-negotiable baseline. Use this to follow the pipeline and design details; treatment conclusions come after results are posted.",
     "keyTakeaways": [
-      "Core theme: long-term health outcomes.",
-      "The effect is only as useful as the study design; methodology determines whether this generalizes.",
-      "Use this insight to tighten one high-impact habit this week, then reassess in 30 days.",
-      "Clinical-trial records are best used to track what is being tested and what results are likely coming next."
+      "This entry is about upcoming evidence in brain health and cognitive resilience, not a finished verdict.",
+      "Check inclusion criteria and endpoints to judge whether eventual results may apply to your context.",
+      "Treat exercise, blood-pressure control, and social/cognitive activity as your non-negotiable baseline.",
+      "Set a reminder to revisit when results or publications are released."
     ],
     "hasExplanation": true,
     "sourceName": "ClinicalTrials.gov",
@@ -986,12 +986,12 @@
     "title": "Preventing Loss of Independence Through Exercise (PLIE) in Persons With Dementia",
     "excerpt": "Nearly 1 in 10 older Veterans have dementia, which is a devastating condition that leads to a progressive loss of independence and functional status. Currently available dementia medications do not alter the disease cour",
     "technicalSummary": "Nearly 1 in 10 older Veterans have dementia, which is a devastating condition that leads to a progressive loss of independence and functional status. Currently available dementia medications do not alter the disease course. Therefore, it is critically important to identify effective strategies for helping older Veterans living with dementia to enhance their functional status and quality of life. The investigators have developed a novel, integrative group movement program called Preventing Loss of Independence through Exercise (PLIE) that incorporates elements from Eastern and Western exercise modalities and is designed to build and maintain the capacity to perform basic functional movements ",
-    "laymansExplanation": "Quick take: this piece on Preventing Loss of Independence Through Exercise (PLIE) in Persons With Dementia from ClinicalTrials.gov has practical implications for strength and movement.\n\nIn everyday terms, this suggests nearly 1 in 10 older Veterans have dementia, which is a devastating condition that leads to a progressive loss of independence and functional status. Currently available dementia medications do not alter the disease cour\n\nAction you can take this week: Put 2-3 resistance sessions on your weekly calendar and track progressive overload. Because this is a trial listing, treat it as a roadmap of upcoming evidence rather than a finished conclusion.",
+    "laymansExplanation": "Clinical trial watch: Preventing Loss of Independence Through Exercise (PLIE) in Persons With Dementia.\n\nWhat is being tested: Nearly 1 in 10 older Veterans have dementia, which is a devastating condition that leads to a progressive loss of independence and functional status. Currently available dementia medications do not alter the disease cour.\n\nHow this helps now: Schedule two resistance sessions this week and track load or reps so progress is visible. This is strongest as an indicator of what may soon have stronger evidence.",
     "keyTakeaways": [
-      "Main lens: strength and movement.",
-      "Check who was studied, how long follow-up lasted, and whether outcomes were clinically meaningful.",
-      "Put 2-3 resistance sessions on your weekly calendar and track progressive overload.",
-      "Because this is a trial listing, treat it as a roadmap of upcoming evidence rather than a finished conclusion."
+      "This entry is about upcoming evidence in strength and mobility, not a finished verdict.",
+      "Check inclusion criteria and endpoints to judge whether eventual results may apply to your context.",
+      "Schedule two resistance sessions this week and track load or reps so progress is visible.",
+      "Set a reminder to revisit when results or publications are released."
     ],
     "hasExplanation": true,
     "sourceName": "ClinicalTrials.gov",
