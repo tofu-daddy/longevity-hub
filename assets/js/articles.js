@@ -2,20 +2,18 @@ document.addEventListener("DOMContentLoaded", async () => {
   await LongevityStatic.bootShell();
   LongevityStatic.applySeo({
     title: "Browse Articles | Longevity Hub",
-    description: "Browse and filter longevity research summaries by topic and explanation status.",
+    description: "Browse and filter longevity research summaries by topic.",
     path: "articles/",
     type: "website"
   });
 
   const categoryFilters = document.getElementById("category-filters");
-  const explanationFilters = document.getElementById("explanation-filters");
   const grid = document.getElementById("articles-grid");
   const pager = document.getElementById("pager");
   const loading = document.getElementById("loading-indicator");
 
   const params = new URLSearchParams(window.location.search);
   let currentCategory = params.get("category") || "all";
-  let currentExplanation = params.get("has_explanation") || "all";
   let currentPage = Number(params.get("page") || "1");
   const PER_PAGE = 8;
   let allArticles = [];
@@ -23,7 +21,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   function updateUrl() {
     const q = new URLSearchParams();
     if (currentCategory !== "all") q.set("category", currentCategory);
-    if (currentExplanation !== "all") q.set("has_explanation", currentExplanation);
     if (currentPage > 1) q.set("page", String(currentPage));
     history.replaceState(null, "", `${LongevityStatic.siteUrl("articles/")}${q.toString() ? `?${q}` : ""}`);
   }
@@ -36,12 +33,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       ...categories.map((c) => `<button class="filter-btn ${currentCategory === c.slug ? "active" : ""} px-4 py-2 rounded-lg text-sm font-medium border border-gray-200 hover:border-clinical-300 whitespace-nowrap transition-all" data-cat="${c.slug}">${LongevityStatic.escapeHtml(c.name)}</button>`)
     ].join("");
 
-    explanationFilters.innerHTML = `
-      <button class="filter-btn ${currentExplanation === "all" ? "active" : ""} px-4 py-2 rounded-lg text-sm font-medium border border-gray-200 whitespace-nowrap transition-all" data-exp="all">All Content</button>
-      <button class="filter-btn ${currentExplanation === "yes" ? "active" : ""} px-4 py-2 rounded-lg text-sm font-medium border border-gray-200 whitespace-nowrap transition-all" data-exp="yes">Explained</button>
-      <button class="filter-btn ${currentExplanation === "no" ? "active" : ""} px-4 py-2 rounded-lg text-sm font-medium border border-gray-200 whitespace-nowrap transition-all" data-exp="no">Needs Explanation</button>
-    `;
-
     categoryFilters.querySelectorAll("[data-cat]").forEach((btn) => {
       btn.addEventListener("click", () => {
         currentCategory = btn.dataset.cat;
@@ -50,23 +41,10 @@ document.addEventListener("DOMContentLoaded", async () => {
       });
     });
 
-    explanationFilters.querySelectorAll("[data-exp]").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        currentExplanation = btn.dataset.exp;
-        currentPage = 1;
-        run();
-      });
-    });
   }
 
   function applyFilters(articles) {
-    return articles.filter((a) => {
-      const categoryMatch = currentCategory === "all" || (a.categories || []).some((c) => c.slug === currentCategory);
-      const explanationMatch = currentExplanation === "all"
-        || (currentExplanation === "yes" && !!a.hasExplanation)
-        || (currentExplanation === "no" && !a.hasExplanation);
-      return categoryMatch && explanationMatch;
-    });
+    return articles.filter((a) => currentCategory === "all" || (a.categories || []).some((c) => c.slug === currentCategory));
   }
 
   function renderPager(totalPages) {

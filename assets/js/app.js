@@ -189,7 +189,6 @@ function shellHeader(topics = []) {
             <nav id="site-navigation" class="main-navigation hidden md:flex items-center gap-8" aria-label="Primary">
               <ul class="flex items-center gap-8">
                 <li><a href="${siteUrl("articles/")}" class="nav-link text-sm font-medium text-gray-700 hover:text-clinical-600 pb-1">Articles</a></li>
-                <li><a href="${siteUrl("articles/?has_explanation=yes")}" class="nav-link text-sm font-medium text-gray-700 hover:text-clinical-600 pb-1">Explained</a></li>
                 <li><a href="${siteUrl("about/")}" class="nav-link text-sm font-medium text-gray-700 hover:text-clinical-600 pb-1">About</a></li>
               </ul>
             </nav>
@@ -226,7 +225,6 @@ function shellHeader(topics = []) {
         <div class="max-w-7xl mx-auto px-6 py-4">
           <ul class="flex flex-col gap-2">
             <li><a href="${siteUrl("articles/")}" class="block py-2 text-sm font-medium text-gray-700">Articles</a></li>
-            <li><a href="${siteUrl("articles/?has_explanation=yes")}" class="block py-2 text-sm font-medium text-gray-700">Explained</a></li>
             <li><a href="${siteUrl("about/")}" class="block py-2 text-sm font-medium text-gray-700">About</a></li>
           </ul>
           <div class="mt-4 pt-4 border-t border-gray-200">
