@@ -111,8 +111,6 @@ document.addEventListener("DOMContentLoaded", async () => {
                   ${LongevityStatic.escapeHtml(sourceType)}
                 </p>
               </div>
-
-              ${article.hasExplanation ? '<div class="flex flex-wrap gap-3 mt-6"><span class="inline-flex items-center px-3 py-1.5 rounded-full text-sm font-medium bg-lab-500 text-white">Explained in Plain English</span></div>' : ""}
             </div>
           </div>
         </header>

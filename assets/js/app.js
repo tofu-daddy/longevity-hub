@@ -263,6 +263,7 @@ function shellFooter() {
               <span class="font-semibold tracking-tight">Longevity Hub</span>
             </a>
             <p class="text-sm text-gray-600 max-w-md leading-relaxed">Complex longevity research, explained in plain English.</p>
+            <p class="text-sm text-gray-500 mt-4">&copy; ${new Date().getFullYear()} Longevity Hub. All rights reserved.</p>
           </div>
 
           <div class="md:col-span-2">
@@ -283,15 +284,6 @@ function shellFooter() {
               <li><a href="${siteUrl("cookie-notice/")}" class="hover:text-clinical-600 transition-colors">Cookie Notice</a></li>
               <li><a href="${siteUrl("copyright-and-dmca-notice/")}" class="hover:text-clinical-600 transition-colors">Copyright & DMCA Notice</a></li>
             </ul>
-          </div>
-        </div>
-
-        <div class="pt-6 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center gap-3">
-          <p class="text-sm text-gray-500">&copy; ${new Date().getFullYear()} Longevity Hub. All rights reserved.</p>
-          <div class="flex items-center gap-5">
-            <a href="https://twitter.com/" target="_blank" rel="noopener" class="text-sm text-gray-500 hover:text-clinical-600 transition-colors">Twitter</a>
-            <a href="https://linkedin.com/" target="_blank" rel="noopener" class="text-sm text-gray-500 hover:text-clinical-600 transition-colors">LinkedIn</a>
-            <a href="${siteUrl("rss.xml")}" class="text-sm text-gray-500 hover:text-clinical-600 transition-colors">RSS</a>
           </div>
         </div>
       </div>
