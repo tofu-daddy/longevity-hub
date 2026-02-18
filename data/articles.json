@@ -52,7 +52,7 @@
     ]
   },
   {
-    "externalId": "pubmed:1000001",
+    "externalId": "pubmed:37875254",
     "slug": "strength-training-longevity-muscle-aging",
     "title": "Strength Training and Healthy Aging: Why Muscle Matters More Than You Think",
     "excerpt": "A review of aging research shows that preserving muscle mass is strongly linked to metabolic health and long-term independence.",
@@ -65,8 +65,8 @@
       "Strength is a better aging signal than scale weight alone."
     ],
     "hasExplanation": true,
-    "sourceName": "J Gerontol A",
-    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/1000001/",
+    "sourceName": "PubMed",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/37875254/",
     "sourceType": "research_paper",
     "evidenceQuality": "review",
     "publishedDate": "2026-01-30",
