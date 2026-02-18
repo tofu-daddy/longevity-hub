@@ -26,6 +26,37 @@
     ]
   },
   {
+    "externalId": "pubmed:41705654",
+    "slug": "anti-inflammatory-effects-of-nicotinamide-mononucleotide-nmn-in-human-skeletal-muscle-afte",
+    "title": "Anti-inflammatory effects of nicotinamide mononucleotide (NMN) in human skeletal muscle after BFR-exercise.",
+    "excerpt": "&#x3b2;-Nicotinamide mononucleotide (NMN) inhibits acute inflammation in injured animal tissues.\n\nWe examined whether NMN supplementation attenuates inflammation induced by blood flow restriction-resistance exercise (BFR",
+    "technicalSummary": "&#x3b2;-Nicotinamide mononucleotide (NMN) inhibits acute inflammation in injured animal tissues.\n\nWe examined whether NMN supplementation attenuates inflammation induced by blood flow restriction-resistance exercise (BFR-exercise) in human skeletal muscle.\n\nEleven untrained men (22.8&#x2009;&#xb1;&#x2009;1.5&#x2009;y) completed a randomized, placebo-controlled, counterbalanced crossover trial, receiving either Placebo or NMN (1200&#x2009;mg/d) for 7&#x2009;d, with a 3-week washout between conditions. Multiple muscle biopsies were obtained before and after BFR-exercise.\n\nBFR-exercise-induced significant muscle necrosis at 0&#x2009;h, which resolved within 24&#x2009;h in both conditions. NMN s",
+    "laymansExplanation": "This piece discusses anti-inflammatory effects of nicotinamide mononucleotide (nmn) in human skeletal muscle after bfr-exercise.. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "J Int Soc Sports Nutr",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41705654/",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-12-31",
+    "categories": [
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
+      },
+      {
+        "slug": "cellular-health",
+        "name": "Cellular Health",
+        "description": "Cell-level mechanisms influencing aging and resilience."
+      }
+    ]
+  },
+  {
     "externalId": "pubmed:41696869",
     "slug": "gutmind-a-multi-cohort-machine-learning-framework-for-integrative-characteristics-of-the-m",
     "title": "GutMIND: A multi-cohort machine learning framework for integrative characteristics of the microbiota-gut-brain axis in neuropsychiatric disorders.",
@@ -48,6 +79,297 @@
         "slug": "metabolic-health",
         "name": "Metabolic Health",
         "description": "Insulin, glucose, lipid, and body-composition driven research."
+      }
+    ]
+  },
+  {
+    "externalId": "whonews:urn-uuid-c8ef3917-29ec-48e4-8510-ac2ea1250fb0",
+    "slug": "global-commitment-on-display-as-countries-negotiate-key-annex-to-the-pandemic-agreement",
+    "title": "Global commitment on display as countries negotiate key annex to the Pandemic Agreement",
+    "excerpt": "Member States of the World Health Organization (WHO) concluded a weeklong round of negotiations on draft annex for Pathogen Access and Benefit Sharing (PABS) – a key component of the WHO Pandemic Agreement. The fifth mee",
+    "technicalSummary": "Member States of the World Health Organization (WHO) concluded a weeklong round of negotiations on draft annex for Pathogen Access and Benefit Sharing (PABS) – a key component of the WHO Pandemic Agreement. The fifth meeting of the Intergovernmental Working Group on the WHO Pandemic Agreement (IGWG) – set up by the World Health Assembly (WHA) last year to negotiate the PABS annex – wrapped up over the weekend after productive discussions from 9–14 February 2026.",
+    "laymansExplanation": "This piece discusses global commitment on display as countries negotiate key annex to the pandemic agreement. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "WHO News",
+    "sourceUrl": "https://www.who.int/news/item/17-02-2026-global-commitment-on-display-as-countries-negotiate-key-annex-to-the-pandemic-agreement",
+    "sourceType": "news",
+    "evidenceQuality": "editorial",
+    "publishedDate": "2026-02-17",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "whonews:urn-uuid-b0b8908d-3314-4fda-9fba-cfa0a1f70c3b",
+    "slug": "statement-on-the-planned-hepatitis-b-birth-dose-vaccine-trial-in-guinea-bissau",
+    "title": "Statement on the planned hepatitis B birth dose vaccine trial in Guinea-Bissau",
+    "excerpt": "WHO statement on a planned hepatitis B birth dose vaccine trial in Guinea-Bissau.",
+    "technicalSummary": "WHO statement on a planned hepatitis B birth dose vaccine trial in Guinea-Bissau.",
+    "laymansExplanation": "This piece discusses statement on the planned hepatitis b birth dose vaccine trial in guinea-bissau. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "WHO News",
+    "sourceUrl": "https://www.who.int/news/item/13-02-2026-statement-on-the-planned-hepatitis-b-birth-dose-vaccine-trial-in-guinea-bissau",
+    "sourceType": "news",
+    "evidenceQuality": "editorial",
+    "publishedDate": "2026-02-13",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "whonews:urn-uuid-29344169-9e76-43b7-b397-dba8c475105b",
+    "slug": "one-in-two-people-facing-cataract-blindness-need-access-to-life-changing-surgery",
+    "title": "One in two people facing cataract blindness need access to life-changing surgery",
+    "excerpt": "The World Health Organization (WHO) is urging countries to accelerate efforts to ensure that millions of people living with cataract can access simple, sight‑restoring surgery – one of the most effective and affordable i",
+    "technicalSummary": "The World Health Organization (WHO) is urging countries to accelerate efforts to ensure that millions of people living with cataract can access simple, sight‑restoring surgery – one of the most effective and affordable interventions to prevent avoidable blindness.",
+    "laymansExplanation": "This piece discusses one in two people facing cataract blindness need access to life-changing surgery. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "WHO News",
+    "sourceUrl": "https://www.who.int/news/item/11-02-2026-one-in-two-people-facing-cataract-blindness-need-access-to-life-changing-surgery",
+    "sourceType": "news",
+    "evidenceQuality": "editorial",
+    "publishedDate": "2026-02-10",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "nihnews:news-events-news-releases-nih-halts-arm-clinical-trial-evaluating-potential-stroke-treatme",
+    "slug": "nih-halts-arm-of-clinical-trial-evaluating-a-potential-stroke-treatment",
+    "title": "NIH halts arm of clinical trial evaluating a potential stroke treatment",
+    "excerpt": "NIH halts arm of clinical trial evaluating a potential stroke treatment February 10, 2026 — Study found low-dose rivaroxaban to be unsafe and ineffective compared to standard of care.",
+    "technicalSummary": "NIH halts arm of clinical trial evaluating a potential stroke treatment February 10, 2026 — Study found low-dose rivaroxaban to be unsafe and ineffective compared to standard of care.",
+    "laymansExplanation": "This piece discusses nih halts arm of clinical trial evaluating a potential stroke treatment. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "NIH News",
+    "sourceUrl": "https://www.nih.gov/news-events/news-releases/nih-halts-arm-clinical-trial-evaluating-potential-stroke-treatment",
+    "sourceType": "news",
+    "evidenceQuality": "editorial",
+    "publishedDate": "2026-02-10",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "nihnews:news-events-news-releases-cognitive-speed-training-over-weeks-may-delay-diagnosis-dementia",
+    "slug": "cognitive-speed-training-over-weeks-may-delay-the-diagnosis-of-dementia-over-decades",
+    "title": "Cognitive speed training over weeks may delay the diagnosis of dementia over decades",
+    "excerpt": "Cognitive speed training over weeks may delay the diagnosis of dementia over decades February 10, 2026 — NIH-funded effort finds positive outcomes with strategies that engaged mostly unconscious, rather than conscious, t",
+    "technicalSummary": "Cognitive speed training over weeks may delay the diagnosis of dementia over decades February 10, 2026 — NIH-funded effort finds positive outcomes with strategies that engaged mostly unconscious, rather than conscious, thinking.",
+    "laymansExplanation": "This piece discusses cognitive speed training over weeks may delay the diagnosis of dementia over decades. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "NIH News",
+    "sourceUrl": "https://www.nih.gov/news-events/news-releases/cognitive-speed-training-over-weeks-may-delay-diagnosis-dementia-over-decades",
+    "sourceType": "news",
+    "evidenceQuality": "editorial",
+    "publishedDate": "2026-02-10",
+    "categories": [
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
+      }
+    ]
+  },
+  {
+    "externalId": "nihnews:news-events-news-releases-nih-scientists-develop-digital-twin-eye-cells-understand-treat-a",
+    "slug": "nih-scientists-develop-quot-digital-twin-quot-of-eye-cells-to-understand-and-treat-age-rel",
+    "title": "NIH scientists develop &quot;digital twin&quot; of eye cells to understand and treat age-related macular degeneration",
+    "excerpt": "NIH scientists develop &quot;digital twin&quot; of eye cells to understand and treat age-related macular degeneration February 10, 2026 — Breakthrough modeling technology reveals how cells lose their organization in lead",
+    "technicalSummary": "NIH scientists develop &quot;digital twin&quot; of eye cells to understand and treat age-related macular degeneration February 10, 2026 — Breakthrough modeling technology reveals how cells lose their organization in leading cause of vision loss.",
+    "laymansExplanation": "This piece discusses nih scientists develop &quot;digital twin&quot; of eye cells to understand and treat age-related macular degeneration. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "NIH News",
+    "sourceUrl": "https://www.nih.gov/news-events/news-releases/nih-scientists-develop-digital-twin-eye-cells-understand-treat-age-related-macular-degeneration",
+    "sourceType": "news",
+    "evidenceQuality": "editorial",
+    "publishedDate": "2026-02-10",
+    "categories": [
+      {
+        "slug": "cellular-health",
+        "name": "Cellular Health",
+        "description": "Cell-level mechanisms influencing aging and resilience."
+      }
+    ]
+  },
+  {
+    "externalId": "whonews:urn-uuid-7f0f6fcf-56ee-4572-8ecb-0715d9d912b8",
+    "slug": "over-four-million-girls-still-at-risk-of-female-genital-mutilation-un-leaders-call-for-sus",
+    "title": "Over four million girls still at risk of female genital mutilation: UN leaders call for sustained commitment and investment to end FGM",
+    "excerpt": "&lt;h3&gt;Joint statement by the UNFPA Executive Director, UNICEF Executive Director, UN High Commissioner for Human Rights, UN Women Executive Director, WHO Director-General, and UNESCO Director-General on the Internati",
+    "technicalSummary": "&lt;h3&gt;Joint statement by the UNFPA Executive Director, UNICEF Executive Director, UN High Commissioner for Human Rights, UN Women Executive Director, WHO Director-General, and UNESCO Director-General on the International Day of Zero Tolerance for Female Genital Mutilation&lt;/h3&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;In 2026 alone, an estimated 4.5&amp;nbsp;million girls &amp;ndash; many under the age of five &amp;ndash; are at risk of undergoing female genital mutilation (FGM). Currently, more than 230&amp;nbsp;million girls and women are living with its lifelong consequences.&lt;/p&gt;&lt;p&gt;Today, on the International Day of Zero Tolerance for Female Genital Mutilation, we reaffir",
+    "laymansExplanation": "This piece discusses over four million girls still at risk of female genital mutilation: un leaders call for sustained commitment and investment to end fgm. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "WHO News",
+    "sourceUrl": "https://www.who.int/news/item/05-02-2026-over-four-million-girls-still-at-risk-of-female-genital-mutilation--un-leaders-call-for-sustained-commitment-and-investment-to-end-fgm",
+    "sourceType": "news",
+    "evidenceQuality": "editorial",
+    "publishedDate": "2026-02-05",
+    "categories": [
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
+      },
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "whonews:urn-uuid-6fb1d557-cc0d-4277-8650-161208478a87",
+    "slug": "preventive-cholera-vaccination-resumes-as-global-supply-reaches-critical-milestone",
+    "title": "Preventive cholera vaccination resumes as global supply reaches critical milestone",
+    "excerpt": "First preventive campaign in over three years launches in Mozambique, with others planned in Bangladesh and the Democratic Republic of the Congo",
+    "technicalSummary": "First preventive campaign in over three years launches in Mozambique, with others planned in Bangladesh and the Democratic Republic of the Congo",
+    "laymansExplanation": "This piece discusses preventive cholera vaccination resumes as global supply reaches critical milestone. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "WHO News",
+    "sourceUrl": "https://www.who.int/news/item/04-02-2026-preventive-cholera-vaccination-resumes-as-global-supply-reaches-critical-milestone",
+    "sourceType": "news",
+    "evidenceQuality": "editorial",
+    "publishedDate": "2026-02-04",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "nihnews:news-events-news-releases-nih-opens-east-palestine-health-research-office-study-train-disa",
+    "slug": "nih-opens-east-palestine-health-research-office-to-study-train-disaster",
+    "title": "NIH opens East Palestine Health Research Office to study train disaster",
+    "excerpt": "NIH opens East Palestine Health Research Office to study train disaster February 4, 2026 — Three years ago, a train derailment spilled hazardous chemicals into the Ohio community.",
+    "technicalSummary": "NIH opens East Palestine Health Research Office to study train disaster February 4, 2026 — Three years ago, a train derailment spilled hazardous chemicals into the Ohio community.",
+    "laymansExplanation": "This piece discusses nih opens east palestine health research office to study train disaster. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "NIH News",
+    "sourceUrl": "https://www.nih.gov/news-events/news-releases/nih-opens-east-palestine-health-research-office-study-train-disaster",
+    "sourceType": "news",
+    "evidenceQuality": "editorial",
+    "publishedDate": "2026-02-04",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "whonews:urn-uuid-9dd91d5e-0bb1-4e90-a1bc-e30658be8b12",
+    "slug": "four-in-ten-cancer-cases-could-be-prevented-globally",
+    "title": "Four in ten cancer cases could be prevented globally",
+    "excerpt": "Up to four in ten cancer cases worldwide could be prevented, according to a new global analysis from the World Health Organization (WHO) and its International Agency for Research on Cancer (IARC). The study examines 30 p",
+    "technicalSummary": "Up to four in ten cancer cases worldwide could be prevented, according to a new global analysis from the World Health Organization (WHO) and its International Agency for Research on Cancer (IARC). The study examines 30 preventable causes, including tobacco, alcohol, high body mass index, physical inactivity, air pollution, ultraviolet radiation – and for the first time – nine cancer-causing infections.",
+    "laymansExplanation": "This piece discusses four in ten cancer cases could be prevented globally. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "WHO News",
+    "sourceUrl": "https://www.who.int/news/item/03-02-2026-four-in-ten-cancer-cases-could-be-prevented-globally",
+    "sourceType": "news",
+    "evidenceQuality": "editorial",
+    "publishedDate": "2026-02-03",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "nihnews:news-events-news-releases-researchers-identify-new-blood-markers-may-detect-early-pancreat",
+    "slug": "researchers-identify-new-blood-markers-that-may-detect-early-pancreatic-cancer",
+    "title": "Researchers identify new blood markers that may detect early pancreatic cancer",
+    "excerpt": "Researchers identify new blood markers that may detect early pancreatic cancer January 30, 2026 — NIH-funded, four-marker panel could one day help catch one of deadliest cancers at more treatable stages.",
+    "technicalSummary": "Researchers identify new blood markers that may detect early pancreatic cancer January 30, 2026 — NIH-funded, four-marker panel could one day help catch one of deadliest cancers at more treatable stages.",
+    "laymansExplanation": "This piece discusses researchers identify new blood markers that may detect early pancreatic cancer. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "NIH News",
+    "sourceUrl": "https://www.nih.gov/news-events/news-releases/researchers-identify-new-blood-markers-may-detect-early-pancreatic-cancer",
+    "sourceType": "news",
+    "evidenceQuality": "editorial",
+    "publishedDate": "2026-01-30",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
       }
     ]
   },
@@ -81,6 +403,224 @@
         "slug": "healthspan",
         "name": "Healthspan",
         "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "nihnews:news-events-news-releases-nih-funded-study-clearly-ties-risk-dementia-severe-cte",
+    "slug": "nih-funded-study-clearly-ties-risk-of-dementia-to-severe-cte",
+    "title": "NIH-funded study clearly ties risk of dementia to severe CTE",
+    "excerpt": "NIH-funded study clearly ties risk of dementia to severe CTE January 27, 2026 — Study provides clearest evidence to date to link severe CTE to dementia risk.",
+    "technicalSummary": "NIH-funded study clearly ties risk of dementia to severe CTE January 27, 2026 — Study provides clearest evidence to date to link severe CTE to dementia risk.",
+    "laymansExplanation": "This piece discusses nih-funded study clearly ties risk of dementia to severe cte. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "NIH News",
+    "sourceUrl": "https://www.nih.gov/news-events/news-releases/nih-funded-study-clearly-ties-risk-dementia-severe-cte",
+    "sourceType": "news",
+    "evidenceQuality": "editorial",
+    "publishedDate": "2026-01-27",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "nihnews:news-events-news-releases-nih-proposes-embryonic-stem-cell-research-shift-put-patients-fir",
+    "slug": "nih-proposes-embryonic-stem-cell-research-shift-to-put-patients-first",
+    "title": "NIH Proposes Embryonic Stem Cell Research Shift to Put Patients First",
+    "excerpt": "NIH Proposes Embryonic Stem Cell Research Shift to Put Patients First January 23, 2026 — Agency seeks public comment on the robustness of emerging biotechnologies to reduce or potentially replace remaining research relia",
+    "technicalSummary": "NIH Proposes Embryonic Stem Cell Research Shift to Put Patients First January 23, 2026 — Agency seeks public comment on the robustness of emerging biotechnologies to reduce or potentially replace remaining research reliance on human embryonic stem cells.",
+    "laymansExplanation": "This piece discusses nih proposes embryonic stem cell research shift to put patients first. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "NIH News",
+    "sourceUrl": "https://www.nih.gov/news-events/news-releases/nih-proposes-embryonic-stem-cell-research-shift-put-patients-first",
+    "sourceType": "news",
+    "evidenceQuality": "editorial",
+    "publishedDate": "2026-01-23",
+    "categories": [
+      {
+        "slug": "cellular-health",
+        "name": "Cellular Health",
+        "description": "Cell-level mechanisms influencing aging and resilience."
+      }
+    ]
+  },
+  {
+    "externalId": "nihnews:news-events-news-releases-nih-announces-major-policy-shift-end-use-human-fetal-tissue-nih-",
+    "slug": "nih-announces-major-policy-shift-to-end-use-of-human-fetal-tissue-in-nih-supported-researc",
+    "title": "NIH Announces Major Policy Shift to End Use of Human Fetal Tissue in NIH-Supported Research",
+    "excerpt": "NIH Announces Major Policy Shift to End Use of Human Fetal Tissue in NIH-Supported Research January 22, 2026 — Agency to focus on next-generation, validated research models.",
+    "technicalSummary": "NIH Announces Major Policy Shift to End Use of Human Fetal Tissue in NIH-Supported Research January 22, 2026 — Agency to focus on next-generation, validated research models.",
+    "laymansExplanation": "This piece discusses nih announces major policy shift to end use of human fetal tissue in nih-supported research. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "NIH News",
+    "sourceUrl": "https://www.nih.gov/news-events/news-releases/nih-announces-major-policy-shift-end-use-human-fetal-tissue-nih-supported-research",
+    "sourceType": "news",
+    "evidenceQuality": "editorial",
+    "publishedDate": "2026-01-22",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.64898/2026.01.05.26343424",
+    "slug": "implementation-and-first-results-of-the-czech-nationwide-prostate-cancer-screening-pilot-p",
+    "title": "Implementation and first results of the Czech nationwide prostate cancer screening pilot programme",
+    "excerpt": "BackgroundIn 2022, the European Union recommended piloting organised prostate cancer screening. Subsequently, the Czech Republic launched a nationwide pilot programme fully reimbursed by public health insurance in Januar",
+    "technicalSummary": "BackgroundIn 2022, the European Union recommended piloting organised prostate cancer screening. Subsequently, the Czech Republic launched a nationwide pilot programme fully reimbursed by public health insurance in January 2024 to reduce the high incidence of late-stage prostate cancer and the widespread unorganised prostate-specific antigen (PSA) testing.\n\nObjectiveTo describe the strategy, methodology, and first results of the Czech nationwide prostate cancer screening pilot programme.\n\nMethodsWe analysed data from the first 12 months of the programme, which targets men aged 50-69 years without a previous prostate cancer diagnosis. General practitioners and urologists offer men an initial P",
+    "laymansExplanation": "This piece discusses implementation and first results of the czech nationwide prostate cancer screening pilot programme. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.64898/2026.01.05.26343424",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-01-19",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.08.11.25333429",
+    "slug": "llm-based-multi-agent-collaboration-for-abstract-screening-towards-automated-systematic-re",
+    "title": "LLM-based Multi-Agent Collaboration for Abstract Screening towards Automated Systematic Reviews",
+    "excerpt": "ObjectiveSystematic reviews (SRs) are essential for evidence-based practice but remain labor-intensive, especially during abstract screening. This study evaluates whether multiple large language model (multi-LLM) collabo",
+    "technicalSummary": "ObjectiveSystematic reviews (SRs) are essential for evidence-based practice but remain labor-intensive, especially during abstract screening. This study evaluates whether multiple large language model (multi-LLM) collaboration can improve the efficiency and reduce costs for abstract screening.\n\nMethodsAbstract screening was framed as a question-answering (QA) task using cost-effective LLMs. Three multi-LLM collaboration strategies were evaluated, including majority voting by averaging opinions of peers, multi-agent debate (MAD) for answer refinement, and LLM-based adjudication against answers of individual QA baselines. These strategies were evaluated on 28 SRs of the CLEF eHealth 2019 Techn",
+    "laymansExplanation": "This piece discusses llm-based multi-agent collaboration for abstract screening towards automated systematic reviews. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.08.11.25333429",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-01-19",
+    "categories": [
+      {
+        "slug": "cellular-health",
+        "name": "Cellular Health",
+        "description": "Cell-level mechanisms influencing aging and resilience."
+      },
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.64898/2025.12.31.25343290",
+    "slug": "per-allele-disease-and-complex-trait-effect-sizes-are-predominantly-african-maf-dependent-",
+    "title": "Per-allele disease and complex trait effect sizes are predominantly African MAF-dependent in European populations",
+    "excerpt": "Understanding genetic architectures of disease is fundamental to partitioning heritability, polygenic risk prediction, and statistical fine-mapping. Genetic architectures of disease in European populations have been show",
+    "technicalSummary": "Understanding genetic architectures of disease is fundamental to partitioning heritability, polygenic risk prediction, and statistical fine-mapping. Genetic architectures of disease in European populations have been shown to depend on European minor allele frequency (MAF): SNPs with lower MAF have larger per-allele effects, due to the action of negative selection. However, we hypothesized that African MAF (defined using African-ancestry segments in African Americans), which is not distorted by the out-of-Africa bottleneck, might better predict per-allele effect sizes of common genetic variation in European populations; we note that common variants explaining most disease heritability are typ",
+    "laymansExplanation": "This piece discusses per-allele disease and complex trait effect sizes are predominantly african maf-dependent in european populations. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.64898/2025.12.31.25343290",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-01-19",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.08.28.25334658",
+    "slug": "genetic-nurture-in-intergenerational-transmission-of-substance-use",
+    "title": "Genetic Nurture in Intergenerational Transmission of Substance Use",
+    "excerpt": "Substance use runs in families. Beyond genetic transmission, parental genetics can indirectly influence offspring substance use through the rearing environment, known as \"genetic nurture\". This study utilized transmitted",
+    "technicalSummary": "Substance use runs in families. Beyond genetic transmission, parental genetics can indirectly influence offspring substance use through the rearing environment, known as \"genetic nurture\". This study utilized transmitted and non-transmitted polygenic scores to investigate genetic nurture on tobacco, alcohol, and cannabis use in up to 15,863 adults with at least one genotyped parent from Lifelines, a population-based cohort study. Genetic nurture significantly influenced cigarettes per day (CPD, {beta}=.037, pFDR=.020) and pack-years ({beta}=.028, pFDR =.035), accounting for 22-26% of direct genetic transmission effects. Longitudinal analysis revealed that genetic nurture on current CPD persi",
+    "laymansExplanation": "This piece discusses genetic nurture in intergenerational transmission of substance use. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.08.28.25334658",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-01-19",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.64898/2026.01.16.26344285",
+    "slug": "workplace-pollution-and-risk-of-incident-coronary-artery-disease",
+    "title": "Workplace Pollution and Risk of Incident Coronary Artery Disease",
+    "excerpt": "ImportanceGenetic factors only explain [~]50% of an individuals lifetime CAD risk. Workplace pollution exposure likely represents a significant, under-recognized, and modifiable contributor. Clarifying its independent ef",
+    "technicalSummary": "ImportanceGenetic factors only explain [~]50% of an individuals lifetime CAD risk. Workplace pollution exposure likely represents a significant, under-recognized, and modifiable contributor. Clarifying its independent effect - distinct from residential air pollution - could inform targeted prevention, clinical risk assessment, and policy strategies.\n\nObjectiveTo quantify the independent association between workplace pollution exposure and incident CAD, rigorously adjusting for canonical risk factors, genetic risk, socioeconomic deprivation index, and residential air pollution.\n\nDesign, Setting, and ParticipantsA prospective cohort analysis of 103,599 adults in the UK Biobank with complete ba",
+    "laymansExplanation": "This piece discusses workplace pollution and risk of incident coronary artery disease. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.64898/2026.01.16.26344285",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-01-19",
+    "categories": [
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
+      },
+      {
+        "slug": "cellular-health",
+        "name": "Cellular Health",
+        "description": "Cell-level mechanisms influencing aging and resilience."
       }
     ]
   },
@@ -164,6 +704,271 @@
         "slug": "healthspan",
         "name": "Healthspan",
         "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "nihnews:news-events-news-releases-fresh-energy-supply-may-shield-nerves-diabetic-or-chemo-induced-",
+    "slug": "a-fresh-energy-supply-may-shield-nerves-from-diabetic-or-chemo-induced-neuropathy",
+    "title": "A fresh energy supply may shield nerves from diabetic or chemo-induced neuropathy",
+    "excerpt": "A fresh energy supply may shield nerves from diabetic or chemo-induced neuropathy January 7, 2026 — Researchers demonstrate that transferring healthy mitochondria from support glial cells to nerve cells could reduce nerv",
+    "technicalSummary": "A fresh energy supply may shield nerves from diabetic or chemo-induced neuropathy January 7, 2026 — Researchers demonstrate that transferring healthy mitochondria from support glial cells to nerve cells could reduce nerve pain and degeneration.",
+    "laymansExplanation": "This piece discusses a fresh energy supply may shield nerves from diabetic or chemo-induced neuropathy. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "NIH News",
+    "sourceUrl": "https://www.nih.gov/news-events/news-releases/fresh-energy-supply-may-shield-nerves-diabetic-or-chemo-induced-neuropathy",
+    "sourceType": "news",
+    "evidenceQuality": "editorial",
+    "publishedDate": "2026-01-07",
+    "categories": [
+      {
+        "slug": "cellular-health",
+        "name": "Cellular Health",
+        "description": "Cell-level mechanisms influencing aging and resilience."
+      }
+    ]
+  },
+  {
+    "externalId": "nihnews:news-events-news-releases-researchers-achieve-first-minimally-invasive-coronary-artery-byp",
+    "slug": "researchers-achieve-the-first-minimally-invasive-coronary-artery-bypass",
+    "title": "Researchers achieve the first minimally invasive coronary artery bypass",
+    "excerpt": "Researchers achieve the first minimally invasive coronary artery bypass January 6, 2026 — For high-risk patients, the method could offer a safer alternative to open-heart surgery.",
+    "technicalSummary": "Researchers achieve the first minimally invasive coronary artery bypass January 6, 2026 — For high-risk patients, the method could offer a safer alternative to open-heart surgery.",
+    "laymansExplanation": "This piece discusses researchers achieve the first minimally invasive coronary artery bypass. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "NIH News",
+    "sourceUrl": "https://www.nih.gov/news-events/news-releases/researchers-achieve-first-minimally-invasive-coronary-artery-bypass",
+    "sourceType": "news",
+    "evidenceQuality": "editorial",
+    "publishedDate": "2026-01-06",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT05407662",
+    "slug": "a-study-using-surveys-to-learn-more-about-treatment-with-steroidal-mineralocorticoid-recep",
+    "title": "A Study Using Surveys to Learn More About Treatment With Steroidal Mineralocorticoid Receptor Antagonists, How They Are Used, What Side Effects They Have, and How Satisfied People Who Receive Them Are in the US",
+    "excerpt": "This is an observational study in which patients with chronic kidney diseases (CKD), type 2 diabetes (T2D) or heart failure (HF) who are current or past users of sMRA therapies are studied. sMRA stands for steroidal mine",
+    "technicalSummary": "This is an observational study in which patients with chronic kidney diseases (CKD), type 2 diabetes (T2D) or heart failure (HF) who are current or past users of sMRA therapies are studied. sMRA stands for steroidal mineralocorticoid receptor antagonists.\n\nCKD is a long-term, progressive decrease in the kidneys' ability to work properly.\n\nType 2 diabetes is a condition in which the body does not make enough of a hormone called insulin or does not use insulin well resulting in high blood sugar levels.\n\nHF is a condition in which the heart does not pump blood as well as it should.\n\nThe renin-angiotensin-aldosterone system (RAAS) is a hormone system that works with the kidneys to control blood ",
+    "laymansExplanation": "This piece discusses a study using surveys to learn more about treatment with steroidal mineralocorticoid receptor antagonists, how they are used, what side effects they have, and how satisfied people who receive them are in the us. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT05407662",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "observational",
+    "publishedDate": "2022-06-07",
+    "categories": [
+      {
+        "slug": "metabolic-health",
+        "name": "Metabolic Health",
+        "description": "Insulin, glucose, lipid, and body-composition driven research."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT05368259",
+    "slug": "the-audacity-study-allurion-device-in-adults-with-clinical-obesity",
+    "title": "The AUDACITY Study (AllUrion Device in Adults With Clinical ObesITY)",
+    "excerpt": "The objective for this clinical study is to provide FDA with clinical evidence regarding the effectiveness and safety of the AGBS + moderate intensity lifestyle modification therapy program, indwell time of the AGBS insi",
+    "technicalSummary": "The objective for this clinical study is to provide FDA with clinical evidence regarding the effectiveness and safety of the AGBS + moderate intensity lifestyle modification therapy program, indwell time of the AGBS inside the stomach, and outcomes at 48 weeks.",
+    "laymansExplanation": "This piece discusses the audacity study (allurion device in adults with clinical obesity). The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT05368259",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2022-05-10",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT05160662",
+    "slug": "the-important-project-of-obese-pregnant-women",
+    "title": "The Important Project of Obese Pregnant Women",
+    "excerpt": "Obesity is a globally growing public health problem. In 1993, about 25% of women in Sweden were overweight (BMI over 25) or obese (BMI over 30) on the first visit to maternal health care. Twenty years later, in 2013, the",
+    "technicalSummary": "Obesity is a globally growing public health problem. In 1993, about 25% of women in Sweden were overweight (BMI over 25) or obese (BMI over 30) on the first visit to maternal health care. Twenty years later, in 2013, the corresponding proportion was 38%. Being fat increases the risk of several severe complications during pregnancy and childbirth, such as miscarriage, premature birth, congenital disabilities, intrauterine fetal death, thromboembolism, gestational diabetes, pregnancy-induced hypertension.\n\nPurpose of the project: To assess whether the introduction of new guidelines for overweight pregnant women (BMI\\>35) affects the outcome of pregnancy and childbirth, such as the frequency of",
+    "laymansExplanation": "This piece discusses the important project of obese pregnant women. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT05160662",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2021-12-16",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT04753580",
+    "slug": "sampling-of-human-microbiota-in-order-to-test-on-a-mouse-model-individualized-intervention",
+    "title": "Sampling of Human Microbiota in Order to Test, on a Mouse Model, Individualized Intervention Strategies During Aging",
+    "excerpt": "Human microbial flora transfer studies in rodent models have clearly identified that age-associated microbiota dysbiosis can play a decisive role with respect to pathologies or complications linked to aging: increased in",
+    "technicalSummary": "Human microbial flora transfer studies in rodent models have clearly identified that age-associated microbiota dysbiosis can play a decisive role with respect to pathologies or complications linked to aging: increased intestinal permeability, in place of systemic inflammation, dysfunction of immune cells and insulin resistance.\n\nThis trial therefore aims to validate the process of ex vivo transfer to the rat of human microbiota selected from three categories of male individuals: young adults, healthy older adults and frail older adults, with the evaluation of the bacterial population of stool by analysis of the 16S rRNA gene.",
+    "laymansExplanation": "This piece discusses sampling of human microbiota in order to test, on a mouse model, individualized intervention strategies during aging. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT04753580",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2021-02-15",
+    "categories": [
+      {
+        "slug": "metabolic-health",
+        "name": "Metabolic Health",
+        "description": "Insulin, glucose, lipid, and body-composition driven research."
+      },
+      {
+        "slug": "cellular-health",
+        "name": "Cellular Health",
+        "description": "Cell-level mechanisms influencing aging and resilience."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT04238962",
+    "slug": "a-research-study-to-compare-two-different-forms-of-once-weekly-semaglutide-in-two-differen",
+    "title": "A Research Study to Compare Two Different Forms of Once-weekly Semaglutide in Two Different Injection Pens",
+    "excerpt": "The study will look at how 2 different semaglutide versions reach and stay in the blood after injection. The study aims to show similar levels of semaglutide in the blood when using the different semaglutide versions. Pa",
+    "technicalSummary": "The study will look at how 2 different semaglutide versions reach and stay in the blood after injection. The study aims to show similar levels of semaglutide in the blood when using the different semaglutide versions. Participants will get 1 of the 2 versions of semaglutide - which version is decided by chance. One version is the one that doctors already can prescribe and the other is the new version. Participants will get the medicine as an injection under the skin of the belly with a pen-injector. The type of pen-injector is different for the 2 versions of semaglutide. Participants will receive 7 once-weekly injections in total. The study will last for about 80-106 days. Participants will ",
+    "laymansExplanation": "This piece discusses a research study to compare two different forms of once-weekly semaglutide in two different injection pens. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT04238962",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2020-01-23",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT03573180",
+    "slug": "prevalence-of-dental-caries-among-a-group-of-egyptian-children-using-cast-index",
+    "title": "Prevalence of Dental Caries Among a Group of Egyptian Children Using CAST Index",
+    "excerpt": "The aim of this study is to assess the prevalence of dental caries using CAST index among a group of Egyptian children in primary dentition stage.\n\nEgyptian children aging from three to six years old attending the Outpat",
+    "technicalSummary": "The aim of this study is to assess the prevalence of dental caries using CAST index among a group of Egyptian children in primary dentition stage.\n\nEgyptian children aging from three to six years old attending the Outpatients' Clinic of both of Pediatric Dentistry Department, Faculty of Dentistry, Misr University for Science and Technology and the Pediatric Dentistry and Dental Public Health Department, Faculty of Dentistry, Cairo University will be examined using Caries Assessment Spectrum and Treatment",
+    "laymansExplanation": "This piece discusses prevalence of dental caries among a group of egyptian children using cast index. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT03573180",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "observational",
+    "publishedDate": "2018-06-29",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT03336580",
+    "slug": "a-study-of-prx004-in-subjects-with-amyloid-transthyretin-attr-amyloidosis",
+    "title": "A Study of PRX004 in Subjects With Amyloid Transthyretin (ATTR) Amyloidosis",
+    "excerpt": "A Phase 1, open-label study of intravenous (IV) PRX004 as a single agent in subjects with hereditary amyloid transthyretin (hATTR) amyloidosis. The study will consist of 3 phases and will enroll up to a total of 36 subje",
+    "technicalSummary": "A Phase 1, open-label study of intravenous (IV) PRX004 as a single agent in subjects with hereditary amyloid transthyretin (hATTR) amyloidosis. The study will consist of 3 phases and will enroll up to a total of 36 subjects. A 3+3 dose escalation component to determine the safety, tolerability, PK, PD, and MTD. An expansion component in anticipated PRX004 RP2D cohorts selected from the Dose Escalation Phase. An extended dosing component for eligible subjects from the Dose Escalation or Expansion phases.",
+    "laymansExplanation": "This piece discusses a study of prx004 in subjects with amyloid transthyretin (attr) amyloidosis. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT03336580",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "observational",
+    "publishedDate": "2017-11-08",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT02350127",
+    "slug": "preventing-loss-of-independence-through-exercise-plie-in-persons-with-dementia",
+    "title": "Preventing Loss of Independence Through Exercise (PLIE) in Persons With Dementia",
+    "excerpt": "Nearly 1 in 10 older Veterans have dementia, which is a devastating condition that leads to a progressive loss of independence and functional status. Currently available dementia medications do not alter the disease cour",
+    "technicalSummary": "Nearly 1 in 10 older Veterans have dementia, which is a devastating condition that leads to a progressive loss of independence and functional status. Currently available dementia medications do not alter the disease course. Therefore, it is critically important to identify effective strategies for helping older Veterans living with dementia to enhance their functional status and quality of life. The investigators have developed a novel, integrative group movement program called Preventing Loss of Independence through Exercise (PLIE) that incorporates elements from Eastern and Western exercise modalities and is designed to build and maintain the capacity to perform basic functional movements ",
+    "laymansExplanation": "This piece discusses preventing loss of independence through exercise (plie) in persons with dementia. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.",
+    "keyTakeaways": [
+      "Use this as educational context, not individualized medical advice.",
+      "Check source quality and publication type before acting.",
+      "Compare claims against multiple high-quality sources."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT02350127",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2015-01-29",
+    "categories": [
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
       }
     ]
   }

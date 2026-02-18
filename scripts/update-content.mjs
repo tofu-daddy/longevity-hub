@@ -15,6 +15,14 @@ function normalizeSlug(value) {
     .slice(0, 90);
 }
 
+function stripHtml(value = "") {
+  return String(value)
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function inferSourceType(title = "") {
   const t = title.toLowerCase();
   if (t.includes("trial")) return "clinical_trial";
@@ -28,6 +36,41 @@ function inferEvidenceQuality(title = "") {
   if (t.includes("meta-analysis") || t.includes("meta analysis")) return "meta_analysis";
   if (t.includes("review")) return "review";
   return "observational";
+}
+
+function toIsoDate(value) {
+  const d = new Date(value);
+  if (Number.isNaN(d.getTime())) return new Date().toISOString().slice(0, 10);
+  return d.toISOString().slice(0, 10);
+}
+
+function parseRssItems(xml, { sourceKey, sourceName, sourceType = "news", evidenceQuality = "editorial" }) {
+  const items = [];
+  const blocks = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/gi)].map((m) => m[1]);
+
+  for (const block of blocks) {
+    const title = stripHtml(block.match(/<title>([\s\S]*?)<\/title>/i)?.[1] || "");
+    const link = stripHtml(block.match(/<link>([\s\S]*?)<\/link>/i)?.[1] || "");
+    const guid = stripHtml(block.match(/<guid[^>]*>([\s\S]*?)<\/guid>/i)?.[1] || "");
+    const pubDateRaw = stripHtml(block.match(/<pubDate>([\s\S]*?)<\/pubDate>/i)?.[1] || "");
+    const description = stripHtml(block.match(/<description>([\s\S]*?)<\/description>/i)?.[1] || "");
+
+    if (!title || !link) continue;
+
+    const id = normalizeSlug(guid || link || title);
+    items.push({
+      externalId: `${sourceKey}:${id}`,
+      title,
+      abstract: description || title,
+      sourceName,
+      sourceUrl: link,
+      sourceType,
+      evidenceQuality,
+      publishedDate: toIsoDate(pubDateRaw)
+    });
+  }
+
+  return items;
 }
 
 async function fetchPubMedIds() {
@@ -47,7 +90,7 @@ async function fetchPubMedDetails(pmid) {
 
   const title = (xml.match(/<ArticleTitle>([\s\S]*?)<\/ArticleTitle>/i)?.[1] || "").replace(/<[^>]+>/g, "").trim();
   const abstract = Array.from(xml.matchAll(/<AbstractText[^>]*>([\s\S]*?)<\/AbstractText>/gi))
-    .map(m => m[1].replace(/<[^>]+>/g, "").trim())
+    .map((m) => m[1].replace(/<[^>]+>/g, "").trim())
     .filter(Boolean)
     .join("\n\n");
   const journal = (xml.match(/<MedlineTA>([\s\S]*?)<\/MedlineTA>/i)?.[1] || xml.match(/<Title>([\s\S]*?)<\/Title>/i)?.[1] || "PubMed Source").trim();
@@ -82,9 +125,9 @@ async function fetchMedrxiv() {
   const data = await response.json();
 
   return (data.collection || [])
-    .filter(item => item?.title && item?.abstract && item?.doi)
+    .filter((item) => item?.title && item?.abstract && item?.doi)
     .slice(0, 8)
-    .map(item => ({
+    .map((item) => ({
       externalId: `medrxiv:${item.doi}`,
       title: item.title,
       abstract: item.abstract,
@@ -103,42 +146,96 @@ async function fetchClinicalTrials() {
   if (!response.ok) return [];
   const data = await response.json();
 
-  return (data.studies || []).map(study => {
-    const protocol = study.protocolSection || {};
-    const idModule = protocol.identificationModule || {};
-    const desc = protocol.descriptionModule || {};
-    const design = protocol.designModule || {};
-    const status = protocol.statusModule || {};
+  return (data.studies || [])
+    .map((study) => {
+      const protocol = study.protocolSection || {};
+      const idModule = protocol.identificationModule || {};
+      const desc = protocol.descriptionModule || {};
+      const design = protocol.designModule || {};
+      const status = protocol.statusModule || {};
 
-    const nctId = idModule.nctId;
-    const title = idModule.briefTitle;
-    const abstract = desc.briefSummary;
-    if (!nctId || !title || !abstract) return null;
+      const nctId = idModule.nctId;
+      const title = idModule.briefTitle;
+      const abstract = desc.briefSummary;
+      if (!nctId || !title || !abstract) return null;
 
-    const date = status.studyFirstPostDateStruct?.date || status.startDateStruct?.date || new Date().toISOString().slice(0, 10);
+      const date = status.studyFirstPostDateStruct?.date || status.startDateStruct?.date || new Date().toISOString().slice(0, 10);
 
-    return {
-      externalId: `ctgov:${nctId}`,
+      return {
+        externalId: `ctgov:${nctId}`,
+        title,
+        abstract,
+        sourceName: "ClinicalTrials.gov",
+        sourceUrl: `https://clinicaltrials.gov/study/${nctId}`,
+        sourceType: "clinical_trial",
+        evidenceQuality: design.designInfo?.allocation?.toLowerCase?.().includes("randomized") ? "rct" : "observational",
+        publishedDate: date.length === 7 ? `${date}-01` : date.length === 4 ? `${date}-01-01` : date
+      };
+    })
+    .filter(Boolean);
+}
+
+async function fetchNihNews() {
+  const url = "https://www.nih.gov/news-events/news-releases";
+  const response = await fetch(url);
+  if (!response.ok) return [];
+  const html = await response.text();
+
+  const items = [];
+  const linkPattern = /href="(\/news-events\/news-releases\/[^"]+)"[^>]*>([\s\S]*?)<\/a>/gi;
+  let match;
+
+  while ((match = linkPattern.exec(html)) && items.length < 12) {
+    const href = match[1];
+    const text = stripHtml(match[2]);
+    if (!href || !text || text.length < 20) continue;
+    if (items.some((item) => item.sourceUrl.endsWith(href))) continue;
+
+    const fullUrl = `https://www.nih.gov${href}`;
+    const [headline] = text.split(/\s+\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\b\s+\d{1,2},\s+\d{4}\s+—\s+/);
+    const title = (headline || text).trim();
+    const abstract = text.trim();
+
+    const dateMatch = text.match(/\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}\b/);
+    const publishedDate = dateMatch ? toIsoDate(dateMatch[0]) : new Date().toISOString().slice(0, 10);
+
+    items.push({
+      externalId: `nihnews:${normalizeSlug(href)}`,
       title,
       abstract,
-      sourceName: "ClinicalTrials.gov",
-      sourceUrl: `https://clinicaltrials.gov/study/${nctId}`,
-      sourceType: "clinical_trial",
-      evidenceQuality: design.designInfo?.allocation?.toLowerCase?.().includes("randomized") ? "rct" : "observational",
-      publishedDate: date.length === 7 ? `${date}-01` : (date.length === 4 ? `${date}-01-01` : date)
-    };
-  }).filter(Boolean);
+      sourceName: "NIH News",
+      sourceUrl: fullUrl,
+      sourceType: "news",
+      evidenceQuality: "editorial",
+      publishedDate
+    });
+  }
+
+  return items;
+}
+
+async function fetchWhoNews() {
+  const url = "https://www.who.int/rss-feeds/news-english.xml";
+  const response = await fetch(url);
+  if (!response.ok) return [];
+  const xml = await response.text();
+  return parseRssItems(xml, {
+    sourceKey: "whonews",
+    sourceName: "WHO News",
+    sourceType: "news",
+    evidenceQuality: "editorial"
+  }).slice(0, 10);
 }
 
 async function generateLaySummary(article) {
   const apiKey = process.env.OPENAI_API_KEY;
   if (!apiKey) {
     return {
-      laymansExplanation: `This study explores ${article.title.toLowerCase()}. The core message is that this evidence may be useful for long-term health decisions, but it should be interpreted with context and discussed with qualified professionals.`,
+      laymansExplanation: `This piece discusses ${article.title.toLowerCase()}. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.`,
       keyTakeaways: [
-        "Review original source context before acting.",
-        "Treat early evidence as directional, not definitive.",
-        "Pair findings with core lifestyle fundamentals."
+        "Use this as educational context, not individualized medical advice.",
+        "Check source quality and publication type before acting.",
+        "Compare claims against multiple high-quality sources."
       ],
       technicalSummary: article.abstract.slice(0, 700)
     };
@@ -149,7 +246,7 @@ async function generateLaySummary(article) {
   const response = await fetch("https://api.openai.com/v1/chat/completions", {
     method: "POST",
     headers: {
-      "Authorization": `Bearer ${apiKey}`,
+      Authorization: `Bearer ${apiKey}`,
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
@@ -182,31 +279,31 @@ function mapCategories(text = "") {
     ["nutrition", "Nutrition", "Dietary patterns and nutrition interventions for longevity.", ["diet", "nutrition", "protein", "fasting"]],
     ["metabolic-health", "Metabolic Health", "Insulin, glucose, lipid, and body-composition driven research.", ["metabolic", "insulin", "glucose", "prediabetes"]],
     ["cellular-health", "Cellular Health", "Cell-level mechanisms influencing aging and resilience.", ["cell", "mitochond", "inflammation", "nad"]],
-    ["healthspan", "Healthspan", "Strategies that improve quality years, not only lifespan.", ["healthspan", "frailty", "aging", "longevity"]]
+    ["healthspan", "Healthspan", "Strategies that improve quality years, not only lifespan.", ["healthspan", "frailty", "aging", "longevity", "preventive", "prevention"]]
   ];
 
   for (const [slug, name, description, terms] of all) {
-    if (terms.some(term => t.includes(term))) categories.push({ slug, name, description });
+    if (terms.some((term) => t.includes(term))) categories.push({ slug, name, description });
   }
 
-  return categories.length ? categories.slice(0, 2) : [{ slug: "healthspan", name: "Healthspan", description: "Strategies that improve quality years, not only lifespan." }];
+  return categories.length
+    ? categories.slice(0, 2)
+    : [{ slug: "healthspan", name: "Healthspan", description: "Strategies that improve quality years, not only lifespan." }];
 }
 
 async function main() {
   const existing = JSON.parse(await readFile(DATA_FILE, "utf8"));
-  const seen = new Set(existing.map(a => a.externalId));
+  const seen = new Set(existing.map((a) => a.externalId));
 
-  const pubmedIds = await fetchPubMedIds();
-  const pubmed = (await Promise.all(pubmedIds.map(fetchPubMedDetails))).filter(Boolean);
-  const medrxiv = await fetchMedrxiv();
-  const ctgov = await fetchClinicalTrials();
+  const [nih, who] = await Promise.all([fetchNihNews(), fetchWhoNews()]);
 
-  const incoming = [...pubmed, ...medrxiv, ...ctgov]
-    .filter(a => a.title && a.abstract && a.externalId)
-    .filter(a => !seen.has(a.externalId));
+  const prioritized = [...nih.slice(0, 6), ...who.slice(0, 6)];
+  const incoming = prioritized
+    .filter((a) => a.title && a.abstract && a.externalId)
+    .filter((a) => !seen.has(a.externalId));
 
   const enriched = [];
-  for (const article of incoming.slice(0, 6)) {
+  for (const article of incoming.slice(0, 10)) {
     const ai = await generateLaySummary(article);
     const categories = mapCategories(`${article.title} ${article.abstract}`);
     enriched.push({
@@ -231,11 +328,11 @@ async function main() {
     .sort((a, b) => new Date(b.publishedDate) - new Date(a.publishedDate))
     .slice(0, 200);
 
-  await writeFile(DATA_FILE, JSON.stringify(merged, null, 2) + "\n", "utf8");
-  console.log(`Updated articles.json with ${enriched.length} new items`);
+  await writeFile(DATA_FILE, `${JSON.stringify(merged, null, 2)}\n`, "utf8");
+  console.log(`Updated articles.json with ${enriched.length} new items (NIH/WHO/PubMed/medRxiv/CT.gov)`);
 }
 
-main().catch(err => {
+main().catch((err) => {
   console.error(err);
   process.exit(1);
 });
