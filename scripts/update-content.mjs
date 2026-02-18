@@ -231,17 +231,17 @@ async function generateLaySummary(article) {
   const apiKey = process.env.OPENAI_API_KEY;
   if (!apiKey) {
     return {
-      laymansExplanation: `This piece discusses ${article.title.toLowerCase()}. The key point is to interpret findings carefully, compare with broader evidence, and avoid overgeneralizing from a single source.`,
+      laymansExplanation: `Bottom line: ${article.title} is relevant to long-term health decision-making. In plain language, this gives you a practical signal you can compare against your own goals and baseline metrics. Use it to guide next steps, not as a standalone diagnosis.`,
       keyTakeaways: [
-        "Use this as educational context, not individualized medical advice.",
-        "Check source quality and publication type before acting.",
-        "Compare claims against multiple high-quality sources."
+        "Identify the main health lever this article addresses and prioritize that first.",
+        "Review the study design before translating findings into personal action.",
+        "Choose one concrete behavior change and track it for at least 2-4 weeks."
       ],
       technicalSummary: article.abstract.slice(0, 700)
     };
   }
 
-  const prompt = `You are a longevity science communicator. Return strict JSON with keys laymansExplanation, keyTakeaways (array of 3), technicalSummary. Vary opening style (do not always start with 'Imagine').\n\nTitle: ${article.title}\nAbstract: ${article.abstract}`;
+  const prompt = `You are a longevity science communicator for a consumer audience. Return strict JSON with keys laymansExplanation, keyTakeaways (array of 3), technicalSummary. Style requirements: vary sentence openings and cadence across articles; avoid repeating stock phrases; use direct and practical tone; include one concrete action step; keep claims accurate to provided text; do not start with 'Imagine'.\n\nTitle: ${article.title}\nAbstract: ${article.abstract}`;
 
   const response = await fetch("https://api.openai.com/v1/chat/completions", {
     method: "POST",
