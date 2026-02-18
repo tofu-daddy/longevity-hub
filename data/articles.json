@@ -1,0 +1,143 @@
+[
+  {
+    "externalId": "pubmed:1000001",
+    "slug": "strength-training-longevity-muscle-aging",
+    "title": "Strength Training and Healthy Aging: Why Muscle Matters More Than You Think",
+    "excerpt": "A review of aging research shows that preserving muscle mass is strongly linked to metabolic health and long-term independence.",
+    "technicalSummary": "Across longitudinal cohorts and intervention trials, maintaining lean mass and strength is associated with lower frailty risk, improved insulin sensitivity, and reduced all-cause mortality markers in older adults.",
+    "laymansExplanation": "Most people think longevity is about one supplement or one biomarker. In reality, your baseline strength and muscle are foundational. Muscle helps regulate blood sugar, supports mobility, protects against falls, and improves how resilient your body is when stress hits. This research suggests resistance training is one of the most practical long-term health strategies because it compounds over time.",
+    "keyTakeaways": [
+      "Train major muscle groups at least 2 times per week.",
+      "Progressive overload matters more than workout novelty.",
+      "Pair resistance work with adequate daily protein.",
+      "Strength is a better aging signal than scale weight alone."
+    ],
+    "hasExplanation": true,
+    "sourceName": "J Gerontol A",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/1000001/",
+    "sourceType": "research_paper",
+    "evidenceQuality": "review",
+    "publishedDate": "2026-01-30",
+    "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=1200&q=80",
+    "categories": [
+      { "slug": "exercise", "name": "Exercise", "description": "Movement, training, and performance-related longevity insights." },
+      { "slug": "healthspan", "name": "Healthspan", "description": "Strategies that improve quality years, not only lifespan." }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2026.01.20.123456",
+    "slug": "sleep-regularity-inflammatory-aging-markers",
+    "title": "Sleep Regularity and Inflammation in Midlife Adults",
+    "excerpt": "A large observational dataset links irregular sleep timing with higher inflammatory signatures associated with accelerated aging.",
+    "technicalSummary": "Participants with greater night-to-night sleep timing variability demonstrated higher CRP and IL-6 trends after adjustment for BMI and activity. Associations remained directionally consistent across age and sex strata.",
+    "laymansExplanation": "It is not only how long you sleep, but how consistent your sleep schedule is. People with highly variable bed and wake times had worse inflammation markers. A practical implication is that regular sleep timing may reduce chronic biological stress and improve long-term health trajectories.",
+    "keyTakeaways": [
+      "Keep wake time consistent across weekdays and weekends.",
+      "Sleep duration and sleep timing both matter.",
+      "Small schedule shifts repeated daily can add up biologically."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2026.01.20.123456",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-01-20",
+    "image": "https://images.unsplash.com/photo-1455642305367-68834a84f0e8?auto=format&fit=crop&w=1200&q=80",
+    "categories": [
+      { "slug": "sleep", "name": "Sleep", "description": "Sleep quality, rhythms, and recovery-focused findings." },
+      { "slug": "healthspan", "name": "Healthspan", "description": "Strategies that improve quality years, not only lifespan." }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT01234567",
+    "slug": "zone-2-aerobic-trial-metabolic-health",
+    "title": "Zone 2 Aerobic Training Trial for Metabolic Resilience",
+    "excerpt": "Clinical trial data suggests moderate-intensity aerobic training can improve mitochondrial efficiency and cardiometabolic indicators.",
+    "technicalSummary": "In an interventional design, participants assigned structured moderate-intensity aerobic sessions demonstrated improvements in VO2-related outcomes and fasting insulin trends over baseline.",
+    "laymansExplanation": "This trial reinforces a simple idea: consistent moderate cardio can materially improve your metabolic foundation. You do not need maximal effort every day. Building an aerobic base improves energy production and recovery, which supports both daily function and long-term health.",
+    "keyTakeaways": [
+      "Aim for steady moderate cardio 3-4 sessions weekly.",
+      "Consistency appears more important than intensity spikes.",
+      "Aerobic base supports both performance and longevity goals."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT01234567",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2025-12-18",
+    "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1200&q=80",
+    "categories": [
+      { "slug": "exercise", "name": "Exercise", "description": "Movement, training, and performance-related longevity insights." },
+      { "slug": "metabolic-health", "name": "Metabolic Health", "description": "Insulin, glucose, lipid, and body-composition driven research." }
+    ]
+  },
+  {
+    "externalId": "pubmed:1000002",
+    "slug": "protein-timing-aging-recovery-study",
+    "title": "Protein Distribution Across the Day and Recovery in Older Adults",
+    "excerpt": "Distributing daily protein across meals may outperform back-loading intake in a single dinner-heavy pattern.",
+    "technicalSummary": "Interventional nutrition data indicates more even protein distribution is associated with improved muscle protein synthesis signaling and functional recovery markers in aging cohorts.",
+    "laymansExplanation": "If most of your protein comes at dinner, you may be leaving recovery gains on the table. This study suggests spreading protein across breakfast, lunch, and dinner may better support muscle maintenance and function as you age.",
+    "keyTakeaways": [
+      "Target protein at each meal, not just at night.",
+      "Prioritize high-quality protein sources consistently.",
+      "Support resistance training with meal timing strategy."
+    ],
+    "hasExplanation": false,
+    "sourceName": "Am J Clin Nutr",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/1000002/",
+    "sourceType": "research_paper",
+    "evidenceQuality": "rct",
+    "publishedDate": "2025-11-09",
+    "categories": [
+      { "slug": "nutrition", "name": "Nutrition", "description": "Dietary patterns and nutrition interventions for longevity." }
+    ]
+  },
+  {
+    "externalId": "pubmed:1000003",
+    "slug": "nad-pathways-age-related-energy-decline",
+    "title": "NAD Pathways and Age-Related Energy Decline",
+    "excerpt": "A synthesis of preclinical and translational studies reviewing NAD-related pathways in aging biology.",
+    "technicalSummary": "The review summarizes evidence linking NAD depletion with mitochondrial dysfunction, reduced sirtuin activity, and impaired stress-response pathways. Translational signals remain promising but heterogeneous.",
+    "laymansExplanation": "NAD is part of the body’s cellular energy machinery. As levels drop with age, cells may become less efficient and less resilient. Research in this area is promising, but most interventions still require stronger human evidence before broad claims can be made.",
+    "keyTakeaways": [
+      "NAD biology is promising but still evolving in humans.",
+      "Lifestyle fundamentals still outperform single-compound strategies.",
+      "Treat supplement claims cautiously and review evidence quality."
+    ],
+    "hasExplanation": true,
+    "sourceName": "Nature Reviews Endocrinology",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/1000003/",
+    "sourceType": "review",
+    "evidenceQuality": "review",
+    "publishedDate": "2025-10-22",
+    "categories": [
+      { "slug": "nad", "name": "NAD+", "description": "NAD pathway and cellular-energy focused longevity research." },
+      { "slug": "cellular-health", "name": "Cellular Health", "description": "Cell-level mechanisms influencing aging and resilience." }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.09.12.654321",
+    "slug": "time-restricted-eating-and-glycemic-variability",
+    "title": "Time-Restricted Eating and Glycemic Variability in Adults with Prediabetes",
+    "excerpt": "Early findings suggest tighter eating windows may reduce glucose swings in selected populations.",
+    "technicalSummary": "Preprint analysis observed improvements in continuous glucose monitoring variability metrics among participants following a restricted feeding window compared to baseline.",
+    "laymansExplanation": "This study suggests that when you eat can matter alongside what you eat. A tighter eating window may reduce blood sugar volatility for some people, though larger and longer trials are still needed.",
+    "keyTakeaways": [
+      "Meal timing can affect glucose stability.",
+      "Start with sustainable windows, not extreme fasting.",
+      "People respond differently, so track outcomes personally."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.09.12.654321",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-09-12",
+    "categories": [
+      { "slug": "nutrition", "name": "Nutrition", "description": "Dietary patterns and nutrition interventions for longevity." },
+      { "slug": "metabolic-health", "name": "Metabolic Health", "description": "Insulin, glucose, lipid, and body-composition driven research." }
+    ]
+  }
+]
