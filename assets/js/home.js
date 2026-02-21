@@ -42,8 +42,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       const sourceScore = sourceWeight[article.sourceName] || 1;
       const typeScore = article.sourceType === "clinical_trial" ? 0 : article.sourceType === "news" ? 2 : 3;
       const explanationScore = article.hasExplanation ? 2 : 0;
-      const imageScore = article.image ? 1 : 0;
-      return sourceScore + typeScore + explanationScore + imageScore;
+      return sourceScore + typeScore + explanationScore;
     }
 
     const pinnedArticle = pinnedSlug ? articles.find((a) => a.slug === pinnedSlug) : null;
@@ -56,20 +55,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     const latest = articles.filter((a) => a.slug !== featured.slug).slice(0, 4);
 
     const summary = featured.technicalSummary || featured.excerpt || "";
-    const imageMarkup = featured.image
-      ? `
-      <div class="md:col-span-2">
-        <a href="${LongevityStatic.siteUrl(`article/${encodeURIComponent(featured.slug)}/`)}" class="block rounded-xl overflow-hidden border border-white/20">
-          <img src="${featured.image}" alt="${LongevityStatic.escapeHtml(featured.title)}" class="w-full h-full object-cover aspect-[4/3]" loading="lazy">
-        </a>
-      </div>
-    `
-      : "";
 
     featuredRoot.innerHTML = `
       <article class="bg-gradient-to-br from-clinical-800 to-clinical-900 rounded-2xl p-8 mb-10 shadow-sm text-white">
-        <div class="${featured.image ? "grid grid-cols-1 md:grid-cols-5 gap-8 items-center" : ""}">
-          <div class="${featured.image ? "md:col-span-3" : ""}">
+        <div>
+          <div>
             <p class="text-xs font-semibold uppercase tracking-wide text-clinical-200 mb-3">Featured Article</p>
             <h2 class="text-3xl md:text-4xl font-medium tracking-tight leading-tight mb-4">
               <a href="${LongevityStatic.siteUrl(`article/${encodeURIComponent(featured.slug)}/`)}" class="hover:text-white/90 transition-colors">${LongevityStatic.escapeHtml(featured.title)}</a>
@@ -82,7 +72,6 @@ document.addEventListener("DOMContentLoaded", async () => {
               </svg>
             </a>
           </div>
-          ${imageMarkup}
         </div>
       </article>
     `;
