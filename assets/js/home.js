@@ -18,6 +18,17 @@ document.addEventListener("DOMContentLoaded", async () => {
   const latestRoot = document.getElementById("latest-root");
 
   try {
+    let pinnedSlug = "";
+    try {
+      const configResponse = await fetch(LongevityStatic.siteUrl("data/site-config.json"));
+      if (configResponse.ok) {
+        const config = await configResponse.json();
+        pinnedSlug = String(config?.featuredSlug || "").trim();
+      }
+    } catch {
+      pinnedSlug = "";
+    }
+
     const articles = (await LongevityStatic.getArticles()).sort(LongevityStatic.byNewest);
     const sourceWeight = {
       "PubMed": 6,
@@ -35,7 +46,8 @@ document.addEventListener("DOMContentLoaded", async () => {
       return sourceScore + typeScore + explanationScore + imageScore;
     }
 
-    const featured = [...articles]
+    const pinnedArticle = pinnedSlug ? articles.find((a) => a.slug === pinnedSlug) : null;
+    const featured = pinnedArticle || [...articles]
       .sort((a, b) => {
         const scoreDiff = featuredScore(b) - featuredScore(a);
         if (scoreDiff !== 0) return scoreDiff;
