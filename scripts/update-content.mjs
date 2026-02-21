@@ -75,7 +75,7 @@ function parseRssItems(xml, { sourceKey, sourceName, sourceType = "news", eviden
 
 async function fetchPubMedIds() {
   const term = encodeURIComponent(KEYWORDS.join(" OR "));
-  const url = `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=${term}&retmode=json&retmax=8&sort=pub+date`;
+  const url = `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=${term}&retmode=json&retmax=24&sort=pub+date`;
   const response = await fetch(url);
   if (!response.ok) return [];
   const data = await response.json();
@@ -117,7 +117,7 @@ async function fetchPubMedDetails(pmid) {
 }
 
 async function fetchMedrxiv() {
-  const from = new Date(Date.now() - 30 * 86400000).toISOString().slice(0, 10);
+  const from = new Date(Date.now() - 120 * 86400000).toISOString().slice(0, 10);
   const to = new Date().toISOString().slice(0, 10);
   const url = `https://api.biorxiv.org/details/medrxiv/${from}/${to}/0`;
   const response = await fetch(url);
@@ -126,7 +126,7 @@ async function fetchMedrxiv() {
 
   return (data.collection || [])
     .filter((item) => item?.title && item?.abstract && item?.doi)
-    .slice(0, 8)
+    .slice(0, 24)
     .map((item) => ({
       externalId: `medrxiv:${item.doi}`,
       title: item.title,
@@ -141,7 +141,7 @@ async function fetchMedrxiv() {
 
 async function fetchClinicalTrials() {
   const term = encodeURIComponent(KEYWORDS.join(" OR "));
-  const url = `https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=8&query.term=${term}`;
+  const url = `https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=24&query.term=${term}`;
   const response = await fetch(url);
   if (!response.ok) return [];
   const data = await response.json();
@@ -337,22 +337,22 @@ async function main() {
     fetchClinicalTrials(),
     fetchPubMedIds()
   ]);
-  const pubmedDetails = (await Promise.all(pubmedIds.slice(0, 12).map((pmid) => fetchPubMedDetails(pmid))))
+  const pubmedDetails = (await Promise.all(pubmedIds.slice(0, 24).map((pmid) => fetchPubMedDetails(pmid))))
     .filter(Boolean);
 
   const prioritized = [
     ...nih.slice(0, 8),
     ...who.slice(0, 8),
-    ...pubmedDetails.slice(0, 10),
-    ...medrxiv.slice(0, 10),
-    ...ctgov.slice(0, 10)
+    ...pubmedDetails.slice(0, 20),
+    ...medrxiv.slice(0, 20),
+    ...ctgov.slice(0, 20)
   ];
   const incoming = prioritized
     .filter((a) => a.title && a.abstract && a.externalId)
     .filter((a) => !seen.has(a.externalId));
 
   const enriched = [];
-  for (const article of incoming.slice(0, 24)) {
+  for (const article of incoming.slice(0, 40)) {
     const ai = await generateLaySummary(article);
     const categories = mapCategories(`${article.title} ${article.abstract}`);
     enriched.push({

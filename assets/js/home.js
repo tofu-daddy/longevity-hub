@@ -19,7 +19,28 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   try {
     const articles = (await LongevityStatic.getArticles()).sort(LongevityStatic.byNewest);
-    const featured = articles.find((a) => a.hasExplanation) || articles[0];
+    const sourceWeight = {
+      "PubMed": 6,
+      "NIH News": 5,
+      "WHO News": 4,
+      "medRxiv": 3,
+      "ClinicalTrials.gov": 2
+    };
+
+    function featuredScore(article) {
+      const sourceScore = sourceWeight[article.sourceName] || 1;
+      const typeScore = article.sourceType === "clinical_trial" ? 0 : article.sourceType === "news" ? 2 : 3;
+      const explanationScore = article.hasExplanation ? 2 : 0;
+      const imageScore = article.image ? 1 : 0;
+      return sourceScore + typeScore + explanationScore + imageScore;
+    }
+
+    const featured = [...articles]
+      .sort((a, b) => {
+        const scoreDiff = featuredScore(b) - featuredScore(a);
+        if (scoreDiff !== 0) return scoreDiff;
+        return LongevityStatic.byNewest(a, b);
+      })[0] || articles[0];
     const latest = articles.filter((a) => a.slug !== featured.slug).slice(0, 4);
 
     const summary = featured.technicalSummary || featured.excerpt || "";

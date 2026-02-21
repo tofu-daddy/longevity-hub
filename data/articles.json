@@ -27,6 +27,115 @@
     ]
   },
   {
+    "externalId": "pubmed:41708584",
+    "slug": "association-between-chronic-inflammation-status-and-serum-testosterone-and-free-testostero",
+    "title": "Association between chronic inflammation status and serum testosterone and free testosterone in adult males.",
+    "excerpt": "Chronic inflammation may contribute to biochemical hypogonadism, but evidence regarding composite inflammatory indicators is limited. This study examined the associations of the systemic inflammation response index (SIRI",
+    "technicalSummary": "Chronic inflammation may contribute to biochemical hypogonadism, but evidence regarding composite inflammatory indicators is limited. This study examined the associations of the systemic inflammation response index (SIRI) and aggregate index of systemic inflammation (AISI) with serum testosterone and free testosterone (FT) in adult males.\n\nData were obtained from NHANES 2011-2016 and 2021-2023, including 7,576 men for serum testosterone and 3,590 for FT. Multivariable regression, smoothing curves, threshold effect, and age-stratified analyses were conducted.\n\nHigher SIRI and AISI were significantly associated with lower serum testosterone and FT levels (P&#x2009;&lt;&#x2009;0.0001). Testoste",
+    "laymansExplanation": "Evidence snapshot: Association between chronic inflammation status and serum testosterone and free testosterone in adult males.. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "Aging Male",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41708584/",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-12-31",
+    "categories": [
+      {
+        "slug": "cellular-health",
+        "name": "Cellular Health",
+        "description": "Cell-level mechanisms influencing aging and resilience."
+      }
+    ]
+  },
+  {
+    "externalId": "pubmed:41665182",
+    "slug": "sialic-acid-responsive-parabacteroides-is-linked-to-gut-barrier-integrity-in-older-adults",
+    "title": "Sialic acid-responsive Parabacteroides is linked to gut barrier integrity in older adults.",
+    "excerpt": "Aging is frequently accompanied by inflammaging-a chronic, low-grade inflammatory state that contributes to functional decline and disease risk. Disruption of the intestinal barrier is increasingly being recognized as a ",
+    "technicalSummary": "Aging is frequently accompanied by inflammaging-a chronic, low-grade inflammatory state that contributes to functional decline and disease risk. Disruption of the intestinal barrier is increasingly being recognized as a key driver of inflammaging; however, its relationship with the gut microbiota in older adults remains poorly understood. Here, we demonstrate a significant association of intestinal barrier dysfunction markers with systemic inflammatory markers using a cross-sectional study in this population. Notably, the genus Parabacteroides showed a strong negative association with barrier dysfunction. In vitro assays showed that three Parabacteroides lineages predominant in older adults,",
+    "laymansExplanation": "Evidence snapshot: Sialic acid-responsive Parabacteroides is linked to gut barrier integrity in older adults.. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "Gut Microbes",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41665182/",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-12-31",
+    "categories": [
+      {
+        "slug": "cellular-health",
+        "name": "Cellular Health",
+        "description": "Cell-level mechanisms influencing aging and resilience."
+      },
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "pubmed:41715909",
+    "slug": "maternal-gut-microbiota-mediates-prenatal-stress-induced-fetal-blood-x2012-brain-barrier-d",
+    "title": "Maternal gut microbiota mediates prenatal stress-induced fetal blood&#x2012;brain barrier dysfunction.",
+    "excerpt": "Maternal prenatal stress confers elevated neuropsychiatric risk to offspring, yet the mechanisms underlying fetal neurodevelopmental impairment remain elusive. The gut microbiota has emerged as a key regulator of brain d",
+    "technicalSummary": "Maternal prenatal stress confers elevated neuropsychiatric risk to offspring, yet the mechanisms underlying fetal neurodevelopmental impairment remain elusive. The gut microbiota has emerged as a key regulator of brain development and behavior. However, the mechanisms mediating the interactions between the microbiota and the developing brain are still poorly understood. Here, utilizing a prenatal stress mouse model integrated with multi-omics approaches, comprehensive behavioral assays, and molecular validations, we demonstrate that prenatal stress not only induces maternal gut microbiota dysbiosis during pregnancy but also, more critically, leads to fetal blood&#x2012;brain barrier (BBB) de",
+    "laymansExplanation": "Evidence snapshot: Maternal gut microbiota mediates prenatal stress-induced fetal blood&#x2012;brain barrier dysfunction.. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "Gut Microbes",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41715909/",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-12-31",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "pubmed:41709439",
+    "slug": "bacterial-constipation-mucin-degrading-intestinal-commensal-bacteria-cause-constipation",
+    "title": "Bacterial constipation: Mucin-degrading intestinal commensal bacteria cause constipation.",
+    "excerpt": "The contribution of gut microbes to constipation remains mechanistically underexplored, despite constipation being one of the most prevalent gastrointestinal disorders. Here, we identify cooperative induction of constipa",
+    "technicalSummary": "The contribution of gut microbes to constipation remains mechanistically underexplored, despite constipation being one of the most prevalent gastrointestinal disorders. Here, we identify cooperative induction of constipation by two mucin-degrading gut commensals: Akkermansia muciniphila and Bacteroides thetaiotaomicron. In constipated patients with Parkinson's disease (PD) and chronic idiopathic constipation (CIC), we observed that A. muciniphila and B. thetaiotaomicron were increased. Gnotobiotic mice colonized with either bacterium exhibited no constipation, whereas mice co-colonized with both bacteria developed constipation. Fecal mucins but not gastric mucins carry terminal sulfates. As ",
+    "laymansExplanation": "Evidence snapshot: Bacterial constipation: Mucin-degrading intestinal commensal bacteria cause constipation.. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "Gut Microbes",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41709439/",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-12-31",
+    "categories": [
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
+      }
+    ]
+  },
+  {
     "externalId": "pubmed:41717701",
     "slug": "exploring-the-dynamic-biopsychosocial-health-needs-of-middle-aged-adults-living-alone-a-qu",
     "title": "Exploring the dynamic biopsychosocial health needs of middle-aged adults living alone: a qualitative study.",
@@ -1114,6 +1223,670 @@
     ]
   },
   {
+    "externalId": "medrxiv:10.1101/2025.01.27.25321015",
+    "slug": "distress-is-positively-associated-with-induced-secondary-hyperalgesia-in-people-with-suppr",
+    "title": "Distress is positively associated with induced secondary hyperalgesia in people with suppressed HIV",
+    "excerpt": "Pain and symptoms of depression and anxiety (here,  psychological distress) are frequently reported by people with HIV. Although pain is widely acknowledged to contribute to distress, distress may also contribute to pain",
+    "technicalSummary": "Pain and symptoms of depression and anxiety (here,  psychological distress) are frequently reported by people with HIV. Although pain is widely acknowledged to contribute to distress, distress may also contribute to pain and its persistence. Facilitation of nociceptive signalling is one pathway by which distress could exacerbate pain. The current study investigated the relationships between symptoms of depression and anxiety, secondary hyperalgesia (SH), and persistent pain in people with HIV, reporting pain (n=19) or no pain (n=26). We hypothesised that self-reported distress would be positively associated with the surface area (primary measure) and magnitude (secondary measure) of induced ",
+    "laymansExplanation": "Evidence snapshot: Distress is positively associated with induced secondary hyperalgesia in people with suppressed HIV. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.01.27.25321015",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-10-24",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.10.21.25338475",
+    "slug": "automating-cancer-registry-abstraction-with-an-autonomous-resource-efficient-ai-for-multi-",
+    "title": "Automating cancer registry abstraction with an autonomous, resource-efficient AI for multi-cancer pathology reports: a model development and validation study",
+    "excerpt": "Pathology reports contain the most detailed descriptions of cancer diagnoses, yet their unstructured format has long limited large-scale reuse for cancer registries and population surveillance. Prior applications of larg",
+    "technicalSummary": "Pathology reports contain the most detailed descriptions of cancer diagnoses, yet their unstructured format has long limited large-scale reuse for cancer registries and population surveillance. Prior applications of large language models (LLMs) have therefore focused on narrow extraction tasks, reflecting a persistent implementation trilemma: comprehensive abstraction, strict data privacy, and computational feasibility could not be achieved simultaneously in real-world clinical settings. Given current LLM capabilities, this trilemma can now be resolved. We show that recent open-weight LLMs enable reliable, full-length, schema-bound abstraction of pathology reports on standard on-premise hard",
+    "laymansExplanation": "Evidence snapshot: Automating cancer registry abstraction with an autonomous, resource-efficient AI for multi-cancer pathology reports: a model development and validation study. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.10.21.25338475",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-10-24",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.04.02.25325128",
+    "slug": "wastewater-surveillance-reveals-patterns-of-antibiotic-resistance-across-the-united-states",
+    "title": "Wastewater surveillance reveals patterns of antibiotic resistance across the United States",
+    "excerpt": "Antibiotic resistance is a growing public health threat, with over 2.8 million antibiotic-resistant infections and 35,000 attributable deaths annually in the U.S. Clinical surveillance can miss asymptomatic carriage of a",
+    "technicalSummary": "Antibiotic resistance is a growing public health threat, with over 2.8 million antibiotic-resistant infections and 35,000 attributable deaths annually in the U.S. Clinical surveillance can miss asymptomatic carriage of antibiotic resistance. Here, we sought to use wastewater monitoring to assess community-level burden of antibiotic resistance. We quantify concentrations of antibiotic resistance genes (ARGs) by digital droplet PCR in wastewater solids obtained from 163 wastewater treatment plants in 40 states in the United States. We measure 11 ARGs that confer resistance to beta-lactams (blaCMY, blaCTX-M, blaKPC, blaNDM, blaOXA-48, blaTEM, blaVIM, mecA), colistin (mcr-1), tetracycline (tetW)",
+    "laymansExplanation": "Evidence snapshot: Wastewater surveillance reveals patterns of antibiotic resistance across the United States. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.04.02.25325128",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-10-24",
+    "categories": [
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.10.22.25338179",
+    "slug": "associations-between-circulating-metabolites-and-incidence-of-breast-prostate-lung-and-col",
+    "title": "Associations between circulating metabolites and incidence of breast, prostate, lung and colorectal cancers in the HUNT Study and UK Biobank",
+    "excerpt": "BackgroundBreast, prostate, lung and colorectal cancers are the most common cancers in both women and men globally. The role of circulating metabolites, including lipoprotein subfractions, in the development of these can",
+    "technicalSummary": "BackgroundBreast, prostate, lung and colorectal cancers are the most common cancers in both women and men globally. The role of circulating metabolites, including lipoprotein subfractions, in the development of these cancers remains unclear.\n\nObjectiveThis prospective cohort study, including two large population-based cohorts, aimed to explore the associations between circulating metabolites and the incidence of breast, prostate, lung and colorectal cancers.\n\nMethodsFrom the Trondelag Health Study (HUNT) and the UK Biobank (UKBB), 132 lipoprotein subfractions and metabolites, quantified using nuclear magnetic resonance spectroscopy, were available for participants (n=16,877 in HUNT3, n=260,8",
+    "laymansExplanation": "Evidence snapshot: Associations between circulating metabolites and incidence of breast, prostate, lung and colorectal cancers in the HUNT Study and UK Biobank. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.10.22.25338179",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-10-24",
+    "categories": [
+      {
+        "slug": "nutrition",
+        "name": "Nutrition",
+        "description": "Dietary patterns and nutrition interventions for longevity."
+      },
+      {
+        "slug": "metabolic-health",
+        "name": "Metabolic Health",
+        "description": "Insulin, glucose, lipid, and body-composition driven research."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.10.22.25338240",
+    "slug": "later-age-of-autism-diagnosis-in-children-with-multiple-co-occurring-psychiatric-disorders",
+    "title": "Later Age of Autism Diagnosis in Children with Multiple Co-Occurring Psychiatric Disorders",
+    "excerpt": "PURPOSE: In children with autism spectrum disorder (ASD), early diagnosis permits early access to therapeutic interventions which may improve outcomes. Factors affecting the age of diagnosis in ASD are not fully understo",
+    "technicalSummary": "PURPOSE: In children with autism spectrum disorder (ASD), early diagnosis permits early access to therapeutic interventions which may improve outcomes. Factors affecting the age of diagnosis in ASD are not fully understood. METHODS: Here, two large independent datasets were analyzed to investigate age of autism diagnosis and co-occurring psychiatric conditions, including bipolar disorder, depressive disorder, anxiety disorder, obsessive-compulsive disorder, attention deficit hyperactivity disorder, oppositional defiant disorder, and conduct disorder. Clinical characteristics examined included demographics, verbal status, intellectual disability, restricted/repetitive behaviors, adaptive beha",
+    "laymansExplanation": "Evidence snapshot: Later Age of Autism Diagnosis in Children with Multiple Co-Occurring Psychiatric Disorders. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.10.22.25338240",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-10-24",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.10.22.25338525",
+    "slug": "resting-state-eeg-activity-as-a-biomarker-and-treatment-target-in-depression-a-systematic-",
+    "title": "Resting-state EEG activity as a Biomarker and Treatment Target in Depression: A Systematic Review and Meta-analysis",
+    "excerpt": "Depression is a highly prevalent and disabling disorder affecting approximately 5% of the adult population worldwide. Despite its impact, the underlying pathophysiology remains insufficiently understood, and current trea",
+    "technicalSummary": "Depression is a highly prevalent and disabling disorder affecting approximately 5% of the adult population worldwide. Despite its impact, the underlying pathophysiology remains insufficiently understood, and current treatments are only partially effective. Brain-based biomarkers offer promise for clarifying mechanisms of depression and guiding novel treatment approaches, including neuromodulation. EEG is particularly attractive for this purpose due to its wide availability, cost-effectiveness, and potential for direct neuromodulatory targeting.\n\nWe conducted a PROSPERO-registered systematic review in accordance with PRISMA guidelines to assess resting-state EEG biomarkers in adult patients w",
+    "laymansExplanation": "Evidence snapshot: Resting-state EEG activity as a Biomarker and Treatment Target in Depression: A Systematic Review and Meta-analysis. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.10.22.25338525",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-10-24",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.10.22.25338556",
+    "slug": "shared-genetic-architecture-between-endometriosis-and-psychiatric-conditions-may-explain-c",
+    "title": "Shared Genetic Architecture Between Endometriosis and Psychiatric Conditions May Explain Comorbidity",
+    "excerpt": "Endometriosis is a common chronic gynecological disorder with complex and poorly understood etiology and no definitive cure. Beyond pain and infertility, affected individuals frequently experience psychiatric comorbiditi",
+    "technicalSummary": "Endometriosis is a common chronic gynecological disorder with complex and poorly understood etiology and no definitive cure. Beyond pain and infertility, affected individuals frequently experience psychiatric comorbidities, often attributed to the burden of chronic symptoms. Emerging evidence suggests this explanation is incomplete, and shared biological mechanisms may also contribute. Here, we integrate large-scale genomic data to characterize the genetic overlap between endometriosis and a broad spectrum of psychiatric conditions. We found no evidence that genetic liability to endometriosis increases the risk of psychiatric conditions. In contrast, genetic liability to psychiatric conditio",
+    "laymansExplanation": "Evidence snapshot: Shared Genetic Architecture Between Endometriosis and Psychiatric Conditions May Explain Comorbidity. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.10.22.25338556",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-10-24",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.10.22.25337423",
+    "slug": "drips-domain-randomisation-for-image-based-perivascular-spaces-segmentation",
+    "title": "DRIPS: Domain Randomisation for Image-based Perivascular spaces Segmentation",
+    "excerpt": "Perivascular spaces (PVS) are emerging as sensitive imaging markers of brain health. Yet, accurate out-of-sample PVS segmentation remains challenging since existing methods are modality-specific, require dataset-specific",
+    "technicalSummary": "Perivascular spaces (PVS) are emerging as sensitive imaging markers of brain health. Yet, accurate out-of-sample PVS segmentation remains challenging since existing methods are modality-specific, require dataset-specific tuning, or rely on manual labels for (re-)training. We propose DRIPS (Domain Randomisation for Image-based PVS Segmentation), a physics-inspired framework that integrates anatomical and shape priors with a physics-based image generation process to produce synthetic brain images and labels for on-the-fly deep learning model training. By introducing variability through resampling, geometric and intensity transformations, and simulated artefacts, it generalises well to real-wor",
+    "laymansExplanation": "Evidence snapshot: DRIPS: Domain Randomisation for Image-based Perivascular spaces Segmentation. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.10.22.25337423",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-10-24",
+    "categories": [
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
+      },
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.10.22.25338577",
+    "slug": "characterizing-individuals-fulfilling-clinical-criteria-for-late-in-a-tertiary-memory-clin",
+    "title": "Characterizing individuals fulfilling clinical criteria for LATE in a tertiary memory clinic",
+    "excerpt": "Limbic-predominant age-related TDP-43 encephalopathy (LATE) is characterized by an amnestic-and limbic-predominant phenotype, which can mimic the clinical presentation of Alzheimers disease (AD). Differentiating between ",
+    "technicalSummary": "Limbic-predominant age-related TDP-43 encephalopathy (LATE) is characterized by an amnestic-and limbic-predominant phenotype, which can mimic the clinical presentation of Alzheimers disease (AD). Differentiating between LATE and AD is imperative in the era of disease-modifying treatments for AD, but there are no established biomarkers to detect TDP-43. In this observational study, we characterized individuals fulfilling the recently proposed clinical criteria for LATE in a tertiary memory clinic setting in terms of cognition, atrophy, and disease course.\n\nFrom the Amsterdam Dementia Cohort (ADC), we included 3606 individuals aged above 50 years old who had a diagnosis of MCI or dementia. We ",
+    "laymansExplanation": "Evidence snapshot: Characterizing individuals fulfilling clinical criteria for LATE in a tertiary memory clinic. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.10.22.25338577",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-10-24",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.10.22.25338569",
+    "slug": "plasma-proteomic-signatures-of-preclinical-alzheimer-s-disease-biomarkers-and-memory-in-cl",
+    "title": "Plasma proteomic signatures of preclinical Alzheimer's disease biomarkers and memory in clinically unimpaired older adults",
+    "excerpt": "BackgroundMultianalyte plasma proteomic panels that can accurately detect initial AD pathology in preclinical populations and simultaneously measure related biological processes relevant for disease risk are critical for",
+    "technicalSummary": "BackgroundMultianalyte plasma proteomic panels that can accurately detect initial AD pathology in preclinical populations and simultaneously measure related biological processes relevant for disease risk are critical for advancing early detection and prognosis.\n\nMethodsUsing the NULISAseq CNS panel, we measured plasma from 193 clinically unimpaired (CU) older adults enrolled in the Stanford Aging and Memory Study (SAMS). We evaluated correspondence of core AD-relevant biomarkers A{beta}42, A{beta}40, pTau217, pTau181, GFAP, NfL, A{beta}42/A{beta}40, and pTau217/A{beta}42 measured using NULISAseq and established Lumipulse immunoassays. ROC curve analyses compared the accuracy of these biomark",
+    "laymansExplanation": "Evidence snapshot: Plasma proteomic signatures of preclinical Alzheimer's disease biomarkers and memory in clinically unimpaired older adults. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.10.22.25338569",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-10-24",
+    "categories": [
+      {
+        "slug": "nutrition",
+        "name": "Nutrition",
+        "description": "Dietary patterns and nutrition interventions for longevity."
+      },
+      {
+        "slug": "cellular-health",
+        "name": "Cellular Health",
+        "description": "Cell-level mechanisms influencing aging and resilience."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.10.17.25338070",
+    "slug": "biallelic-mcur1-nonsense-mutation-associated-with-vacuolar-myopathy-and-altered-mitochondr",
+    "title": "Biallelic MCUR1 nonsense mutation associated with vacuolar myopathy and altered mitochondrial calcium signaling",
+    "excerpt": "During muscle contraction, increased influx of mitochondrial calcium (mtCa{superscript 2}) from the myocyte cytosol through the mitochondrial calcium uniporter (MCU) couples calcium homeostasis with high ATP provision. T",
+    "technicalSummary": "During muscle contraction, increased influx of mitochondrial calcium (mtCa{superscript 2}) from the myocyte cytosol through the mitochondrial calcium uniporter (MCU) couples calcium homeostasis with high ATP provision. The mitochondrial calcium uniporter regulator 1 (MCUR1) is an integral membrane protein that promotes MCU activity. Although its function has been studied in cell models, mutations in MCUR1 have not yet been associated with human disease. Here, we present a case study of a patient exhibiting proximal muscle weakness and atrophy, who carries a novel homozygous loss-of-function mutation in MCUR1. To investigate the underlying mechanisms of muscle pathology, we examined patient f",
+    "laymansExplanation": "Evidence snapshot: Biallelic MCUR1 nonsense mutation associated with vacuolar myopathy and altered mitochondrial calcium signaling. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.10.17.25338070",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-10-24",
+    "categories": [
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
+      },
+      {
+        "slug": "nutrition",
+        "name": "Nutrition",
+        "description": "Dietary patterns and nutrition interventions for longevity."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.10.17.25338057",
+    "slug": "effects-of-different-vestibular-implant-stimulation-paradigms-on-balance-and-gait-variabil",
+    "title": "Effects of different vestibular implant stimulation paradigms on balance and gait variability in people with severe bilateral vestibulopathy: a triple-blinded randomised cross-over study",
+    "excerpt": "ObjectivesThe vestibular implant is a neuroprosthesis that may offer a promising treatment for patients with severe bilateral vestibulopathy (BVP). This study explored the impact of different vestibular stimulation modes",
+    "technicalSummary": "ObjectivesThe vestibular implant is a neuroprosthesis that may offer a promising treatment for patients with severe bilateral vestibulopathy (BVP). This study explored the impact of different vestibular stimulation modes on gait and balance outcomes. It was expected that stimulation modes incorporating head motion-modulated input (modes A and B) would result in more favourable gait and balance outcomes compared to non-modulated baseline stimulation or no stimulation.\n\nMethodsThe VertiGo! trial is a randomized controlled crossover study. The trial includes nine participants with severe BVP who received a vestibular implant. In this triple-blinded sub-study, balance and gait variability were a",
+    "laymansExplanation": "Evidence snapshot: Effects of different vestibular implant stimulation paradigms on balance and gait variability in people with severe bilateral vestibulopathy: a triple-blinded randomised cross-over study. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.10.17.25338057",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-10-24",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.10.22.25338412",
+    "slug": "aging-detection-based-on-dynamic-state-transitions-in-instantaneous-hilbert-based-spatio-t",
+    "title": "Aging Detection Based on Dynamic State Transitions in Instantaneous Hilbert-Based Spatio-Temporal EEG Features",
+    "excerpt": "The spatial distribution of electroencephalography (EEG) oscillatory power and its temporal transitions are widely recognized as indicators of cognitive processes and pathological conditions, termed as microstates. These",
+    "technicalSummary": "The spatial distribution of electroencephalography (EEG) oscillatory power and its temporal transitions are widely recognized as indicators of cognitive processes and pathological conditions, termed as microstates. These microstates reflect whole-brain neural network dynamics, including deep brain regions, and are closely associated with large-scale networks such as the default mode network. The conventional approach to microstate analysis relies on the envelope of EEG oscillations, which corresponds to the instantaneous amplitude. In this study, we aimed to extend conventional microstate analysis by integrating the instantaneous amplitude (power component) and instantaneous frequency data d",
+    "laymansExplanation": "Evidence snapshot: Aging Detection Based on Dynamic State Transitions in Instantaneous Hilbert-Based Spatio-Temporal EEG Features. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.10.22.25338412",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-10-24",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.10.23.25338620",
+    "slug": "how-should-horizon-scanning-studies-be-reported-developing-a-checklist-of-standard-items",
+    "title": "How should horizon scanning studies be reported? Developing a checklist of standard items.",
+    "excerpt": "IntroductionHorizon-scanning identifies weak signals of innovation to anticipate future developments, providing strategic value for healthcare decision-making. Unlike evidence synthesis, it addresses emerging and uncerta",
+    "technicalSummary": "IntroductionHorizon-scanning identifies weak signals of innovation to anticipate future developments, providing strategic value for healthcare decision-making. Unlike evidence synthesis, it addresses emerging and uncertain areas but lacks standardised reporting, limiting transparency, consistency, and impact. Inconsistent terminology and poorly described methods hinder comparability and uptake. This study aimed to develop a prototype reporting checklist and glossary to support structured, transparent, and reproducible reporting of horizon-scanning methods in healthcare innovation.\n\nMethodsA multidisciplinary working group of horizon-scanning, evidence synthesis, and information specialists w",
+    "laymansExplanation": "Evidence snapshot: How should horizon scanning studies be reported? Developing a checklist of standard items.. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.10.23.25338620",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-10-24",
+    "categories": [
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.10.22.25338605",
+    "slug": "case-study-of-nigerias-experience-scaling-up-chlorhexidine-use-in-newborns-2015-2021-analy",
+    "title": "Case Study of Nigerias experience scaling up chlorhexidine use in newborns, 2015-2021: analysis of implementation of actions to support scale-up and progress towards institutionalization",
+    "excerpt": "BackgroundApplication of chlorhexidine (CHX) to the umbilical stump is an evidence-based intervention to prevent newborn infections. Successful pilot experiences led the Nigeria Federal Ministry of Health (FMoH) to launc",
+    "technicalSummary": "BackgroundApplication of chlorhexidine (CHX) to the umbilical stump is an evidence-based intervention to prevent newborn infections. Successful pilot experiences led the Nigeria Federal Ministry of Health (FMoH) to launch a national, five-year scale-up strategy in 2016. In this case study, we analyze the implementation of national and state-level scale-up actions described and mandated in the national strategy and progress toward institutionalizing CHX within the routine health system using the WHO building blocks framework.\n\nMethodsWe conducted a mixed methods case study that consisted of interviews with key informants after the midline of the national strategy; focus groups of well-informe",
+    "laymansExplanation": "Evidence snapshot: Case Study of Nigerias experience scaling up chlorhexidine use in newborns, 2015-2021: analysis of implementation of actions to support scale-up and progress towards institutionalization. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.10.22.25338605",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-10-24",
+    "categories": [
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
+      },
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.10.17.25338164",
+    "slug": "micro-elimination-of-hepatitis-c-virus-hcv-infection-in-the-general-population-cohort-in-r",
+    "title": "Micro-elimination of Hepatitis C virus (HCV) infection in the General Population Cohort in rural Uganda: long-term follow-up to assess feasibility and outcomes of a screening and treatment intervention",
+    "excerpt": "BackgroundThe availability of highly effective curative direct acting antiviral (DAA) therapy for hepatitis C virus (HCV) is a cornerstone of elimination strategies. We report on long-term follow-up as part of a programm",
+    "technicalSummary": "BackgroundThe availability of highly effective curative direct acting antiviral (DAA) therapy for hepatitis C virus (HCV) is a cornerstone of elimination strategies. We report on long-term follow-up as part of a programme that delivered HCV screening and treatment in a population cohort in Uganda.\n\nMethodsScreening for HCV, HIV and HBV was offered to >7000 participants in the Kyamulibwa General Population Cohort (GPC) in Kalungu District in rural South-West Uganda in 2011. In 2017, DAA treatment was offered to those individuals who had previously tested HCV RNA positive who could still be traced, with fixed dose combination ledipasvir + sofosbuvir (LED/SOF) for 12 weeks, and post-treatment f",
+    "laymansExplanation": "Evidence snapshot: Micro-elimination of Hepatitis C virus (HCV) infection in the General Population Cohort in rural Uganda: long-term follow-up to assess feasibility and outcomes of a screening and treatment intervention. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.10.17.25338164",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-10-24",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.10.23.25338628",
+    "slug": "comparative-analysis-of-data-augmentation-for-clinical-ecg-classification-with-star",
+    "title": "Comparative Analysis of Data Augmentation for Clinical ECG Classification with STAR",
+    "excerpt": "Clinical 12-lead ECG classification remains difficult because of diverse recording conditions, overlapping pathologies, and pronounced label imbalance hinder generalization, while unconstrained augmentations risk distort",
+    "technicalSummary": "Clinical 12-lead ECG classification remains difficult because of diverse recording conditions, overlapping pathologies, and pronounced label imbalance hinder generalization, while unconstrained augmentations risk distorting diagnostically critical morphology. In this study, Sinusoidal Time-Amplitude Resampling (STAR) is introduced as a beat-wise augmentation that operates strictly between successive R-peaks to apply controlled time warping and amplitude scaling to each R-R segment, preserving the canonical P-QRS-T order and leaving the head and tail of the trace unchanged.\n\nSTAR is designed for practical pipelines and offers: (i) morphology-faithful variability that broadens training diversi",
+    "laymansExplanation": "Evidence snapshot: Comparative Analysis of Data Augmentation for Clinical ECG Classification with STAR. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.10.23.25338628",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-10-24",
+    "categories": [
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.10.22.25338570",
+    "slug": "capturing-infant-and-child-growth-dynamics-with-p-splines-mixed-effects-models",
+    "title": "Capturing infant and child growth dynamics with P-splines mixed effects models",
+    "excerpt": "Investigating early life growth dynamics is crucial for a more comprehensive understanding of the developmental origins of obesity. Spline methods based on basis splines (B-splines) provide excellent flexibility for mode",
+    "technicalSummary": "Investigating early life growth dynamics is crucial for a more comprehensive understanding of the developmental origins of obesity. Spline methods based on basis splines (B-splines) provide excellent flexibility for modelling complex nonlinear growth patterns, but they are prone to overfitting. To ensure good fit and avoid overfitting, B-splines can be extended by adding a penalty term to control their flexibility, resulting in what are commonly known as penalized B-splines (P-splines). Despite their strengths, P-splines are not yet widely used in epidemiology, partly due to a lack of practical guidance. This paper provides an illustrative guide to using P-spline linear mixed effects models ",
+    "laymansExplanation": "Evidence snapshot: Capturing infant and child growth dynamics with P-splines mixed effects models. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.10.22.25338570",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-10-24",
+    "categories": [
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
+      },
+      {
+        "slug": "cellular-health",
+        "name": "Cellular Health",
+        "description": "Cell-level mechanisms influencing aging and resilience."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.10.22.25338563",
+    "slug": "the-role-of-drug-indication-on-incidence-rate-heterogeneity-a-large-scale-systematic-evalu",
+    "title": "The Role Of Drug Indication On Incidence Rate Heterogeneity: A Large-Scale, Systematic Evaluation Across An International Network Of Observational Databases",
+    "excerpt": "PurposeIncidence rate estimates are sensitive to a range of factors, including age, sex, and geographical setting (data source). The magnitude of the impact of drug indication on incidence rates remains underexplored.\n\nM",
+    "technicalSummary": "PurposeIncidence rate estimates are sensitive to a range of factors, including age, sex, and geographical setting (data source). The magnitude of the impact of drug indication on incidence rates remains underexplored.\n\nMethodsWe conducted an observational cohort study using 13 healthcare databases to estimate the incidence rates of 73 health outcomes across 8 drug classes with multiple indications. We calculated incidence rates for each drug-outcome pair and performed random-effects meta-analyses to pool results across databases. Then, we conducted variance components analysis to find the proportions of variability attributed to database, age, sex, and indication. We reported the median of t",
+    "laymansExplanation": "Evidence snapshot: The Role Of Drug Indication On Incidence Rate Heterogeneity: A Large-Scale, Systematic Evaluation Across An International Network Of Observational Databases. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.10.22.25338563",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-10-24",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.10.23.25338631",
+    "slug": "cultural-engagement-is-related-to-decelerated-physiological-but-not-subjective-age-doubly-",
+    "title": "Cultural engagement is related to decelerated physiological but not subjective age: doubly-robust estimations in a national cohort study",
+    "excerpt": "Cultural engagement (e.g. going to live music events and theatre performances, museums, galleries and exhibitions, and the cinema) is longitudinally associated in repeated epidemiological studies with age-related mental ",
+    "technicalSummary": "Cultural engagement (e.g. going to live music events and theatre performances, museums, galleries and exhibitions, and the cinema) is longitudinally associated in repeated epidemiological studies with age-related mental and physical health outcomes. However, it is unclear whether it also influences how fast older adults age physiologically - so-called age acceleration. This study aimed to ascertain whether regular cultural engagement amongst older adults is related to slower physiological ageing using a previously-derived physiological age index and a doubly-robust estimation approach to account for confounders. Using older adults from the English Longitudinal Study of Ageing (n=4,467), we f",
+    "laymansExplanation": "Evidence snapshot: Cultural engagement is related to decelerated physiological but not subjective age: doubly-robust estimations in a national cohort study. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.10.23.25338631",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-10-24",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT07085858",
+    "slug": "study-of-the-preventive-effects-and-mechanisms-of-yeast-glucan-on-upper-respiratory-tract-",
+    "title": "Study of the Preventive Effects and Mechanisms of Yeast β-Glucan on Upper Respiratory Tract Infections",
+    "excerpt": "This study is designed as a randomized, double-blind, placebo-controlled human intervention trial targeting a population of university students with persistent allergic rhinitis (AR) symptoms. The primary objective is to",
+    "technicalSummary": "This study is designed as a randomized, double-blind, placebo-controlled human intervention trial targeting a population of university students with persistent allergic rhinitis (AR) symptoms. The primary objective is to evaluate the preventive effect and underlying mechanisms of yeast β-glucan on upper respiratory tract infections (URTIs), providing scientific evidence for the prophylactic use of prebiotics in high-risk populations.\n\nAll participants will be stratified by sex and body mass index (BMI), and then randomly assigned to either the yeast β-glucan group or the control group. During the 15-week study period-including a 1-week run-in phase, a 12-week intervention phase, and a 2-week",
+    "laymansExplanation": "Clinical trial watch: Study of the Preventive Effects and Mechanisms of Yeast β-Glucan on Upper Respiratory Tract Infections. This listing shows what is being tested and where stronger evidence may emerge. Practical next step: note eligibility, endpoints, and timeline so you can revisit when results are posted.",
+    "keyTakeaways": [
+      "Trial listings describe study direction, not final treatment conclusions.",
+      "Check participant criteria and outcomes to gauge relevance.",
+      "Set a reminder to review posted results before acting."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT07085858",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2025-07-25",
+    "categories": [
+      {
+        "slug": "nutrition",
+        "name": "Nutrition",
+        "description": "Dietary patterns and nutrition interventions for longevity."
+      },
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT06994598",
+    "slug": "investigation-of-respiratory-muscle-sarcopenia-in-geriatric-individuals",
+    "title": "Investigation of Respiratory Muscle Sarcopenia in Geriatric Individuals",
+    "excerpt": "The increase in the elderly population worldwide necessitates further research on age-related physiological changes and health problems related to these changes in geriatric individuals. One of these problems, sarcopenia",
+    "technicalSummary": "The increase in the elderly population worldwide necessitates further research on age-related physiological changes and health problems related to these changes in geriatric individuals. One of these problems, sarcopenia, is a syndrome characterized by a decrease in muscle mass, muscle strength, and physical performance due to aging (Cruz-Jentoft et al., 2019). Sarcopenia affects not only the extremity muscles but also the respiratory muscles, significantly reducing the individual's functional capacity and quality of life (Shafiee et al., 2017). Sarcopenia is a progressive and widespread loss of skeletal muscles, characterized by a decrease in muscle strength, muscle mass, and physical perfo",
+    "laymansExplanation": "Clinical trial watch: Investigation of Respiratory Muscle Sarcopenia in Geriatric Individuals. This listing shows what is being tested and where stronger evidence may emerge. Practical next step: note eligibility, endpoints, and timeline so you can revisit when results are posted.",
+    "keyTakeaways": [
+      "Trial listings describe study direction, not final treatment conclusions.",
+      "Check participant criteria and outcomes to gauge relevance.",
+      "Set a reminder to review posted results before acting."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT06994598",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "observational",
+    "publishedDate": "2025-05-29",
+    "categories": [
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
+      },
+      {
+        "slug": "metabolic-health",
+        "name": "Metabolic Health",
+        "description": "Insulin, glucose, lipid, and body-composition driven research."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT06745063",
+    "slug": "arterial-destiffening-effects-of-sglt2-inhibition-in-veterans-with-obesity",
+    "title": "Arterial Destiffening Effects of SGLT2 Inhibition in Veterans With Obesity",
+    "excerpt": "The study will assign participants to take either the medication, empagliflozin or a placebo for 12 weeks. The goal of the study is to determine the effects of empagliflozin on arterial health in Veterans with obesity.",
+    "technicalSummary": "The study will assign participants to take either the medication, empagliflozin or a placebo for 12 weeks. The goal of the study is to determine the effects of empagliflozin on arterial health in Veterans with obesity.",
+    "laymansExplanation": "Clinical trial watch: Arterial Destiffening Effects of SGLT2 Inhibition in Veterans With Obesity. This listing shows what is being tested and where stronger evidence may emerge. Practical next step: note eligibility, endpoints, and timeline so you can revisit when results are posted.",
+    "keyTakeaways": [
+      "Trial listings describe study direction, not final treatment conclusions.",
+      "Check participant criteria and outcomes to gauge relevance.",
+      "Set a reminder to review posted results before acting."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT06745063",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2024-12-20",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT06476743",
+    "slug": "comparative-effects-of-sensory-integration-therapy-and-balance-board-training-in-community",
+    "title": "Comparative Effects of Sensory Integration Therapy and Balance Board Training in Community Dwelling Older Adults",
+    "excerpt": "Balance plays a significant role in stability and walking and it's essential for improving the quality of life and functional autonomy while reducing the risk of falling. This research intends to shed light on the advant",
+    "technicalSummary": "Balance plays a significant role in stability and walking and it's essential for improving the quality of life and functional autonomy while reducing the risk of falling. This research intends to shed light on the advantages of sensory integration therapy and balance board training because it is important to addressing the issues related to ageing and their possible effects.",
+    "laymansExplanation": "Clinical trial watch: Comparative Effects of Sensory Integration Therapy and Balance Board Training in Community Dwelling Older Adults. This listing shows what is being tested and where stronger evidence may emerge. Practical next step: note eligibility, endpoints, and timeline so you can revisit when results are posted.",
+    "keyTakeaways": [
+      "Trial listings describe study direction, not final treatment conclusions.",
+      "Check participant criteria and outcomes to gauge relevance.",
+      "Set a reminder to review posted results before acting."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT06476743",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2024-06-26",
+    "categories": [
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
+      }
+    ]
+  },
+  {
     "externalId": "ctgov:NCT06095193",
     "slug": "the-effect-of-education-on-vaginal-effects-of-menopausal-women",
     "title": "The Effect of Education on Vaginal Effects of Menopausal Women",
@@ -1336,6 +2109,32 @@
     ]
   },
   {
+    "externalId": "ctgov:NCT04259047",
+    "slug": "health-beliefs-glycemic-control-and-preventing-cognitive-decline-in-african-americans-with",
+    "title": "Health Beliefs, Glycemic Control, and Preventing Cognitive Decline in African Americans with Diabetes and Mild Cognitive Impairment: a Randomized Clinical Trial",
+    "excerpt": "This double-masked, 2-year, single-site, phase II RCT will test the efficacy of DREAM (Diabetes Regulation for Eye Sight and Memory to prevent cognitive decline in African Americans (AAs) with amnestic multiple domain mi",
+    "technicalSummary": "This double-masked, 2-year, single-site, phase II RCT will test the efficacy of DREAM (Diabetes Regulation for Eye Sight and Memory to prevent cognitive decline in African Americans (AAs) with amnestic multiple domain mild cognitive impairment (MCI) and poorly controlled diabetes (i.e., hemoglobin A1c \\[HbA1c\\] level ≥ 7.5%). Participants will be randomized to DREAM \\[11 home-based treatment sessions with a community health worker (CHW), and 4 telehealth visits with a Diabetes Nurse Educator over 2 years\\] or Enhanced Usual Care (EUC), which is usual care enhanced with home-based diabetes education. The primary outcome is decline in verbal memory over 2 years. Follow-up data will be collecte",
+    "laymansExplanation": "Clinical trial watch: Health Beliefs, Glycemic Control, and Preventing Cognitive Decline in African Americans with Diabetes and Mild Cognitive Impairment: a Randomized Clinical Trial. This listing shows what is being tested and where stronger evidence may emerge. Practical next step: note eligibility, endpoints, and timeline so you can revisit when results are posted.",
+    "keyTakeaways": [
+      "Trial listings describe study direction, not final treatment conclusions.",
+      "Check participant criteria and outcomes to gauge relevance.",
+      "Set a reminder to review posted results before acting."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT04259047",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2020-02-06",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
     "externalId": "ctgov:NCT04238962",
     "slug": "a-research-study-to-compare-two-different-forms-of-once-weekly-semaglutide-in-two-differen",
     "title": "A Research Study to Compare Two Different Forms of Once-weekly Semaglutide in Two Different Injection Pens",
@@ -1415,6 +2214,32 @@
     ]
   },
   {
+    "externalId": "ctgov:NCT03658187",
+    "slug": "assessment-of-the-acute-effect-of-ip",
+    "title": "Assessment of the Acute Effect of IP",
+    "excerpt": "It is a nutraceutical system, consisting of oral tablet and an oral spray called Alpha GPC, which helps your body naturally restore the HGH levels.",
+    "technicalSummary": "It is a nutraceutical system, consisting of oral tablet and an oral spray called Alpha GPC, which helps your body naturally restore the HGH levels.",
+    "laymansExplanation": "Clinical trial watch: Assessment of the Acute Effect of IP. This listing shows what is being tested and where stronger evidence may emerge. Practical next step: note eligibility, endpoints, and timeline so you can revisit when results are posted.",
+    "keyTakeaways": [
+      "Trial listings describe study direction, not final treatment conclusions.",
+      "Check participant criteria and outcomes to gauge relevance.",
+      "Set a reminder to review posted results before acting."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT03658187",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2018-09-05",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
     "externalId": "ctgov:NCT03573180",
     "slug": "prevalence-of-dental-caries-among-a-group-of-egyptian-children-using-cast-index",
     "title": "Prevalence of Dental Caries Among a Group of Egyptian Children Using CAST Index",
@@ -1469,6 +2294,94 @@
     ]
   },
   {
+    "externalId": "ctgov:NCT03273335",
+    "slug": "investigating-neuroinflammation-underlying-postoperative-brain-connectivity-changes-pocd-d",
+    "title": "Investigating NeuroinflammaTion UnderlyIng Postoperative Brain Connectivity Changes, POCD, Delirium in Older Adults",
+    "excerpt": "(From NIH reporter) Each year \\>16 million older Americans undergo anesthesia and surgery, and up to 40% of these patients develop postoperative cognitive dysfunction (POCD), a syndrome of postoperative thinking and memo",
+    "technicalSummary": "(From NIH reporter) Each year \\>16 million older Americans undergo anesthesia and surgery, and up to 40% of these patients develop postoperative cognitive dysfunction (POCD), a syndrome of postoperative thinking and memory deficits. Although distinct from delirium, POCD (like delirium) is associated with decreased quality of life, long term cognitive decline, early retirement, increased mortality, and a possible increased risk for developing dementia such as Alzheimer's disease. Understanding the etiology of POCD will likely help promote strategies to treat and/or prevent it. A dominant theory holds that brain inflammation causes POCD, but little work has directly tested this theory in human",
+    "laymansExplanation": "Clinical trial watch: Investigating NeuroinflammaTion UnderlyIng Postoperative Brain Connectivity Changes, POCD, Delirium in Older Adults. This listing shows what is being tested and where stronger evidence may emerge. Practical next step: note eligibility, endpoints, and timeline so you can revisit when results are posted.",
+    "keyTakeaways": [
+      "Trial listings describe study direction, not final treatment conclusions.",
+      "Check participant criteria and outcomes to gauge relevance.",
+      "Set a reminder to review posted results before acting."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT03273335",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "observational",
+    "publishedDate": "2017-09-06",
+    "categories": [
+      {
+        "slug": "cellular-health",
+        "name": "Cellular Health",
+        "description": "Cell-level mechanisms influencing aging and resilience."
+      },
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT03226548",
+    "slug": "effect-of-eitc-on-biological-markers-of-aging-health-and-mortality",
+    "title": "Effect of EITC on Biological Markers of Aging, Health and Mortality",
+    "excerpt": "Paycheck Plus (PP) is a randomized controlled experiment (RCT) that explores the health and longevity effects associated with increasing the Earned Income Tax Credit (EITC). EITC is a national program that provides tax c",
+    "technicalSummary": "Paycheck Plus (PP) is a randomized controlled experiment (RCT) that explores the health and longevity effects associated with increasing the Earned Income Tax Credit (EITC). EITC is a national program that provides tax credits to low-income, disproportionately minority workers who file taxes. EITC is politically popular, having received bipartisan support. The EITC, along with state supplemental programs, have 7 million American families out of poverty. The investigators' preliminary data analyses show that the EITC has had large population health impacts, reversing declines in self rated health and survival among the poorest Americans.",
+    "laymansExplanation": "Clinical trial watch: Effect of EITC on Biological Markers of Aging, Health and Mortality. This listing shows what is being tested and where stronger evidence may emerge. Practical next step: note eligibility, endpoints, and timeline so you can revisit when results are posted.",
+    "keyTakeaways": [
+      "Trial listings describe study direction, not final treatment conclusions.",
+      "Check participant criteria and outcomes to gauge relevance.",
+      "Set a reminder to review posted results before acting."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT03226548",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2017-07-21",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT02615158",
+    "slug": "toddler-overweight-prevention-study-among-low-income-families",
+    "title": "Toddler Overweight Prevention Study Among Low-Income Families",
+    "excerpt": "The hypothesis is that toddlers with parents who are randomized to a parenting intervention and toddlers with parents who are randomized to the maternal intervention focused on maternal diet and physical activity will be",
+    "technicalSummary": "The hypothesis is that toddlers with parents who are randomized to a parenting intervention and toddlers with parents who are randomized to the maternal intervention focused on maternal diet and physical activity will be more likely to have weight status within normal and to consume a healthy diet and engage in physical activity than toddlers with parents in a placebo (safety) intervention.",
+    "laymansExplanation": "Clinical trial watch: Toddler Overweight Prevention Study Among Low-Income Families. This listing shows what is being tested and where stronger evidence may emerge. Practical next step: note eligibility, endpoints, and timeline so you can revisit when results are posted.",
+    "keyTakeaways": [
+      "Trial listings describe study direction, not final treatment conclusions.",
+      "Check participant criteria and outcomes to gauge relevance.",
+      "Set a reminder to review posted results before acting."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT02615158",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2015-11-26",
+    "categories": [
+      {
+        "slug": "nutrition",
+        "name": "Nutrition",
+        "description": "Dietary patterns and nutrition interventions for longevity."
+      },
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
     "externalId": "ctgov:NCT02350127",
     "slug": "preventing-loss-of-independence-through-exercise-plie-in-persons-with-dementia",
     "title": "Preventing Loss of Independence Through Exercise (PLIE) in Persons With Dementia",
@@ -1496,6 +2409,32 @@
     ]
   },
   {
+    "externalId": "ctgov:NCT01931111",
+    "slug": "cardiovascular-risk-factors-maximal-oxygen-uptake-and-sedentariness-an-observational-study",
+    "title": "Cardiovascular Risk Factors, Maximal Oxygen Uptake and Sedentariness: an Observational Study",
+    "excerpt": "This is a substudy of the Generation-100 study (NCT01666340). The aim of this study is to find critical values for (1) maximal oxygen uptake and (2) sedentary behavior, below which cardiovascular risk parameter clusterin",
+    "technicalSummary": "This is a substudy of the Generation-100 study (NCT01666340). The aim of this study is to find critical values for (1) maximal oxygen uptake and (2) sedentary behavior, below which cardiovascular risk parameter clustering is apparent in an elderly Norwegian population.",
+    "laymansExplanation": "Clinical trial watch: Cardiovascular Risk Factors, Maximal Oxygen Uptake and Sedentariness: an Observational Study. This listing shows what is being tested and where stronger evidence may emerge. Practical next step: note eligibility, endpoints, and timeline so you can revisit when results are posted.",
+    "keyTakeaways": [
+      "Trial listings describe study direction, not final treatment conclusions.",
+      "Check participant criteria and outcomes to gauge relevance.",
+      "Set a reminder to review posted results before acting."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT01931111",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "observational",
+    "publishedDate": "2013-08-29",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
     "externalId": "ctgov:NCT01874132",
     "slug": "study-of-the-long-term-effects-of-exercise-on-heath-indicators-in-older-people",
     "title": "Study of the Long-term Effects of Exercise on Heath Indicators in Older People",
@@ -1519,6 +2458,58 @@
         "name": "Exercise",
         "description": "Movement, training, and performance-related longevity insights."
       },
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT00730626",
+    "slug": "dose-response-study-of-a-fermented-yogurt-on-the-immune-system-and-gut-health",
+    "title": "Dose Response Study of a Fermented Yogurt on the Immune System and Gut Health",
+    "excerpt": "The purpose of this study is to determine the dose-response effect of a yogurt containing a combination of bifidobacterium Lactis (BB-12) and Lactobacillus Acidophilus (LA-5) and green tea extract on markers of the immun",
+    "technicalSummary": "The purpose of this study is to determine the dose-response effect of a yogurt containing a combination of bifidobacterium Lactis (BB-12) and Lactobacillus Acidophilus (LA-5) and green tea extract on markers of the immune system and gut health in healthy subjects. We hypothesize that the response of the immune function will be dose-dependent of the probiotics found in the fermented yogurt.",
+    "laymansExplanation": "Clinical trial watch: Dose Response Study of a Fermented Yogurt on the Immune System and Gut Health. This listing shows what is being tested and where stronger evidence may emerge. Practical next step: note eligibility, endpoints, and timeline so you can revisit when results are posted.",
+    "keyTakeaways": [
+      "Trial listings describe study direction, not final treatment conclusions.",
+      "Check participant criteria and outcomes to gauge relevance.",
+      "Set a reminder to review posted results before acting."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT00730626",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2008-08-08",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT00634608",
+    "slug": "integrating-targeted-medlineplus-health-prescriptions-into-clinic-practice-workflow",
+    "title": "Integrating Targeted MedlinePlus Health Prescriptions Into Clinic Practice Workflow",
+    "excerpt": "The specific aim of this proposed project is to implement a standard process for integrating MedlinePlus health information prescriptions into the clinic workflow.\n\nHypothesis 1: Individuals in the intervention group who",
+    "technicalSummary": "The specific aim of this proposed project is to implement a standard process for integrating MedlinePlus health information prescriptions into the clinic workflow.\n\nHypothesis 1: Individuals in the intervention group who receive tailored email health information with provider selected MedlinePlus links and added commentary for patient specific conditions will be more likely to seek information / use MedlinePlus compared with individuals in the control group.\n\nHypothesis 2: Individuals in the intervention group who receive tailored email health information with provider selected MedlinePlus links and added commentary for patient specific conditions will be more satisfied with the information ",
+    "laymansExplanation": "Clinical trial watch: Integrating Targeted MedlinePlus Health Prescriptions Into Clinic Practice Workflow. This listing shows what is being tested and where stronger evidence may emerge. Practical next step: note eligibility, endpoints, and timeline so you can revisit when results are posted.",
+    "keyTakeaways": [
+      "Trial listings describe study direction, not final treatment conclusions.",
+      "Check participant criteria and outcomes to gauge relevance.",
+      "Set a reminder to review posted results before acting."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT00634608",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2008-03-13",
+    "categories": [
       {
         "slug": "healthspan",
         "name": "Healthspan",
