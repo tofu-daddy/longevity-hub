@@ -27,6 +27,68 @@
     ]
   },
   {
+    "externalId": "pubmed:41717701",
+    "slug": "exploring-the-dynamic-biopsychosocial-health-needs-of-middle-aged-adults-living-alone-a-qu",
+    "title": "Exploring the dynamic biopsychosocial health needs of middle-aged adults living alone: a qualitative study.",
+    "excerpt": "The number of middle-aged adults living alone in South Korea is increasing, raising concerns about their physical, mental, and social health. This study explored their health concerns and perceived support needs.\n\nSemi-s",
+    "technicalSummary": "The number of middle-aged adults living alone in South Korea is increasing, raising concerns about their physical, mental, and social health. This study explored their health concerns and perceived support needs.\n\nSemi-structured interviews were conducted with 12 adults aged 40-64 years living alone in urban and suburban areas. Purposive sampling ensured diverse experiences. Data were analyzed using deductive qualitative content analysis guided by the social-ecological model.\n\nFive themes emerged: (1) navigating aging with autonomy and avoidance, (2) seeking companionship for a healthier solitary life, (3) pursuing personal growth through community engagement, (4) recognizing the influence o",
+    "laymansExplanation": "Evidence snapshot: Exploring the dynamic biopsychosocial health needs of middle-aged adults living alone: a qualitative study.. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "Int J Qual Stud Health Well-being",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41717701/",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-12-31",
+    "categories": [
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
+      },
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "pubmed:41715897",
+    "slug": "orchestrating-life-s-first-community-molecular-assembly-by-human-milk-oligosaccharides",
+    "title": "Orchestrating life's first community: molecular assembly by human milk oligosaccharides.",
+    "excerpt": "The infant gut microbiota, orchestrated by human milk oligosaccharides (HMOs), forms a critical foundation for lifelong health. Despite their recognized importance, the molecular strategies through which HMOs govern micr",
+    "technicalSummary": "The infant gut microbiota, orchestrated by human milk oligosaccharides (HMOs), forms a critical foundation for lifelong health. Despite their recognized importance, the molecular strategies through which HMOs govern microbial competition and niche establishment remain poorly understood. Moving beyond ecological observations, this review synthesizes current mechanistic evidence on the molecular machinery of HMO metabolism in microbial assembly. We explore the specialized enzymes that confer competitive advantages and the metabolic networks fueled by HMO breakdown. Furthermore, we distinguish substrate-driven effects from the hypothesized signaling roles of intact HMOs in modulating host-micro",
+    "laymansExplanation": "Evidence snapshot: Orchestrating life's first community: molecular assembly by human milk oligosaccharides.. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "Gut Microbes",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41715897/",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-12-31",
+    "categories": [
+      {
+        "slug": "nutrition",
+        "name": "Nutrition",
+        "description": "Dietary patterns and nutrition interventions for longevity."
+      },
+      {
+        "slug": "metabolic-health",
+        "name": "Metabolic Health",
+        "description": "Insulin, glucose, lipid, and body-composition driven research."
+      }
+    ]
+  },
+  {
     "externalId": "pubmed:41705654",
     "slug": "anti-inflammatory-effects-of-nicotinamide-mononucleotide-nmn-in-human-skeletal-muscle-afte",
     "title": "Anti-inflammatory effects of nicotinamide mononucleotide (NMN) in human skeletal muscle after BFR-exercise.",
@@ -82,6 +144,32 @@
         "slug": "metabolic-health",
         "name": "Metabolic Health",
         "description": "Insulin, glucose, lipid, and body-composition driven research."
+      }
+    ]
+  },
+  {
+    "externalId": "whonews:urn-uuid-c26731e0-35ff-4be8-b37b-cb379bc88630",
+    "slug": "who-validates-elimination-of-trachoma-as-a-public-health-problem-in-libya",
+    "title": "WHO validates elimination of trachoma as a public health problem in Libya",
+    "excerpt": "WHO today announced that Libya has eliminated trachoma as a public health problem, a landmark victory for public health in WHO’s Eastern Mediterranean Region. This hard-won achievement protects future generations from pr",
+    "technicalSummary": "WHO today announced that Libya has eliminated trachoma as a public health problem, a landmark victory for public health in WHO’s Eastern Mediterranean Region. This hard-won achievement protects future generations from preventable blindness and provides a powerful reminder that countries can overcome neglected tropical diseases despite persisting challenges.",
+    "laymansExplanation": "News brief: WHO validates elimination of trachoma as a public health problem in Libya. Why it matters for longevity: this update is most useful for awareness and timing. Practical next step: connect the update to one behavior you can execute this week and monitor over time.",
+    "keyTakeaways": [
+      "Treat this as a timely update, then verify details in primary sources when possible.",
+      "Use the signal to refine one practical habit tied to your goals.",
+      "Follow upcoming coverage to confirm whether early claims hold."
+    ],
+    "hasExplanation": true,
+    "sourceName": "WHO News",
+    "sourceUrl": "https://www.who.int/news/item/18-02-2026-who-validates-elimination-of-trachoma-as-a-public-health-problem-in-libya",
+    "sourceType": "news",
+    "evidenceQuality": "editorial",
+    "publishedDate": "2026-02-18",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
       }
     ]
   },
@@ -334,6 +422,32 @@
     ]
   },
   {
+    "externalId": "whonews:urn-uuid-c0439ec7-6fae-4634-b57f-cfdca12e9730",
+    "slug": "who-launches-2026-appeal-to-help-millions-of-people-in-health-emergencies-and-crisis-setti",
+    "title": "WHO launches 2026 appeal to help millions of people in health emergencies and crisis settings",
+    "excerpt": "The World Health Organization (WHO) today launched its 2026 global appeal to ensure millions of people living in humanitarian crises and conflicts can access health care.",
+    "technicalSummary": "The World Health Organization (WHO) today launched its 2026 global appeal to ensure millions of people living in humanitarian crises and conflicts can access health care.",
+    "laymansExplanation": "News brief: WHO launches 2026 appeal to help millions of people in health emergencies and crisis settings. Why it matters for longevity: this update is most useful for awareness and timing. Practical next step: connect the update to one behavior you can execute this week and monitor over time.",
+    "keyTakeaways": [
+      "Treat this as a timely update, then verify details in primary sources when possible.",
+      "Use the signal to refine one practical habit tied to your goals.",
+      "Follow upcoming coverage to confirm whether early claims hold."
+    ],
+    "hasExplanation": true,
+    "sourceName": "WHO News",
+    "sourceUrl": "https://www.who.int/news/item/03-02-2026-who-launches-2026-appeal-to-help-millions-of-people-in-health-emergencies-and-crisis-settings",
+    "sourceType": "news",
+    "evidenceQuality": "editorial",
+    "publishedDate": "2026-02-03",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
     "externalId": "whonews:urn-uuid-9dd91d5e-0bb1-4e90-a1bc-e30658be8b12",
     "slug": "four-in-ten-cancer-cases-could-be-prevented-globally",
     "title": "Four in ten cancer cases could be prevented globally",
@@ -467,6 +581,219 @@
     "evidenceQuality": "editorial",
     "publishedDate": "2026-01-23",
     "categories": [
+      {
+        "slug": "cellular-health",
+        "name": "Cellular Health",
+        "description": "Cell-level mechanisms influencing aging and resilience."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.10.16.25338186",
+    "slug": "evaluation-of-the-potential-relationship-between-cftr-cftr-modulators-and-neuropsychiatric",
+    "title": "Evaluation of the Potential Relationship between CFTR, CFTR Modulators, and Neuropsychiatric Symptoms in People with Cystic Fibrosis",
+    "excerpt": "RationaleCystic fibrosis (CF) is a chronic, life-limiting genetic disease. Treatment with CFTR modulators (CFTRm), such as the triple combination therapies of elexacaftor (ELX)/tezacaftor (TEZ)/ivacaftor (IVA) and vanzac",
+    "technicalSummary": "RationaleCystic fibrosis (CF) is a chronic, life-limiting genetic disease. Treatment with CFTR modulators (CFTRm), such as the triple combination therapies of elexacaftor (ELX)/tezacaftor (TEZ)/ivacaftor (IVA) and vanzacaftor (VNZ), TEZ, and deutivacaftor (D-IVA), have significantly improved clinical outcomes and quality of life for many people with CF. While most individuals treated with CFTRm report no change or improvement in neuropsychiatric symptoms, a minority have reported new or worsening symptoms. This has led to hypotheses that CFTRm or CFTR function could have relationships to neuropsychiatric symptoms.\n\nObjectivesTest specific hypotheses about potential relationships between CFTR",
+    "laymansExplanation": "Evidence snapshot: Evaluation of the Potential Relationship between CFTR, CFTR Modulators, and Neuropsychiatric Symptoms in People with Cystic Fibrosis. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.10.16.25338186",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-01-22",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.64898/2026.01.18.26344355",
+    "slug": "from-thought-to-speech-integrating-a-low-cost-electroencephalography-device-with-ai-to-dec",
+    "title": "From Thought to Speech: Integrating a Low-Cost Electroencephalography Device with AI to Decode Neural Language Signals in Amyotrophic Lateral Sclerosis Patients",
+    "excerpt": "PurposeNearly all amyotrophic lateral sclerosis (ALS) patients develop dysarthria, with many progressing to anarthria and global expressive communication failure despite preserved consciousness. Despite the severity of t",
+    "technicalSummary": "PurposeNearly all amyotrophic lateral sclerosis (ALS) patients develop dysarthria, with many progressing to anarthria and global expressive communication failure despite preserved consciousness. Despite the severity of this communication loss, available augmentative communication technologies remain limited. Brain-computer interface (BCI) technology provides a theoretically compelling approach for decoding speech directly from neural activity. Current BCI technologies are predominantly invasive, relying on surgically implanted microelectrode arrays that constrain feasibility and clinical accessibility. In this proof-of-concept study, we evaluated the feasibility of using a low-cost, noninvas",
+    "laymansExplanation": "Evidence snapshot: From Thought to Speech: Integrating a Low-Cost Electroencephalography Device with AI to Decode Neural Language Signals in Amyotrophic Lateral Sclerosis Patients. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.64898/2026.01.18.26344355",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-01-22",
+    "categories": [
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.08.22.25333970",
+    "slug": "under-the-microscope-formaldehyde-exposure-in-national-health-service-pathology-department",
+    "title": "Under the Microscope: Formaldehyde Exposure in National Health Service Pathology Departments in the United Kingdom",
+    "excerpt": "ObjectivesThe United States Environmental Protection Agency has determined that formaldehyde presents an \"unreasonable risk of injury to human health.\" Occupational inhalation exposure is associated with short- and long-",
+    "technicalSummary": "ObjectivesThe United States Environmental Protection Agency has determined that formaldehyde presents an \"unreasonable risk of injury to human health.\" Occupational inhalation exposure is associated with short- and long-term damage to the respiratory, female reproductive, and nervous systems, and is also carcinogenic. The European Union (EU) has recently introduced formaldehyde workplace exposure limits (WELs) that are lower (long-term: 0.3ppm; short-term: 0.6ppm) than those currently applied in the United Kingdom (UK) (long-term: 2ppm; short-term: 2ppm). UK regulation additionally requires exposure to carcinogens to be reduced to as low as is reasonably practicable. We evaluated formaldehyd",
+    "laymansExplanation": "Evidence snapshot: Under the Microscope: Formaldehyde Exposure in National Health Service Pathology Departments in the United Kingdom. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.08.22.25333970",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-01-22",
+    "categories": [
+      {
+        "slug": "cellular-health",
+        "name": "Cellular Health",
+        "description": "Cell-level mechanisms influencing aging and resilience."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2024.02.16.24302914",
+    "slug": "two-effects-of-hormone-replacement-therapy-explaining-the-breast-cancer-risk-paradox",
+    "title": "Two effects of hormone replacement therapy: Explaining the breast cancer risk paradox",
+    "excerpt": "BackgroundHormone replacement therapy (HRT) is currently linked to increased breast cancer (BC) diagnoses. While this appears paradox to an estimated 15-year development period of hormone receptor-positive BC, the discre",
+    "technicalSummary": "BackgroundHormone replacement therapy (HRT) is currently linked to increased breast cancer (BC) diagnoses. While this appears paradox to an estimated 15-year development period of hormone receptor-positive BC, the discrepancy can be explained if HRT has two effects.\n\nMethodsWe modelled cohorts of 100,000 women using two parameters: HRT caused accelerated tumour growth and increased incidence. A reference cohort used age-specific incidence, a 15-year growth period, and life expectancy. Treatment cohorts with faster growth and higher incidence were simulated over 30 years. Study endpoints were cumulative and annual BC incidence. Using data from the Womens Health Initiative (WHI), we estimated ",
+    "laymansExplanation": "Evidence snapshot: Two effects of hormone replacement therapy: Explaining the breast cancer risk paradox. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2024.02.16.24302914",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-01-22",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.1101/2025.10.12.25337844",
+    "slug": "relationship-between-psychosocial-factors-and-cardiovascular-autonomic-function-among-juni",
+    "title": "Relationship between psychosocial factors and cardiovascular autonomic function among junior doctors: A cross-sectional study",
+    "excerpt": "BackgroundPsychosocial factors such as stress, anxiety, and depression, are important causes of CVD by contributing to autonomic dysfunction, predisposing to endothelial dysfunction, arrhythmogenesis, among others. Docto",
+    "technicalSummary": "BackgroundPsychosocial factors such as stress, anxiety, and depression, are important causes of CVD by contributing to autonomic dysfunction, predisposing to endothelial dysfunction, arrhythmogenesis, among others. Doctors are at a high risk of psychosocial distress due to factors such as heavy workload and taking end-of-life care decisions. We sought to determine the prevalence of psychosocial factors among junior doctors and explore their relationship with cardiovascular autonomic function.\n\nMethodsA cross-sectional study was conducted among junior doctors at the Korle-bu Teaching Hospital from April to August 2023. Data were collected using an electronic questionnaire and a treadmill stre",
+    "laymansExplanation": "Evidence snapshot: Relationship between psychosocial factors and cardiovascular autonomic function among junior doctors: A cross-sectional study. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.1101/2025.10.12.25337844",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-01-22",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.64898/2026.01.20.25341999",
+    "slug": "stage-specific-gut-microbiome-shifts-across-the-type-2-diabetes-mellitus-spectrum-a-system",
+    "title": "Stage-specific gut microbiome shifts across the Type 2 Diabetes Mellitus spectrum: A systematic review and meta-analysis",
+    "excerpt": "AimsThe gut microbiome has been implicated in type 2 diabetes progression, but reproducible biomarkers across studies remain limited due to technical and population heterogeneity. This study investigated whether specific",
+    "technicalSummary": "AimsThe gut microbiome has been implicated in type 2 diabetes progression, but reproducible biomarkers across studies remain limited due to technical and population heterogeneity. This study investigated whether specific gut microbiome shifts occur progressively across stages of type 2 diabetes.\n\nMethodsWe systematically reanalysed 16S rRNA datasets from 12 published studies (n=1,247 samples) after quality control, examining five groups (healthy controls, prediabetes (PD), new-onset type 2 diabetes, established type 2 diabetes, and type 2 diabetes with complications. Sequencing reads were quality-filtered, denoised, and resolved into amplicon sequence variants with genus-level taxonomic assi",
+    "laymansExplanation": "Evidence snapshot: Stage-specific gut microbiome shifts across the Type 2 Diabetes Mellitus spectrum: A systematic review and meta-analysis. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.64898/2026.01.20.25341999",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-01-22",
+    "categories": [
+      {
+        "slug": "metabolic-health",
+        "name": "Metabolic Health",
+        "description": "Insulin, glucose, lipid, and body-composition driven research."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.64898/2026.01.20.26344443",
+    "slug": "neuropeptide-s-as-a-potential-risk-locus-for-migraine-in-the-portuguese-population",
+    "title": "Neuropeptide S as a potential risk locus for migraine in the Portuguese population",
+    "excerpt": "ObjectiveThe most common forms of migraine are complex disorders characterized by significant clinical diversity. The genetic basis of migraine has been the subject of many studies but remains largely unknown. We present",
+    "technicalSummary": "ObjectiveThe most common forms of migraine are complex disorders characterized by significant clinical diversity. The genetic basis of migraine has been the subject of many studies but remains largely unknown. We present the first pilot genome-wide association study (GWAS) integrating a polygenic risk score (PRS) in the Portuguese population, designed to identify migraine susceptibility risk loci through a case-control study, in order to unravel population-specific variants.\n\nMethodsGenotyping was conducted on 380 individuals using the Applied Biosystems Axiom PMDA array. A vast dataset of 8,031,293 single-nucleotide polymorphisms (SNPs) was available, providing a comprehensive scope for GWA",
+    "laymansExplanation": "Evidence snapshot: Neuropeptide S as a potential risk locus for migraine in the Portuguese population. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.64898/2026.01.20.26344443",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-01-22",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "medrxiv:10.64898/2026.01.19.26344369",
+    "slug": "plasma-proteomics-and-sensitive-imaging-biomarkers-of-vascular-brain-injury",
+    "title": "Plasma Proteomics and Sensitive Imaging Biomarkers of Vascular Brain Injury",
+    "excerpt": "Background and ObjectivesIdentifying proteomic biomarkers associated with neuroimaging endophenotypes of cerebrovascular dysfunction and generalized neurodegeneration may provide insights into pre-Alzheimer disease patho",
+    "technicalSummary": "Background and ObjectivesIdentifying proteomic biomarkers associated with neuroimaging endophenotypes of cerebrovascular dysfunction and generalized neurodegeneration may provide insights into pre-Alzheimer disease pathological processes. This study aims to examine a broad panel of circulating proteins in relation to two diffusion tensor imaging (DTI) measures:free water (FW) and peak width of skeletonized mean diffusivity (PSMD), which are sensitive indicators of early white matter injury.\n\nMethodsUsing data from the Framingham Heart Study (FHS) Offspring and Third Generation cohorts, who underwent proteomic profiling with SomaScan version 1.3K, we evaluated the associations between individ",
+    "laymansExplanation": "Evidence snapshot: Plasma Proteomics and Sensitive Imaging Biomarkers of Vascular Brain Injury. This gives a useful signal for long-term health decisions, especially when paired with your own tracked metrics. Practical next step: choose one action informed by this evidence and review your response after 2-4 weeks.",
+    "keyTakeaways": [
+      "Identify the core health domain this article addresses and prioritize that lever.",
+      "Check study design quality before generalizing findings.",
+      "Apply one concrete change and measure outcomes, not just intent."
+    ],
+    "hasExplanation": true,
+    "sourceName": "medRxiv",
+    "sourceUrl": "https://doi.org/10.64898/2026.01.19.26344369",
+    "sourceType": "research_paper",
+    "evidenceQuality": "observational",
+    "publishedDate": "2026-01-22",
+    "categories": [
+      {
+        "slug": "nutrition",
+        "name": "Nutrition",
+        "description": "Dietary patterns and nutrition interventions for longevity."
+      },
       {
         "slug": "cellular-health",
         "name": "Cellular Health",
@@ -787,6 +1114,89 @@
     ]
   },
   {
+    "externalId": "ctgov:NCT06095193",
+    "slug": "the-effect-of-education-on-vaginal-effects-of-menopausal-women",
+    "title": "The Effect of Education on Vaginal Effects of Menopausal Women",
+    "excerpt": "The aim of our study is to examine the effect of education applied to women in menopause on the daily effects of vaginal aging, avoidance of sexuality and sexual stress. It is a pretest-posttest randomized controlled exp",
+    "technicalSummary": "The aim of our study is to examine the effect of education applied to women in menopause on the daily effects of vaginal aging, avoidance of sexuality and sexual stress. It is a pretest-posttest randomized controlled experimental study. The universe of the research; It consisted of menopausal women over the age of 45 who attended courses at Özgecan Cultural Center and Binevler Social Facility in Gaziantep. The sample of the research consisted of 102 people determined by the GPower method and determined by simple random method among all women who volunteered to participate in the study. Introductory Information Form, Daily Effect of Vaginal Aging Scale, Sexuality Avoidance Decision Balance Sc",
+    "laymansExplanation": "Clinical trial watch: The Effect of Education on Vaginal Effects of Menopausal Women. This listing shows what is being tested and where stronger evidence may emerge. Practical next step: note eligibility, endpoints, and timeline so you can revisit when results are posted.",
+    "keyTakeaways": [
+      "Trial listings describe study direction, not final treatment conclusions.",
+      "Check participant criteria and outcomes to gauge relevance.",
+      "Set a reminder to review posted results before acting."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT06095193",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2023-10-23",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT06041906",
+    "slug": "international-registry-of-congenital-portosystemic-shunt-ircpss",
+    "title": "International Registry of Congenital Portosystemic Shunt (IRCPSS)",
+    "excerpt": "Congenital Portosystemic Shunt (CPSS) is a rare condition important by the multiplicity and severity of associated complications.\n\nCPSS is venous anomaly in which blood coming from the intestines only partially passes th",
+    "technicalSummary": "Congenital Portosystemic Shunt (CPSS) is a rare condition important by the multiplicity and severity of associated complications.\n\nCPSS is venous anomaly in which blood coming from the intestines only partially passes through the liver.\n\nThis leads to the accumulation of potentially toxic factors that cause systemic effects.\n\nComplications vary among the individuals, and currently, it is challenging to predict which individuals will develop severe complications.\n\nThe IRCPSS registry is established with the aim of centralizing detailed clinical follow-up and biological information from participants around the world who suffer from Congenital Portosystemic Shunt (CPSS). A multidisciplinary con",
+    "laymansExplanation": "Clinical trial watch: International Registry of Congenital Portosystemic Shunt (IRCPSS). This listing shows what is being tested and where stronger evidence may emerge. Practical next step: note eligibility, endpoints, and timeline so you can revisit when results are posted.",
+    "keyTakeaways": [
+      "Trial listings describe study direction, not final treatment conclusions.",
+      "Check participant criteria and outcomes to gauge relevance.",
+      "Set a reminder to review posted results before acting."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT06041906",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "observational",
+    "publishedDate": "2023-09-18",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT05838352",
+    "slug": "multidisciplinary-telerehabilitation-practices-in-autism",
+    "title": "Multidisciplinary Telerehabilitation Practices in Autism",
+    "excerpt": "The study, titled The Effect of Physiotherapy and Nutrition Services Provided by Telerehabilitation Methods on the Physical, Nutritional and Psychological Conditions of Children with Autism and Their Families, aimed to e",
+    "technicalSummary": "The study, titled The Effect of Physiotherapy and Nutrition Services Provided by Telerehabilitation Methods on the Physical, Nutritional and Psychological Conditions of Children with Autism and Their Families, aimed to evaluate the effects of physiotherapy and nutrition education to be given to the participants. Participants were children with autism spectrum disorder and parents of children with autism spectrum disorder. There will be surveys that researchers will ask participants to answer. Parent telerehabilitation group participants via smartphone video conferencing; Researchers involved in this project; A physiotherapist and a physiotherapist senior physiotherapy intern will send 1 sess",
+    "laymansExplanation": "Clinical trial watch: Multidisciplinary Telerehabilitation Practices in Autism. This listing shows what is being tested and where stronger evidence may emerge. Practical next step: note eligibility, endpoints, and timeline so you can revisit when results are posted.",
+    "keyTakeaways": [
+      "Trial listings describe study direction, not final treatment conclusions.",
+      "Check participant criteria and outcomes to gauge relevance.",
+      "Set a reminder to review posted results before acting."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT05838352",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2023-05-01",
+    "categories": [
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
+      },
+      {
+        "slug": "nutrition",
+        "name": "Nutrition",
+        "description": "Dietary patterns and nutrition interventions for longevity."
+      }
+    ]
+  },
+  {
     "externalId": "ctgov:NCT05407662",
     "slug": "a-study-using-surveys-to-learn-more-about-treatment-with-steroidal-mineralocorticoid-recep",
     "title": "A Study Using Surveys to Learn More About Treatment With Steroidal Mineralocorticoid Receptor Antagonists, How They Are Used, What Side Effects They Have, and How Satisfied People Who Receive Them Are in the US",
@@ -900,6 +1310,32 @@
     ]
   },
   {
+    "externalId": "ctgov:NCT04555616",
+    "slug": "environmental-design-for-behavioral-regulation-in-people-with-dementia",
+    "title": "Environmental Design for Behavioral Regulation in People With Dementia",
+    "excerpt": "Individuals with dementia present with changes in behaviors throughout the continuum of cognitive decline. Environmental features may be influential in behavioral regulation. The purpose of this study is to assess the fe",
+    "technicalSummary": "Individuals with dementia present with changes in behaviors throughout the continuum of cognitive decline. Environmental features may be influential in behavioral regulation. The purpose of this study is to assess the feasibility of environmental design protocols in older adults with dementia and their caregivers. Thirty subjects with moderate to severe Alzheimer's disease as primary dementia type, and their caregivers, will be randomly assigned to one of three arms: standard care; standard environmental design protocol; or personalized environmental design protocol.",
+    "laymansExplanation": "Clinical trial watch: Environmental Design for Behavioral Regulation in People With Dementia. This listing shows what is being tested and where stronger evidence may emerge. Practical next step: note eligibility, endpoints, and timeline so you can revisit when results are posted.",
+    "keyTakeaways": [
+      "Trial listings describe study direction, not final treatment conclusions.",
+      "Check participant criteria and outcomes to gauge relevance.",
+      "Set a reminder to review posted results before acting."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT04555616",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2020-09-21",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
     "externalId": "ctgov:NCT04238962",
     "slug": "a-research-study-to-compare-two-different-forms-of-once-weekly-semaglutide-in-two-differen",
     "title": "A Research Study to Compare Two Different Forms of Once-weekly Semaglutide in Two Different Injection Pens",
@@ -918,6 +1354,58 @@
     "sourceType": "clinical_trial",
     "evidenceQuality": "rct",
     "publishedDate": "2020-01-23",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT03788798",
+    "slug": "an-integrated-model-of-intelligent-medical-service-for-total-joint-replacement",
+    "title": "An Integrated Model of Intelligent Medical Service for Total Joint Replacement",
+    "excerpt": "With the aging population, the needs for total joint replacement are increasing. A successful recovery after joint replacement surgery depends on timely and active physical therapy in the early postoperative period. To a",
+    "technicalSummary": "With the aging population, the needs for total joint replacement are increasing. A successful recovery after joint replacement surgery depends on timely and active physical therapy in the early postoperative period. To accomplish it, an integrated care model based on clinical pathway has been implemented to secure the medical quality and patient safety. Recently, the emerging technology of electronic medical record and medical informatics have made challenges to the traditional health care models such as the clinical pathway. As a matter of fact, the integration of informatics technology also provides an opportunity to modernize the clinical pathway and make it smarter. By bridging the HIS s",
+    "laymansExplanation": "Clinical trial watch: An Integrated Model of Intelligent Medical Service for Total Joint Replacement. This listing shows what is being tested and where stronger evidence may emerge. Practical next step: note eligibility, endpoints, and timeline so you can revisit when results are posted.",
+    "keyTakeaways": [
+      "Trial listings describe study direction, not final treatment conclusions.",
+      "Check participant criteria and outcomes to gauge relevance.",
+      "Set a reminder to review posted results before acting."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT03788798",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2018-12-28",
+    "categories": [
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT03725384",
+    "slug": "daily-vs-every-other-day-oral-iron-supplementation-in-patients-with-absolute-iron-deficien",
+    "title": "Daily vs. Every Other Day Oral Iron Supplementation in Patients With Absolute Iron Deficiency Anemia",
+    "excerpt": "Iron deficiency anemia is a global health problem and the most common cause of anemia worldwide. Patients with iron deficiency (ID) and IDA can present with a multitude of symptoms including fatigue, restless legs syndro",
+    "technicalSummary": "Iron deficiency anemia is a global health problem and the most common cause of anemia worldwide. Patients with iron deficiency (ID) and IDA can present with a multitude of symptoms including fatigue, restless legs syndrome and pica.Oral iron supplementation is associated with increasing hemoglobin in multiple studies in women, pregnant women and elderly patients.However, the optimal dose and frequency of oral iron supplementation for treatment remains unclear. The current proposed study attempts to address this gap in the literature.",
+    "laymansExplanation": "Clinical trial watch: Daily vs. Every Other Day Oral Iron Supplementation in Patients With Absolute Iron Deficiency Anemia. This listing shows what is being tested and where stronger evidence may emerge. Practical next step: note eligibility, endpoints, and timeline so you can revisit when results are posted.",
+    "keyTakeaways": [
+      "Trial listings describe study direction, not final treatment conclusions.",
+      "Check participant criteria and outcomes to gauge relevance.",
+      "Set a reminder to review posted results before acting."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT03725384",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2018-10-31",
     "categories": [
       {
         "slug": "healthspan",
@@ -1004,6 +1492,63 @@
         "slug": "exercise",
         "name": "Exercise",
         "description": "Movement, training, and performance-related longevity insights."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT01874132",
+    "slug": "study-of-the-long-term-effects-of-exercise-on-heath-indicators-in-older-people",
+    "title": "Study of the Long-term Effects of Exercise on Heath Indicators in Older People",
+    "excerpt": "Cardiovascular diseases (CVD) represent the most frequent cause of death among the elderly population. Hypertension, unfavorable lipid profile, obesity and physical inactivity are among the main risk factors for CVD. In ",
+    "technicalSummary": "Cardiovascular diseases (CVD) represent the most frequent cause of death among the elderly population. Hypertension, unfavorable lipid profile, obesity and physical inactivity are among the main risk factors for CVD. In contrast, mortality from CVD is inversely related to levels of physical activity, and is lower in individuals who exercise and have higher functional fitness levels. Thus, the Centers for Disease Control and Prevention, the American College of Sports Medicine, and the American Heart Association have recommended 20-30 min of moderate-to-vigorous aerobic training for the elderly, preferably every day or at least 3 days a week in the case of vigorous exercise.The same organizati",
+    "laymansExplanation": "Clinical trial watch: Study of the Long-term Effects of Exercise on Heath Indicators in Older People. This listing shows what is being tested and where stronger evidence may emerge. Practical next step: note eligibility, endpoints, and timeline so you can revisit when results are posted.",
+    "keyTakeaways": [
+      "Trial listings describe study direction, not final treatment conclusions.",
+      "Check participant criteria and outcomes to gauge relevance.",
+      "Set a reminder to review posted results before acting."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT01874132",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2013-06-10",
+    "categories": [
+      {
+        "slug": "exercise",
+        "name": "Exercise",
+        "description": "Movement, training, and performance-related longevity insights."
+      },
+      {
+        "slug": "healthspan",
+        "name": "Healthspan",
+        "description": "Strategies that improve quality years, not only lifespan."
+      }
+    ]
+  },
+  {
+    "externalId": "ctgov:NCT00206206",
+    "slug": "evaluation-of-an-icu-hyperglycemia-protocol-using-insulin-aspart",
+    "title": "Evaluation of an ICU Hyperglycemia Protocol Using Insulin Aspart",
+    "excerpt": "In response to the evidence supporting \"tight\" glucose control (70 - 110) in the critical care setting, the MMH ICU developed a protocol utilizing regular intravenous insulin. This protocol was initiated in 2002. Monitor",
+    "technicalSummary": "In response to the evidence supporting \"tight\" glucose control (70 - 110) in the critical care setting, the MMH ICU developed a protocol utilizing regular intravenous insulin. This protocol was initiated in 2002. Monitoring of the data collected revealed effective glycemic control when this protocol was used. However, limited utilization has led to overall ineffective glycemic control in this ICU. The poor utilization is largely due to a general reluctance of physicians to start their patients on an intravenous insulin infusion. As contributing to this poor compliance is the \"open\" nature of the ICU. The MMH ICU is an \"open\" ICU, meaning that many physicians across multiple subspecialties ad",
+    "laymansExplanation": "Clinical trial watch: Evaluation of an ICU Hyperglycemia Protocol Using Insulin Aspart. This listing shows what is being tested and where stronger evidence may emerge. Practical next step: note eligibility, endpoints, and timeline so you can revisit when results are posted.",
+    "keyTakeaways": [
+      "Trial listings describe study direction, not final treatment conclusions.",
+      "Check participant criteria and outcomes to gauge relevance.",
+      "Set a reminder to review posted results before acting."
+    ],
+    "hasExplanation": true,
+    "sourceName": "ClinicalTrials.gov",
+    "sourceUrl": "https://clinicaltrials.gov/study/NCT00206206",
+    "sourceType": "clinical_trial",
+    "evidenceQuality": "rct",
+    "publishedDate": "2005-09-21",
+    "categories": [
+      {
+        "slug": "metabolic-health",
+        "name": "Metabolic Health",
+        "description": "Insulin, glucose, lipid, and body-composition driven research."
       }
     ]
   }

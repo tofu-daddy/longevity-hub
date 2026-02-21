@@ -330,15 +330,29 @@ async function main() {
   const existing = JSON.parse(await readFile(DATA_FILE, "utf8"));
   const seen = new Set(existing.map((a) => a.externalId));
 
-  const [nih, who] = await Promise.all([fetchNihNews(), fetchWhoNews()]);
+  const [nih, who, medrxiv, ctgov, pubmedIds] = await Promise.all([
+    fetchNihNews(),
+    fetchWhoNews(),
+    fetchMedrxiv(),
+    fetchClinicalTrials(),
+    fetchPubMedIds()
+  ]);
+  const pubmedDetails = (await Promise.all(pubmedIds.slice(0, 12).map((pmid) => fetchPubMedDetails(pmid))))
+    .filter(Boolean);
 
-  const prioritized = [...nih.slice(0, 6), ...who.slice(0, 6)];
+  const prioritized = [
+    ...nih.slice(0, 8),
+    ...who.slice(0, 8),
+    ...pubmedDetails.slice(0, 10),
+    ...medrxiv.slice(0, 10),
+    ...ctgov.slice(0, 10)
+  ];
   const incoming = prioritized
     .filter((a) => a.title && a.abstract && a.externalId)
     .filter((a) => !seen.has(a.externalId));
 
   const enriched = [];
-  for (const article of incoming.slice(0, 10)) {
+  for (const article of incoming.slice(0, 24)) {
     const ai = await generateLaySummary(article);
     const categories = mapCategories(`${article.title} ${article.abstract}`);
     enriched.push({
@@ -364,7 +378,10 @@ async function main() {
     .slice(0, 200);
 
   await writeFile(DATA_FILE, `${JSON.stringify(merged, null, 2)}\n`, "utf8");
-  console.log(`Updated articles.json with ${enriched.length} new items (NIH/WHO/PubMed/medRxiv/CT.gov)`);
+  console.log(
+    `Updated articles.json with ${enriched.length} new items ` +
+    `(NIH: ${nih.length}, WHO: ${who.length}, PubMed: ${pubmedDetails.length}, medRxiv: ${medrxiv.length}, CT.gov: ${ctgov.length})`
+  );
 }
 
 main().catch((err) => {
